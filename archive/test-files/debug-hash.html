@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hash Debug</title>
+</head>
+<body>
+    <h1>Password Hash Debug</h1>
+    <input type="text" id="testPassword" placeholder="Enter password" value="hello">
+    <button onclick="testHash()">Generate Hash</button>
+    <div id="results"></div>
+    
+    <script>
+        async function testHash() {
+            const password = document.getElementById('testPassword').value;
+            const encoder = new TextEncoder();
+            const data = encoder.encode(password);
+            const hash = await crypto.subtle.digest('SHA-256', data);
+            const hashString = Array.from(new Uint8Array(hash))
+                .map(b => b.toString(16).padStart(2, '0'))
+                .join('');
+            
+            document.getElementById('results').innerHTML = `
+                <h3>Results:</h3>
+                <p><strong>Password:</strong> "${password}"</p>
+                <p><strong>Generated Hash:</strong> ${hashString}</p>
+                <p><strong>Expected Hash:</strong> a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3</p>
+                <p><strong>Match:</strong> ${hashString === 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3' ? '✅ YES' : '❌ NO'}</p>
+            `;
+        }
+        
+        // Test immediately
+        window.onload = () => testHash();
+    </script>
+</body>
+</html>

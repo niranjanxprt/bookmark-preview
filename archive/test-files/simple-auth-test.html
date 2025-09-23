@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Auth Test</title>
+</head>
+<body>
+    <h1>Simple Authentication Test</h1>
+    <input type="password" id="pwd" value="hello" placeholder="Enter password">
+    <button onclick="testAuth()">Test Auth</button>
+    <div id="results"></div>
+    
+    <script>
+        const AUTH_CONFIG = {
+            passwordHash: '2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824'
+        };
+        
+        async function hashPassword(password) {
+            const encoder = new TextEncoder();
+            const data = encoder.encode(password);
+            const hash = await crypto.subtle.digest('SHA-256', data);
+            return Array.from(new Uint8Array(hash))
+                .map(b => b.toString(16).padStart(2, '0'))
+                .join('');
+        }
+        
+        async function testAuth() {
+            const password = document.getElementById('pwd').value;
+            const results = document.getElementById('results');
+            
+            results.innerHTML = `<h3>Testing password: "${password}"</h3>`;
+            
+            try {
+                const hashedInput = await hashPassword(password);
+                results.innerHTML += `<p>Generated hash: ${hashedInput}</p>`;
+                results.innerHTML += `<p>Expected hash:  ${AUTH_CONFIG.passwordHash}</p>`;
+                results.innerHTML += `<p>Match: ${hashedInput === AUTH_CONFIG.passwordHash}</p>`;
+                
+                if (hashedInput === AUTH_CONFIG.passwordHash) {
+                    results.innerHTML += `<p style="color: green; font-weight: bold;">✅ AUTHENTICATION SUCCESS!</p>`;
+                } else {
+                    results.innerHTML += `<p style="color: red; font-weight: bold;">❌ AUTHENTICATION FAILED</p>`;
+                }
+            } catch (error) {
+                results.innerHTML += `<p style="color: red;">Error: ${error.message}</p>`;
+            }
+        }
+        
+        // Auto-test on load
+        window.onload = () => testAuth();
+    </script>
+</body>
+</html>

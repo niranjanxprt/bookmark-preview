@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 Protected Bookmarks</title>
+</head>
+<body>
+    <script>
+        // SIMPLE PASSWORD CHECK
+        const PASSWORD = 'hello';
+        
+        // Check if already logged in
+        if (sessionStorage.getItem('logged_in') === 'yes') {
+            loadApp();
+        } else {
+            showLogin();
+        }
+        
+        function showLogin() {
+            document.body.innerHTML = `
+                <div style="
+                    display: flex; 
+                    justify-content: center; 
+                    align-items: center; 
+                    min-height: 100vh; 
+                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                    font-family: Arial, sans-serif;
+                ">
+                    <div style="
+                        background: white; 
+                        padding: 40px; 
+                        border-radius: 12px; 
+                        text-align: center;
+                        box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+                    ">
+                        <h1 style="margin: 0 0 20px 0;">🔒 Enter Password</h1>
+                        <input 
+                            type="password" 
+                            id="pwd" 
+                            placeholder="Password" 
+                            style="
+                                padding: 12px; 
+                                border: 2px solid #e5e7eb; 
+                                border-radius: 6px; 
+                                margin-bottom: 20px;
+                                width: 200px;
+                                font-size: 16px;
+                            "
+                        >
+                        <br>
+                        <button 
+                            onclick="checkPassword()" 
+                            style="
+                                background: #4f46e5; 
+                                color: white; 
+                                border: none; 
+                                padding: 12px 24px; 
+                                border-radius: 6px; 
+                                cursor: pointer;
+                                font-size: 16px;
+                            "
+                        >
+                            Enter
+                        </button>
+                        <div id="error" style="color: red; margin-top: 10px; display: none;">
+                            Wrong password!
+                        </div>
+                        <p style="color: #666; font-size: 12px; margin-top: 20px;">
+                            Demo password: <strong>hello</strong>
+                        </p>
+                    </div>
+                </div>
+            `;
+            
+            // Focus on input and allow Enter key
+            setTimeout(() => {
+                const input = document.getElementById('pwd');
+                input.focus();
+                input.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        checkPassword();
+                    }
+                });
+            }, 100);
+        }
+        
+        function checkPassword() {
+            const input = document.getElementById('pwd').value;
+            const error = document.getElementById('error');
+            
+            if (input === PASSWORD) {
+                sessionStorage.setItem('logged_in', 'yes');
+                loadApp();
+            } else {
+                error.style.display = 'block';
+                document.getElementById('pwd').value = '';
+                document.getElementById('pwd').focus();
+            }
+        }
+        
+        function loadApp() {
+            // Load the clean bookmarks app
+            fetch('clean-bookmarks.html')
+                .then(response => response.text())
+                .then(html => {
+                    document.open();
+                    document.write(html);
+                    document.close();
+                })
+                .catch(error => {
+                    document.body.innerHTML = '<h1>Error loading app</h1>';
+                });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Direct Auth Test</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .result { margin: 10px 0; padding: 10px; border-radius: 4px; }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        .info { background: #d1ecf1; color: #0c5460; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Direct Authentication Test</h1>
+    <div id="log"></div>
+    
+    <h2>Manual Test</h2>
+    <input type="password" id="manualTest" value="hello" placeholder="Enter password">
+    <button onclick="manualAuth()">Test Authentication</button>
+    <div id="manualResult"></div>
+    
+    <script src="auth-config.js?v=fixed"></script>
+    <script>
+        const log = document.getElementById('log');
+        
+        function addLog(message, type = 'info') {
+            const div = document.createElement('div');
+            div.className = `result ${type}`;
+            div.textContent = message;
+            log.appendChild(div);
+        }
+        
+        // Test 1: Check if config loads
+        addLog('1. Testing config load...');
+        if (typeof AUTH_CONFIG !== 'undefined') {
+            addLog('✅ AUTH_CONFIG loaded successfully', 'success');
+            addLog(`📝 Password hash: ${AUTH_CONFIG.passwordHash}`, 'info');
+        } else {
+            addLog('❌ AUTH_CONFIG failed to load', 'error');
+        }
+        
+        // Test 2: Test hashing function
+        addLog('2. Testing hash function...');
+        async function testHashing() {
+            try {
+                const password = 'hello';
+                const encoder = new TextEncoder();
+                const data = encoder.encode(password);
+                const hash = await crypto.subtle.digest('SHA-256', data);
+                const hashString = Array.from(new Uint8Array(hash))
+                    .map(b => b.toString(16).padStart(2, '0'))
+                    .join('');
+                
+                addLog(`🔑 Generated hash for 'hello': ${hashString}`, 'info');
+                addLog(`🎯 Expected hash: ${AUTH_CONFIG.passwordHash}`, 'info');
+                
+                if (hashString === AUTH_CONFIG.passwordHash) {
+                    addLog('✅ Hashes match perfectly!', 'success');
+                } else {
+                    addLog('❌ Hash mismatch!', 'error');
+                }
+                
+                return hashString === AUTH_CONFIG.passwordHash;
+            } catch (error) {
+                addLog(`❌ Hash error: ${error.message}`, 'error');
+                return false;
+            }
+        }
+        
+        // Manual authentication test
+        async function manualAuth() {
+            const password = document.getElementById('manualTest').value;
+            const result = document.getElementById('manualResult');
+            
+            try {
+                // Replicate exact auth logic
+                const encoder = new TextEncoder();
+                const data = encoder.encode(password);
+                const hash = await crypto.subtle.digest('SHA-256', data);
+                const hashedInput = Array.from(new Uint8Array(hash))
+                    .map(b => b.toString(16).padStart(2, '0'))
+                    .join('');
+                
+                result.innerHTML = `
+                    <h3>Manual Test Results:</h3>
+                    <p><strong>Password:</strong> "${password}"</p>
+                    <p><strong>Generated Hash:</strong> ${hashedInput}</p>
+                    <p><strong>Expected Hash:</strong> ${AUTH_CONFIG.passwordHash}</p>
+                    <p><strong>Comparison:</strong> ${hashedInput === AUTH_CONFIG.passwordHash ? '✅ MATCH' : '❌ NO MATCH'}</p>
+                `;
+                
+                if (hashedInput === AUTH_CONFIG.passwordHash) {
+                    result.innerHTML += '<p style="color: green; font-weight: bold; font-size: 18px;">🎉 AUTHENTICATION WOULD SUCCEED!</p>';
+                    
+                    // Test session storage
+                    sessionStorage.setItem('bookmark_auth_session', 'authenticated');
+                    result.innerHTML += '<p style="color: blue;">✅ Session storage set</p>';
+                } else {
+                    result.innerHTML += '<p style="color: red; font-weight: bold; font-size: 18px;">❌ AUTHENTICATION WOULD FAIL</p>';
+                }
+                
+            } catch (error) {
+                result.innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
+            }
+        }
+        
+        // Run automatic test
+        testHashing().then(success => {
+            if (success) {
+                addLog('3. ✅ Auto-test: Authentication should work with password "hello"', 'success');
+            } else {
+                addLog('3. ❌ Auto-test: Authentication will fail', 'error');
+            }
+        });
+        
+        // Test session storage
+        addLog('4. Testing session storage...');
+        try {
+            sessionStorage.setItem('test', 'works');
+            const testValue = sessionStorage.getItem('test');
+            sessionStorage.removeItem('test');
+            if (testValue === 'works') {
+                addLog('✅ Session storage working', 'success');
+            } else {
+                addLog('❌ Session storage failed', 'error');
+            }
+        } catch (error) {
+            addLog(`❌ Session storage error: ${error.message}`, 'error');
+        }
+    </script>
+</body>
+</html>

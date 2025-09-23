@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auth Test</title>
+</head>
+<body>
+    <h1>Testing Authentication System</h1>
+    <div id="results"></div>
+    
+    <script src="auth-config.js"></script>
+    <script>
+        const results = document.getElementById('results');
+        
+        async function testAuth() {
+            results.innerHTML += '<h3>🧪 Authentication System Test</h3>';
+            
+            // Test 1: Check if config loads
+            if (typeof AUTH_CONFIG !== 'undefined') {
+                results.innerHTML += '✅ Config loaded successfully<br>';
+                results.innerHTML += `📝 Current password hash: ${AUTH_CONFIG.passwordHash.substring(0, 10)}...<br>`;
+            } else {
+                results.innerHTML += '❌ Config failed to load<br>';
+                return;
+            }
+            
+            // Test 2: Test password hashing
+            try {
+                const encoder = new TextEncoder();
+                const data = encoder.encode('hello');
+                const hash = await crypto.subtle.digest('SHA-256', data);
+                const hashString = Array.from(new Uint8Array(hash))
+                    .map(b => b.toString(16).padStart(2, '0'))
+                    .join('');
+                
+                results.innerHTML += '✅ Password hashing works<br>';
+                results.innerHTML += `🔑 Hash of "hello": ${hashString.substring(0, 10)}...<br>`;
+                
+                // Test 3: Verify hash matches config
+                if (hashString === AUTH_CONFIG.passwordHash) {
+                    results.innerHTML += '✅ Password "hello" matches config hash<br>';
+                } else {
+                    results.innerHTML += '❌ Password hash mismatch<br>';
+                }
+                
+            } catch (error) {
+                results.innerHTML += `❌ Hashing error: ${error.message}<br>`;
+            }
+            
+            // Test 4: Test session storage
+            try {
+                sessionStorage.setItem('test', 'value');
+                const retrieved = sessionStorage.getItem('test');
+                sessionStorage.removeItem('test');
+                
+                if (retrieved === 'value') {
+                    results.innerHTML += '✅ Session storage works<br>';
+                } else {
+                    results.innerHTML += '❌ Session storage failed<br>';
+                }
+            } catch (error) {
+                results.innerHTML += `❌ Session storage error: ${error.message}<br>`;
+            }
+            
+            // Test 5: Check current auth state
+            const authState = sessionStorage.getItem(AUTH_CONFIG.sessionKey);
+            results.innerHTML += `🔐 Current auth state: ${authState || 'Not authenticated'}<br>`;
+            
+            results.innerHTML += '<br><h3>🎯 Test Instructions:</h3>';
+            results.innerHTML += '1. Go to <a href="http://localhost:8002">http://localhost:8002</a><br>';
+            results.innerHTML += '2. You should see a login form with "🔒 Protected Content"<br>';
+            results.innerHTML += '3. Enter password: <strong>hello</strong><br>';
+            results.innerHTML += '4. Click "Access Bookmarks"<br>';
+            results.innerHTML += '5. You should see the bookmark preview<br>';
+            results.innerHTML += '6. Look for "🔓 Logout" button in top right<br>';
+        }
+        
+        testAuth();
+    </script>
+</body>
+</html>

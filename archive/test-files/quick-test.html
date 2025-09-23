@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quick Auth Test</title>
+</head>
+<body>
+    <h1>Quick Authentication Test</h1>
+    <div id="output"></div>
+    
+    <script src="auth-config.js"></script>
+    <script>
+        const output = document.getElementById('output');
+        
+        output.innerHTML += `<p><strong>AUTH_CONFIG loaded:</strong> ${typeof AUTH_CONFIG !== 'undefined'}</p>`;
+        
+        if (typeof AUTH_CONFIG !== 'undefined') {
+            output.innerHTML += `<p><strong>Password hash:</strong> ${AUTH_CONFIG.passwordHash}</p>`;
+            output.innerHTML += `<p><strong>Expected hash for 'hello':</strong> 2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824</p>`;
+            output.innerHTML += `<p><strong>Hash matches:</strong> ${AUTH_CONFIG.passwordHash === '2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824'}</p>`;
+        }
+        
+        // Test hashing function
+        async function testPasswordHashing() {
+            const password = 'hello';
+            const encoder = new TextEncoder();
+            const data = encoder.encode(password);
+            const hash = await crypto.subtle.digest('SHA-256', data);
+            const hashString = Array.from(new Uint8Array(hash))
+                .map(b => b.toString(16).padStart(2, '0'))
+                .join('');
+            
+            output.innerHTML += `<p><strong>Browser generated hash for 'hello':</strong> ${hashString}</p>`;
+            output.innerHTML += `<p><strong>Browser hash matches config:</strong> ${hashString === AUTH_CONFIG.passwordHash}</p>`;
+            
+            if (hashString === AUTH_CONFIG.passwordHash) {
+                output.innerHTML += `<p style="color: green;"><strong>✅ AUTHENTICATION SHOULD WORK!</strong></p>`;
+            } else {
+                output.innerHTML += `<p style="color: red;"><strong>❌ AUTHENTICATION WILL FAIL</strong></p>`;
+            }
+        }
+        
+        testPasswordHashing();
+    </script>
+</body>
+</html>

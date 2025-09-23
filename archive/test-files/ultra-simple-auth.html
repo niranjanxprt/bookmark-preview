@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 Bookmarks - Password Protected</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .auth-box {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+        h1 { margin: 0 0 20px 0; color: #333; }
+        input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 15px;
+            background: #4f46e5;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover { background: #3730a3; }
+        .error {
+            color: red;
+            margin-top: 10px;
+            display: none;
+        }
+        .hint {
+            color: #666;
+            font-size: 14px;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        .app {
+            display: none;
+            width: 100%;
+            height: 100vh;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Password Form -->
+    <div id="loginForm" class="auth-box">
+        <h1>🔒 Enter Password</h1>
+        <p>Please enter the password to access your bookmarks</p>
+        
+        <input type="password" id="pwd" placeholder="Password" autocomplete="off">
+        <button onclick="checkAuth()">Enter</button>
+        
+        <div id="errorMsg" class="error">
+            Wrong password! Try again.
+        </div>
+        
+        <div class="hint">
+            <strong>Hint:</strong> The password is "hello" (without quotes)
+        </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="mainApp" class="app">
+        <iframe src="full-bookmarks.html" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+
+    <script>
+        // The password (plain text for simplicity)
+        const PASSWORD = "hello";
+        
+        // Check if user is already logged in
+        if (localStorage.getItem("isLoggedIn") === "true") {
+            showApp();
+        }
+        
+        // Focus on password input
+        document.getElementById("pwd").focus();
+        
+        // Allow Enter key
+        document.getElementById("pwd").addEventListener("keypress", function(e) {
+            if (e.key === "Enter") {
+                checkAuth();
+            }
+        });
+        
+        function checkAuth() {
+            const input = document.getElementById("pwd").value;
+            const error = document.getElementById("errorMsg");
+            
+            console.log("Password entered:", input);
+            console.log("Expected password:", PASSWORD);
+            console.log("Match:", input === PASSWORD);
+            
+            if (input === PASSWORD) {
+                localStorage.setItem("isLoggedIn", "true");
+                showApp();
+            } else {
+                error.style.display = "block";
+                document.getElementById("pwd").value = "";
+                document.getElementById("pwd").focus();
+                
+                // Hide error after 3 seconds
+                setTimeout(() => {
+                    error.style.display = "none";
+                }, 3000);
+            }
+        }
+        
+        function showApp() {
+            document.getElementById("loginForm").style.display = "none";
+            document.getElementById("mainApp").style.display = "block";
+        }
+        
+        // Add logout function
+        window.logout = function() {
+            localStorage.removeItem("isLoggedIn");
+            location.reload();
+        };
+    </script>
+</body>
+</html>

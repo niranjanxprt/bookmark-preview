@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 Interactive Bookmarks - Protected</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .login-box {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        
+        .login-box h1 {
+            margin-bottom: 10px;
+            color: #1e293b;
+        }
+        
+        .login-box p {
+            color: #6b7280;
+            margin-bottom: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e5e7eb;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: border-color 0.2s;
+        }
+        
+        .form-group input:focus {
+            outline: none;
+            border-color: #4f46e5;
+        }
+        
+        .login-btn {
+            width: 100%;
+            background: #4f46e5;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        .login-btn:hover {
+            background: #3730a3;
+        }
+        
+        .error-message {
+            color: #ef4444;
+            font-size: 14px;
+            margin-top: 10px;
+            display: none;
+        }
+        
+        .hint {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            font-size: 12px;
+            color: #9ca3af;
+        }
+        
+        .hint code {
+            background: #f3f4f6;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        .app-container {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Login Form -->
+    <div id="loginContainer" class="login-container">
+        <div class="login-box">
+            <h1>🔒 Protected Content</h1>
+            <p>Enter password to access the bookmark preview</p>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <input 
+                        type="password" 
+                        id="passwordInput" 
+                        placeholder="Enter password"
+                        autocomplete="current-password"
+                    >
+                </div>
+                <button type="submit" class="login-btn">Access Bookmarks</button>
+                <div id="errorMessage" class="error-message">
+                    Incorrect password. Please try again.
+                </div>
+            </form>
+            
+            <div class="hint">
+                <p>Demo password: <code>hello</code></p>
+                <p>⚠️ This is client-side protection only</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main App (Hidden until authenticated) -->
+    <div id="appContainer" class="app-container">
+        <iframe src="./index.html" width="100%" height="100%" frameborder="0" style="min-height: 100vh;"></iframe>
+    </div>
+
+    <script>
+        // Simple password check - change this for production
+        const CORRECT_PASSWORD = 'hello';
+        const SESSION_KEY = 'bookmark_auth';
+        
+        // Check if already authenticated
+        if (sessionStorage.getItem(SESSION_KEY) === 'authenticated') {
+            showApp();
+        }
+        
+        // Handle login form
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const password = document.getElementById('passwordInput').value;
+            const errorDiv = document.getElementById('errorMessage');
+            
+            if (password === CORRECT_PASSWORD) {
+                sessionStorage.setItem(SESSION_KEY, 'authenticated');
+                showApp();
+            } else {
+                errorDiv.style.display = 'block';
+                document.getElementById('passwordInput').value = '';
+                document.getElementById('passwordInput').focus();
+            }
+        });
+        
+        function showApp() {
+            document.getElementById('loginContainer').style.display = 'none';
+            document.getElementById('appContainer').style.display = 'block';
+        }
+        
+        // Add logout function to window
+        window.logout = function() {
+            sessionStorage.removeItem(SESSION_KEY);
+            location.reload();
+        };
+        
+        // Focus on password input
+        document.getElementById('passwordInput').focus();
+    </script>
+</body>
+</html>
