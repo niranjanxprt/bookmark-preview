@@ -17,6 +17,90 @@
             min-height: 100vh;
             color: #333;
         }
+
+        /* Password Protection Styles */
+        .login-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+
+        .login-box {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .login-box h1 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .login-box p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .login-box input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        .login-box input:focus {
+            outline: none;
+            border-color: #4f46e5;
+        }
+
+        .login-box button {
+            width: 100%;
+            padding: 15px;
+            background: #4f46e5;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .login-box button:hover {
+            background: #3730a3;
+        }
+
+        .login-error {
+            color: #ef4444;
+            margin-top: 15px;
+            display: none;
+            font-weight: 500;
+        }
+
+        .login-hint {
+            color: #9ca3af;
+            font-size: 14px;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .main-app {
+            display: none;
+        }
         
         .container {
             max-width: 1400px;
@@ -277,9 +361,44 @@
     </style>
 </head>
 <body>
+    <!-- Login Overlay -->
+    <div id="loginOverlay" class="login-overlay">
+        <div class="login-box">
+            <h1>🔒 Protected Content</h1>
+            <p>Enter password to access your bookmarks</p>
+            <input type="password" id="passwordInput" placeholder="Enter password" autocomplete="off">
+            <button onclick="checkPassword()">Access Bookmarks</button>
+            <div id="loginError" class="login-error">
+                Incorrect password. Please try again.
+            </div>
+            <div class="login-hint">
+                <strong>Note:</strong> This is client-side protection only
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Application -->
+    <div id="mainApp" class="main-app">
     <div class="container">
         <div class="header">
-            <h1>📚 Interactive Bookmarks</h1>
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px;">
+                <div>
+                    <h1 style="margin: 0;">📚 Interactive Bookmarks</h1>
+                </div>
+                <button onclick="logout()" style="
+                    background: rgba(255,255,255,0.2); 
+                    color: white; 
+                    border: 1px solid rgba(255,255,255,0.3); 
+                    border-radius: 6px; 
+                    padding: 8px 16px; 
+                    cursor: pointer; 
+                    font-size: 12px;
+                    transition: all 0.2s;
+                " onmouseover="this.style.background='rgba(255,255,255,0.3)'" 
+                   onmouseout="this.style.background='rgba(255,255,255,0.2)'">
+                    🔓 Logout
+                </button>
+            </div>
             <p>Discover your bookmarks organized by programming languages and topics</p>
             <p style="font-size: 14px; opacity: 0.8; margin-top: 10px;">
                 💡 Click categories to filter • Right-click or ℹ️ for details • 📋 Copy URLs • 🔍 Zoom & scroll graphs
@@ -313,9 +432,59 @@
             </div>
         </div>
     </div>
+    </div>
 
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="simple-graph.js"></script>
     <script src="script.js"></script>
+    <script>
+        // Simple password protection
+        const PASSWORD = "12345678910!";
+        
+        // Check if already logged in
+        if (localStorage.getItem("isLoggedIn") === "true") {
+            showMainApp();
+        } else {
+            // Focus on password input
+            document.getElementById("passwordInput").focus();
+            
+            // Allow Enter key
+            document.getElementById("passwordInput").addEventListener("keypress", function(e) {
+                if (e.key === "Enter") {
+                    checkPassword();
+                }
+            });
+        }
+        
+        function checkPassword() {
+            const input = document.getElementById("passwordInput").value;
+            const error = document.getElementById("loginError");
+            
+            if (input === PASSWORD) {
+                localStorage.setItem("isLoggedIn", "true");
+                showMainApp();
+            } else {
+                error.style.display = "block";
+                document.getElementById("passwordInput").value = "";
+                document.getElementById("passwordInput").focus();
+                
+                // Hide error after 3 seconds
+                setTimeout(() => {
+                    error.style.display = "none";
+                }, 3000);
+            }
+        }
+        
+        function showMainApp() {
+            document.getElementById("loginOverlay").style.display = "none";
+            document.getElementById("mainApp").style.display = "block";
+        }
+        
+        // Add logout function
+        window.logout = function() {
+            localStorage.removeItem("isLoggedIn");
+            location.reload();
+        };
+    </script>
 </body>
 </html>
