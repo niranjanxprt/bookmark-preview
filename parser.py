@@ -36,88 +36,163 @@ def get_domain(url):
     except:
         return 'unknown'
 
+# Enhanced category definitions with weighted keyword scoring
+# Based on best practices from starred-repos-graph
+CATEGORIES = {
+    'AI/ML': {
+        'strong': ['tensorflow', 'pytorch', 'huggingface', 'langchain', 'openai', 'anthropic',
+                   'transformers', 'llm', 'gpt', 'chatgpt', 'claude', 'gemini', 'llama', 'bert',
+                   'neural-network', 'deep-learning', 'machine-learning', 'prompt-engineering',
+                   'langfuse', 'ollama', 'hugging face', 'notebooklm', 'perplexity'],
+        'medium': ['artificial intelligence', 'embedding', 'nlp', 'computer-vision', 'generative',
+                   'diffusion', 'ai-powered', 'ai-agent', 'model-context-protocol', 'mcp'],
+        'weak': ['semantic', 'vector']
+    },
+    'JavaScript': {
+        'strong': ['react', 'nextjs', 'next.js', 'vue', 'vuejs', 'angular', 'svelte', 'remix',
+                   'nodejs', 'node.js', 'typescript', 'npm', 'webpack', 'vite', 'bun'],
+        'medium': ['javascript', 'frontend', 'fullstack'],
+        'weak': []
+    },
+    'Python': {
+        'strong': ['django', 'flask', 'fastapi', 'pandas', 'numpy', 'scipy', 'scikit-learn',
+                   'jupyter', 'pydantic', 'uvicorn'],
+        'medium': ['python', 'python3', 'pythonic', 'pip'],
+        'weak': []
+    },
+    'Go': {
+        'strong': ['golang', 'golang.org', 'go.dev', 'go-lang', 'goroutine', 'gofiber', 'gin-gonic'],
+        'medium': [],
+        'weak': []
+    },
+    'Rust': {
+        'strong': ['rustlang', 'rust-lang', 'cargo', 'crates.io'],
+        'medium': ['rust programming'],
+        'weak': []
+    },
+    'Cloud': {
+        'strong': ['aws', 'amazon web services', 'azure', 'gcp', 'google-cloud', 'cloud-native',
+                   'terraform', 'pulumi', 'cloudflare', 'vercel', 'netlify'],
+        'medium': ['cloud', 'infrastructure-as-code', 'serverless', 'lambda'],
+        'weak': ['infrastructure', 'deployment']
+    },
+    'DevOps': {
+        'strong': ['kubernetes', 'k8s', 'docker', 'helm', 'argocd', 'gitlab-ci', 'github-actions',
+                   'circleci', 'jenkins', 'ansible', 'prometheus', 'grafana'],
+        'medium': ['ci-cd', 'continuous-integration', 'devops', 'gitops', 'containerization'],
+        'weak': ['pipeline', 'automation']
+    },
+    'Dev Tools': {
+        'strong': ['vscode', 'visual studio code', 'vim', 'neovim', 'jetbrains', 'intellij',
+                   'cursor', 'zed editor'],
+        'medium': ['cli', 'command-line', 'terminal', 'developer-tools', 'code-review'],
+        'weak': ['tool', 'utility', 'productivity']
+    },
+    'APIs': {
+        'strong': ['graphql', 'rest-api', 'api-gateway', 'grpc', 'swagger', 'openapi', 'postman'],
+        'medium': ['api', 'restful', 'microservices'],
+        'weak': ['endpoint', 'webhook']
+    },
+    'Databases': {
+        'strong': ['postgresql', 'mysql', 'mongodb', 'redis', 'elasticsearch', 'cassandra',
+                   'dynamodb', 'supabase', 'planetscale', 'neon'],
+        'medium': ['database', 'sql', 'nosql'],
+        'weak': []
+    },
+    'Security': {
+        'strong': ['oauth', 'jwt', 'authentication', 'authorization', 'encryption', 'owasp',
+                   'penetration-testing', 'cybersecurity', 'shodan', 'nmap', 'burp suite'],
+        'medium': ['security', 'infosec', 'privacy', 'cryptography'],
+        'weak': ['auth', 'ssl', 'tls']
+    },
+    'Documentation': {
+        'strong': ['tutorial', 'course', 'learning-resources', 'educational', 'awesome-list',
+                   'cheat-sheet', 'handbook'],
+        'medium': ['documentation', 'docs', 'guide', 'learning', 'resources'],
+        'weak': ['reference', 'book']
+    },
+    'Web Design': {
+        'strong': ['tailwind', 'tailwindcss', 'sass', 'scss', 'figma', 'dribbble'],
+        'medium': ['css', 'design-system', 'ui-components'],
+        'weak': ['html', 'design']
+    },
+    'Work Tools': {
+        'strong': ['jira', 'confluence', 'slack', 'microsoft teams', 'notion', 'linear'],
+        'medium': ['asana', 'trello', 'monday.com'],
+        'weak': ['project management']
+    },
+    'BuildingMinds': {
+        'strong': ['buildingminds', 'building-minds'],
+        'medium': [],
+        'weak': []
+    },
+    'Microsoft': {
+        'strong': ['sharepoint', 'microsoft365', 'office365', 'azure devops', 'power platform',
+                   'powerbi', 'power bi'],
+        'medium': ['microsoft', 'outlook', 'onedrive'],
+        'weak': []
+    },
+    'Entertainment': {
+        'strong': ['spotify', 'netflix', 'twitch', 'imdb'],
+        'medium': ['youtube', 'streaming'],
+        'weak': []
+    },
+    'Algorithms': {
+        'strong': ['algorithm', 'data-structure', 'leetcode', 'hackerrank', 'codewars',
+                   'coding-interview', 'big-o', 'algoexpert', 'neetcode'],
+        'medium': ['algorithms', 'data structures', 'interview prep'],
+        'weak': []
+    }
+}
+
+def create_word_regex(keyword):
+    """Create word boundary regex for precise matching"""
+    escaped = re.escape(keyword)
+    return re.compile(r'\b' + escaped + r'\b', re.IGNORECASE)
+
 def categorize_bookmark(url, title):
-    """Categorize bookmark based on URL and title"""
+    """Categorize bookmark using weighted keyword scoring"""
     url_lower = url.lower()
     title_lower = title.lower()
-    
-    # Programming languages and frameworks
-    if any(term in url_lower or term in title_lower for term in ['javascript', 'js', 'node', 'npm', 'react', 'vue', 'angular']):
-        return 'JavaScript'
-    elif any(term in url_lower or term in title_lower for term in ['python', 'django', 'flask', 'fastapi', 'jupyter']):
-        return 'Python'
-    elif any(term in url_lower or term in title_lower for term in ['java', 'spring', 'kotlin']):
-        return 'Java/Kotlin'
-    elif any(term in url_lower or term in title_lower for term in ['rust', 'cargo']):
-        return 'Rust'
-    elif any(term in url_lower or term in title_lower for term in ['go', 'golang']):
-        return 'Go'
-    elif any(term in url_lower or term in title_lower for term in ['cpp', 'c++', 'cmake']):
-        return 'C++'
-    elif any(term in url_lower or term in title_lower for term in ['csharp', 'c#', '.net', 'dotnet']):
-        return 'C#/.NET'
-    elif any(term in url_lower or term in title_lower for term in ['php', 'laravel', 'symfony']):
-        return 'PHP'
-    elif any(term in url_lower or term in title_lower for term in ['ruby', 'rails']):
-        return 'Ruby'
-    elif any(term in url_lower or term in title_lower for term in ['swift', 'ios', 'xcode']):
-        return 'Swift/iOS'
-    
-    # Web technologies
-    elif any(term in url_lower or term in title_lower for term in ['html', 'css', 'sass', 'scss', 'tailwind']):
-        return 'Web Design'
-    elif any(term in url_lower or term in title_lower for term in ['api', 'rest', 'graphql', 'postman']):
-        return 'APIs'
-    
-    # DevOps and Cloud
-    elif any(term in url_lower or term in title_lower for term in ['docker', 'kubernetes', 'k8s', 'helm']):
-        return 'Containers'
-    elif any(term in url_lower or term in title_lower for term in ['aws', 'azure', 'gcp', 'cloud', 'terraform']):
-        return 'Cloud'
-    elif any(term in url_lower or term in title_lower for term in ['ci/cd', 'jenkins', 'github actions', 'gitlab']):
-        return 'DevOps'
-    
-    # Databases
-    elif any(term in url_lower or term in title_lower for term in ['mysql', 'postgres', 'mongodb', 'redis', 'database']):
-        return 'Databases'
-    
-    # AI/ML
-    elif any(term in url_lower or term in title_lower for term in ['ai', 'machine learning', 'ml', 'tensorflow', 'pytorch', 'openai']):
-        return 'AI/ML'
-    
-    # Development tools
-    elif any(term in url_lower or term in title_lower for term in ['git', 'github', 'gitlab', 'vscode', 'vim']):
-        return 'Dev Tools'
-    elif any(term in url_lower or term in title_lower for term in ['test', 'testing', 'jest', 'cypress', 'selenium']):
-        return 'Testing'
-    
-    # Work/Business tools
-    elif any(term in url_lower or term in title_lower for term in ['jira', 'confluence', 'slack', 'teams', 'notion']):
-        return 'Work Tools'
-    elif any(term in url_lower or term in title_lower for term in ['monday', 'asana', 'trello', 'project']):
-        return 'Project Management'
-    
-    # Documentation and learning
-    elif any(term in url_lower or term in title_lower for term in ['docs', 'documentation', 'tutorial', 'learn']):
-        return 'Documentation'
-    elif any(term in url_lower or term in title_lower for term in ['stackoverflow', 'medium', 'dev.to', 'blog']):
-        return 'Learning'
-    
-    # Company/Work specific (based on your bookmarks)
-    elif 'buildingminds' in url_lower or 'bm' in title_lower:
-        return 'BuildingMinds'
-    elif 'personio' in url_lower:
-        return 'HR/Admin'
-    elif 'sharepoint' in url_lower or 'azure' in url_lower:
-        return 'Microsoft'
-    
-    # Entertainment
-    elif any(term in url_lower or term in title_lower for term in ['spotify', 'youtube', 'netflix']):
-        return 'Entertainment'
-    
-    # Default category
-    else:
-        return 'Other'
+    domain = get_domain(url).lower()
+
+    # Combine all text for matching
+    all_text = f"{url_lower} {title_lower} {domain}"
+
+    # Score each category
+    category_scores = {}
+
+    for category, keyword_groups in CATEGORIES.items():
+        score = 0
+
+        # Strong keywords: 10 points
+        for keyword in keyword_groups.get('strong', []):
+            if create_word_regex(keyword).search(all_text):
+                score += 10
+
+        # Medium keywords: 5 points
+        for keyword in keyword_groups.get('medium', []):
+            if create_word_regex(keyword).search(all_text):
+                score += 5
+
+        # Weak keywords: 2 points
+        for keyword in keyword_groups.get('weak', []):
+            if create_word_regex(keyword).search(all_text):
+                score += 2
+
+        if score > 0:
+            category_scores[category] = score
+
+    # Find category with highest score (minimum threshold: 4 points)
+    best_category = 'Other'
+    best_score = 4
+
+    for category, score in category_scores.items():
+        if score > best_score:
+            best_score = score
+            best_category = category
+
+    return best_category
 
 def generate_clusters(bookmarks):
     """Generate cluster data with statistics"""
