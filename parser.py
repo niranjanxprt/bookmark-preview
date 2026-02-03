@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import re
 import json
+import argparse
 from urllib.parse import urlparse
 from collections import defaultdict
 import html
@@ -140,8 +141,17 @@ def generate_clusters(bookmarks):
     return cluster_data
 
 def main():
+    parser = argparse.ArgumentParser(description='Parse an HTML bookmarks export into JSON.')
+    parser.add_argument(
+        'html_file',
+        nargs='?',
+        default='../bookmarks_9_23_25.html',
+        help='Path to bookmarks HTML export (default: ../bookmarks_9_23_25.html)'
+    )
+    args = parser.parse_args()
+
     # Parse bookmarks
-    bookmarks = parse_bookmarks('../bookmarks_9_23_25.html')
+    bookmarks = parse_bookmarks(args.html_file)
     clusters = generate_clusters(bookmarks)
     
     # Generate output data

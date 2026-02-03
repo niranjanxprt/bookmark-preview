@@ -1,11 +1,23 @@
 {
-  "total_bookmarks": 351,
-  "total_clusters": 22,
+  "total_bookmarks": 696,
+  "total_clusters": 24,
   "clusters": [
     {
       "name": "Other",
-      "count": 131,
+      "count": 292,
       "bookmarks": [
+        {
+          "url": "https://thestocks.im/",
+          "title": "The Stocks 3 | Best royalty free stock photos, videos, mockups, icons and fonts!",
+          "domain": "thestocks.im",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://trendshift.io/",
+          "title": "Trendshift - Explore open-source repositories and find some insights",
+          "domain": "trendshift.io",
+          "cluster": "Other"
+        },
         {
           "url": "https://app.rfpio.com/v2/my-work?companyId=64834c421496fd5437f86373",
           "title": "Responsive - My Work",
@@ -34,12 +46,6 @@
           "url": "https://www.microsoft365.com/?auth=2&home=1",
           "title": "Home | Microsoft 365",
           "domain": "www.microsoft365.com",
-          "cluster": "Other"
-        },
-        {
-          "url": "https://thestocks.im/",
-          "title": "The Stocks 3 | Best royalty free stock photos, videos, mockups, icons and fonts!",
-          "domain": "thestocks.im",
           "cluster": "Other"
         },
         {
@@ -787,17 +793,1001 @@
           "cluster": "Other"
         },
         {
+          "url": "https://www.bitkom.org/EN",
+          "title": "Startseite Bitkom e. V.",
+          "domain": "www.bitkom.org",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://partner.hepster.com/en-us",
+          "title": "Embedded insurance for your product world",
+          "domain": "partner.hepster.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.fillout.com/vs/typeform",
+          "title": "Fillout: the free Typeform alternative",
+          "domain": "www.fillout.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://mvp4prod.vercel.app/",
+          "title": "MVP4PROD - Transform Your MVP into Production-Ready Excellence",
+          "domain": "mvp4prod.vercel.app",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://app.emergent.sh/landing",
+          "title": "Emergent",
+          "domain": "app.emergent.sh",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://marclou.com/",
+          "title": "Marc Lou | Indie Page",
+          "domain": "marclou.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://sprinto.com/",
+          "title": "Continuous Security & Compliance Platform - Sprinto",
+          "domain": "sprinto.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.vanta.com/",
+          "title": "SOC 2, HIPAA, ISO 27001, PCI, and GDPR Compliance",
+          "domain": "www.vanta.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.producthunt.com/",
+          "title": "Product Hunt – The best new products in tech.",
+          "domain": "www.producthunt.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://printing.cic.com/locations/berlin-de/",
+          "title": "Berlin, DE – Printing@CIC",
+          "domain": "printing.cic.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://safer-nightlife.berlin/en/",
+          "title": "SONAR BERLIN",
+          "domain": "safer-nightlife.berlin",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://startupvitamins.com/",
+          "title": "Buy Motivational posters and office decor - Startup Vitamins",
+          "domain": "startupvitamins.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.shadertoy.com/",
+          "title": "Shadertoy BETA",
+          "domain": "www.shadertoy.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://practikalstudio.in/",
+          "title": "pratcitkalstudio – Practikal Studio",
+          "domain": "practikalstudio.in",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://prachtsaal.berlin/",
+          "title": "Prachtsaal Studio",
+          "domain": "prachtsaal.berlin",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://creativecode.berlin/",
+          "title": "Creative Code Berlin",
+          "domain": "creativecode.berlin",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.b-p-w.de/en/",
+          "title": "Start your business with a plan! The BPW supports with free offers",
+          "domain": "www.b-p-w.de",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.landingpage.fyi/landing-page-checklist",
+          "title": "Landing Page Checklist | 100+ Tools to Build a Landing Page",
+          "domain": "www.landingpage.fyi",
+          "cluster": "Other"
+        },
+        {
           "url": "https://akenza.io/features/connectivity",
           "title": "akenza | Connectivity",
           "domain": "akenza.io",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://pitch.works/",
+          "title": "Pitchworks",
+          "domain": "pitch.works",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.brasshands.com/",
+          "title": "Brass Hands",
+          "domain": "www.brasshands.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://samwho.dev/",
+          "title": "samwho",
+          "domain": "samwho.dev",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.kubeflow.org/",
+          "title": "Kubeflow",
+          "domain": "www.kubeflow.org",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://expo.dev/",
+          "title": "Expo",
+          "domain": "expo.dev",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://flutter.dev/",
+          "title": "Flutter - Build apps for any screen",
+          "domain": "flutter.dev",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://docusaurus.io/",
+          "title": "Build optimized websites quickly, focus on your content | Docusaurus",
+          "domain": "docusaurus.io",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.dataexpert.io/",
+          "title": "Join DataExpert.io Academy",
+          "domain": "www.dataexpert.io",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://datalemur.com/",
+          "title": "DataLemur - Ace the SQL & Data Science Interview",
+          "domain": "datalemur.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://atlas.mitre.org/",
+          "title": "MITRE ATLAS™",
+          "domain": "atlas.mitre.org",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://workfloo.ws/",
+          "title": "Workfloows",
+          "domain": "workfloo.ws",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.schulz-von-thun.de/",
+          "title": "Angebote - Schulz von Thun Institut",
+          "domain": "www.schulz-von-thun.de",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://planetscale.com/metal",
+          "title": "Metal — PlanetScale",
+          "domain": "planetscale.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://iffy.com/",
+          "title": "Iffy",
+          "domain": "iffy.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.relume.io/pricing",
+          "title": "Relume — Pricing Plans",
+          "domain": "www.relume.io",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://replit.com/customers",
+          "title": "Customer Stories - Replit",
+          "domain": "replit.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.graphistry.com/",
+          "title": "Home - Graphistry",
+          "domain": "www.graphistry.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.terminal.shop/",
+          "title": "wip: terminal (initial commit)",
+          "domain": "www.terminal.shop",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://coursecareers.com/explore/software-dev-fundamentals",
+          "title": "The Best Software Development Course | CourseCareers",
+          "domain": "coursecareers.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.tryexponent.com/",
+          "title": "Interview prep for product, engineering, data science, and more - Exponent",
+          "domain": "www.tryexponent.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.dive.club/",
+          "title": "Dive Club 🤿",
+          "domain": "www.dive.club",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://rauchg-oss-grants.vercel.app/",
+          "title": "OSS Grants - $1,000 USD for Foundational Open Source",
+          "domain": "rauchg-oss-grants.vercel.app",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://falling-walls.com/",
+          "title": "Falling Walls Foundation | Falling Walls",
+          "domain": "falling-walls.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://berlinscienceweek.com/",
+          "title": "BERLIN SCIENCE WEEK | Berlin Science Week",
+          "domain": "berlinscienceweek.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://subagents.sh/",
+          "title": "Subagents.sh - Claude Code Sub-Agent Directory",
+          "domain": "subagents.sh",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://superwrapper.in/",
+          "title": "Superwrapper",
+          "domain": "superwrapper.in",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://33labs.in/",
+          "title": "33labs",
+          "domain": "33labs.in",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.anolis.in/",
+          "title": "Anolis",
+          "domain": "www.anolis.in",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://useastra.in/interview-copilot",
+          "title": "Interview Copilot",
+          "domain": "useastra.in",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://labex.io/free-labs",
+          "title": "Free Labs | Interactive Practice in 30+ Tech Fields | LabEx",
+          "domain": "labex.io",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://kodekloud.com/studio/labs",
+          "title": "KodeKloud Studio",
+          "domain": "kodekloud.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://deutsch-vorbereitung.com/",
+          "title": "Deutsch Prüfung ᐉ Online-Vorbereitung mit BO",
+          "domain": "deutsch-vorbereitung.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.cyberdebunk.com/",
+          "title": "CyberDebunk | Advanced Cybersecurity Solutions",
+          "domain": "www.cyberdebunk.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.ubiscore.com/",
+          "title": "The #1 Privacy Copilot - Ensure compliance and avoid fines with our scoring solution.",
+          "domain": "www.ubiscore.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://plusauravibes.com/",
+          "title": "Plus Aura Vibes",
+          "domain": "plusauravibes.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.everythingmarketplaces.com/",
+          "title": "Everything Marketplaces",
+          "domain": "www.everythingmarketplaces.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.liberatingstructures.com/",
+          "title": "Liberating Structures - Introduction",
+          "domain": "www.liberatingstructures.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://discordservers.com/",
+          "title": "Discord Servers - Public Server Listing",
+          "domain": "discordservers.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://delighted.com/",
+          "title": "Collect customer feedback in minutes with Delighted",
+          "domain": "delighted.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://inferencemax.semianalysis.com/",
+          "title": "InferenceMAX by SemiAnalysis",
+          "domain": "inferencemax.semianalysis.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://getcracked.io/",
+          "title": "getcracked | Master Technical Interviews Fast",
+          "domain": "getcracked.io",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://ccforpms.com/",
+          "title": "Claude Code for Product Managers",
+          "domain": "ccforpms.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.concentrix.com/",
+          "title": "Concentrix | A Global Technology and Services Leader",
+          "domain": "www.concentrix.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://techgdpr.com/",
+          "title": "TechGDPR – GDPR Compliance, Privacy and EU Data Regulations",
+          "domain": "techgdpr.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.kittl.com/",
+          "title": "Kittl | The most intuitive collaborative design platform",
+          "domain": "www.kittl.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://neurosity.co/",
+          "title": "Introducing the Crown | Neurosity",
+          "domain": "neurosity.co",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://cicberlin.roomzilla.me/home/schedule",
+          "title": "Roomzilla | Meeting Room Booking System",
+          "domain": "cicberlin.roomzilla.me",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://businessmodelnavigator.com/network",
+          "title": "Business Model Pattern Network |",
+          "domain": "businessmodelnavigator.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.incommonwith.com/collections/all-lighting",
+          "title": "In Common With | All Lighting",
+          "domain": "www.incommonwith.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.a1.gallery/",
+          "title": "A1 · Website design inspiration for designers, developers and creatives",
+          "domain": "www.a1.gallery",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.prolific.com/",
+          "title": "Prolific | Easily collect high-quality data from real people",
+          "domain": "www.prolific.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://ds.shadcn.com/",
+          "title": "shadcn/designer - Components for building design tools like Framer, Canva, and more.",
+          "domain": "ds.shadcn.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://playground.simd.space/s/hollow-and-sealed-cylinder",
+          "title": "SIMD Compute",
+          "domain": "playground.simd.space",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://w3.fund/",
+          "title": "w3.fund | Next Generation Investment House",
+          "domain": "w3.fund",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://lumolab.org/",
+          "title": "lumolab",
+          "domain": "lumolab.org",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.datawithbaraa.com/",
+          "title": "Home - DATA with BARAA",
+          "domain": "www.datawithbaraa.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.strayz.de/",
+          "title": "Hochwertiges Bio Hundefutter & Katzenfutter | STRAYZ",
+          "domain": "www.strayz.de",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://startupverband.de/",
+          "title": "Startup-Verband – Die Unternehmen der Zukunft",
+          "domain": "startupverband.de",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://mentorcruise.com/",
+          "title": "MentorCruise - Connecting Mentors & Mentees",
+          "domain": "mentorcruise.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.refokus.com/",
+          "title": "Refokus",
+          "domain": "www.refokus.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.complydo.io/",
+          "title": "ComplyDo - More Comply, Less Do",
+          "domain": "www.complydo.io",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.eqs.com/",
+          "title": "EQS Group: Compliance, Data & ESG solutions for your business",
+          "domain": "www.eqs.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.openstatus.dev/",
+          "title": "openstatus",
+          "domain": "www.openstatus.dev",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://duna.com/",
+          "title": "Duna - The new standard in compliance",
+          "domain": "duna.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.aliciasykes.com/",
+          "title": "Home | Alicia Sykes",
+          "domain": "www.aliciasykes.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://bcpro.de/",
+          "title": "Home - BCPro",
+          "domain": "bcpro.de",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://thisisatworld.com/",
+          "title": "ATworld - Work, Connect, Thrive - Anytime Anywhere",
+          "domain": "thisisatworld.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.getmoss.com/en-gb?origin-page=en-gb%2F1234567",
+          "title": "Moss: Spend smarter.",
+          "domain": "www.getmoss.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://yoffix.com/",
+          "title": "Yoffix Hybrid Workplace Platform",
+          "domain": "yoffix.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.enforcementtracker.com/",
+          "title": "GDPR Enforcement Tracker - list of GDPR fines",
+          "domain": "www.enforcementtracker.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://gdpr.eu/",
+          "title": "General Data Protection Regulation (GDPR) Compliance Guidelines",
+          "domain": "gdpr.eu",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.uhoh.com/",
+          "title": "uhoh",
+          "domain": "www.uhoh.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.stateofeuropeantech.com/",
+          "title": "The State of European Tech 2025",
+          "domain": "www.stateofeuropeantech.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://tsaaro.com/",
+          "title": "Data Privacy & Data Protection Consulting Services | Tsaaro Consulting",
+          "domain": "tsaaro.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://enty.io/en-ee",
+          "title": "The control panel of your Estonian company | Enty",
+          "domain": "enty.io",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.isocons.app/",
+          "title": "Isocons",
+          "domain": "www.isocons.app",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://craftwork.design/",
+          "title": "Craftwork: UX/UI kits, illustrations, mockups, fonts and more",
+          "domain": "craftwork.design",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.employed.world/",
+          "title": "Employed.world",
+          "domain": "www.employed.world",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.pitchdeckhunt.com/",
+          "title": "The Best Pitch Deck Examples | Pitch Deck Hunt",
+          "domain": "www.pitchdeckhunt.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.veed.io/",
+          "title": "VEED.IO - Video Editor - Fast, Online, Free",
+          "domain": "www.veed.io",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.dataroom-x.de/",
+          "title": "Datenräume: 100% Deutscher Datenraum-Anbieter",
+          "domain": "www.dataroom-x.de",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://tanstack.com/",
+          "title": "TanStack | High Quality Open-Source Software for Web Developers",
+          "domain": "tanstack.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://fullstackpm.com/",
+          "title": "The Full Stack PM",
+          "domain": "fullstackpm.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://coda.io/welcome",
+          "title": "Coda: Your all-in-one collaborative workspace.",
+          "domain": "coda.io",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.contentport.io/",
+          "title": "Contentport",
+          "domain": "www.contentport.io",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://heroicons.com/",
+          "title": "Heroicons",
+          "domain": "heroicons.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://info.cern.ch/",
+          "title": "http://info.cern.ch",
+          "domain": "info.cern.ch",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.radix-ui.com/",
+          "title": "Radix UI",
+          "domain": "www.radix-ui.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://naval25.com/?ref=indiepage",
+          "title": "Naval 25: Internet has chosen Naval's 25 best quotes",
+          "domain": "naval25.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://gsap.com/",
+          "title": "Homepage | GSAP",
+          "domain": "gsap.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://claudeskills.nl/",
+          "title": "Claude Desktop Skills Repository",
+          "domain": "claudeskills.nl",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://kinde.com/",
+          "title": "Kinde Auth, billing and access management for modern SaaS products.",
+          "domain": "kinde.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "http://localhost:37777/",
+          "title": "claude-mem viewer",
+          "domain": "localhost:37777",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://chemistry-en.nobook.com/console/templates/resource",
+          "title": "NOBOOK Virtual Laboratory",
+          "domain": "chemistry-en.nobook.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.curationofcurations.com/",
+          "title": "Curation of Curations",
+          "domain": "www.curationofcurations.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://dvc.org/",
+          "title": "Home – DVC",
+          "domain": "dvc.org",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://skillsmp.com/",
+          "title": "Agent Skills Marketplace - Claude, Codex & ChatGPT Skills | SkillsMP",
+          "domain": "skillsmp.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.awin.com/",
+          "title": "Join our global affiliate platform | Awin",
+          "domain": "www.awin.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.pikapods.com/",
+          "title": "PikaPods - Instant Open Source App Hosting",
+          "domain": "www.pikapods.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://madappgang.com/",
+          "title": "Web and mobile app development company",
+          "domain": "madappgang.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://it-jobs.de/",
+          "title": "IT Jobs & Stellenangebote - IT-Jobs.de",
+          "domain": "it-jobs.de",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://lennygallery.manus.space/",
+          "title": "Lenny's Podcast Infographic Gallery",
+          "domain": "lennygallery.manus.space",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.climate-tech-hub.com/",
+          "title": "Climate Tech Hub",
+          "domain": "www.climate-tech-hub.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://web-check.xyz/",
+          "title": "Web Check",
+          "domain": "web-check.xyz",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.openfunk.co/",
+          "title": "re:Mix — the circular blender for your own glass jars – Open Funk",
+          "domain": "www.openfunk.co",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://joinconsumerclub.com/",
+          "title": "Consumer Club",
+          "domain": "joinconsumerclub.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://sessionize.com/",
+          "title": "Sessionize - Call for Papers, Schedule and Speaker Management Software",
+          "domain": "sessionize.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://euroalternative.co/",
+          "title": "Discover European Alternatives to Big Tech Companies – EuroAlternative",
+          "domain": "euroalternative.co",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.pencil.dev/",
+          "title": "Pencil – Design on canvas. Land in code.",
+          "domain": "www.pencil.dev",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://reaktor-wildau.de/",
+          "title": "Reaktor.Wildau | Startup Center for Brandenburg",
+          "domain": "reaktor-wildau.de",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://clawdhub.com/",
+          "title": "ClawdHub",
+          "domain": "clawdhub.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.catops.app/",
+          "title": "CatOps - Monitoring Without Headache | 15s Setup",
+          "domain": "www.catops.app",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.data-to-art.com/",
+          "title": "Data to Art",
+          "domain": "www.data-to-art.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://energy-collective.eu/",
+          "title": "Energy Is Europe’s Strategic Imperative - European Energy Collective",
+          "domain": "energy-collective.eu",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://origin.builders/",
+          "title": "Origin – Incubating the Next Generation of Web3",
+          "domain": "origin.builders",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://badaboom.berlin/",
+          "title": "BADABOOMBERLIN - Let’s turn every environment into a playful world!",
+          "domain": "badaboom.berlin",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.smard.de/en",
+          "title": "SMARD | SMARD - Market data",
+          "domain": "www.smard.de",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://skills.sh/",
+          "title": "The Agent Skills Directory",
+          "domain": "skills.sh",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://courses.webdevsimplified.com/",
+          "title": "Web Dev Simplified",
+          "domain": "courses.webdevsimplified.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.immomio.com/",
+          "title": "Immomio - 360° fürs Leben - Immomio",
+          "domain": "www.immomio.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://mystmd.org/",
+          "title": "MyST Markdown - Tools for the future of technical communication - MyST Markdown",
+          "domain": "mystmd.org",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://heretic.giglabo.com/",
+          "title": "VibeCoder Heretic",
+          "domain": "heretic.giglabo.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://grpc.io/",
+          "title": "gRPC",
+          "domain": "grpc.io",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://climateactiontracker.org/global/cat-thermometer/",
+          "title": "CAT Thermometer | Climate Action Tracker",
+          "domain": "climateactiontracker.org",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.ipcc.ch/site/assets/uploads/sites/2/2019/02/SPM3a.png",
+          "title": "SPM3a.png (2398×2437)",
+          "domain": "www.ipcc.ch",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://globalwindatlas.info/en/area/Germany/Berlin",
+          "title": "Global Wind Atlas",
+          "domain": "globalwindatlas.info",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://globalsolaratlas.info/map?c=32.731841,31.816406,4&r=DEU:DEU.3_1",
+          "title": "Global Solar Atlas",
+          "domain": "globalsolaratlas.info",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.renewables.ninja/",
+          "title": "Renewables.ninja",
+          "domain": "www.renewables.ninja",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://renewables-map.robinhawkes.com/#5/55/-3.2",
+          "title": "GB Renewables Map",
+          "domain": "renewables-map.robinhawkes.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://openinframap.org/#2/20.93/24.36/P",
+          "title": "Open Infrastructure Map",
+          "domain": "openinframap.org",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.energy-charts.info/?l=en&c=DE",
+          "title": "Energy-Charts",
+          "domain": "www.energy-charts.info",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://app.electricitymaps.com/map/live/fifteen_minutes?aggregated=false&wind=true&solar=false",
+          "title": "Map | Electricity Maps",
+          "domain": "app.electricitymaps.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://openinframap.org/#2/26/12",
+          "title": "Open Infrastructure Map",
+          "domain": "openinframap.org",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.epexspot.com/en/market-results",
+          "title": "Market Results | EPEX SPOT",
+          "domain": "www.epexspot.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://globalsolaratlas.info/map",
+          "title": "Global Solar Atlas",
+          "domain": "globalsolaratlas.info",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://globalwindatlas.info/en/",
+          "title": "Global Wind Atlas",
+          "domain": "globalwindatlas.info",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.zeit.de/wirtschaft/energiemonitor-strompreis-gaspreis-erneuerbare-energien-ausbau",
+          "title": "Energiemonitor: Die wichtigsten Daten zur Energieversorgung – täglich aktualisiert | DIE ZEIT",
+          "domain": "www.zeit.de",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://model.energy/",
+          "title": "model.energy",
+          "domain": "model.energy",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://ourworldindata.org/cheap-renewables-growth",
+          "title": "Why did renewables become so cheap so fast? - Our World in Data",
+          "domain": "ourworldindata.org",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.awesomelists.io/",
+          "title": "Awesome Lists · Awesome Lists",
+          "domain": "www.awesomelists.io",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.himpfen.com/",
+          "title": "Brandon Himpfen",
+          "domain": "www.himpfen.com",
+          "cluster": "Other"
+        },
+        {
+          "url": "https://www.energydatamodel.org/",
+          "title": "EnergyDataModel",
+          "domain": "www.energydatamodel.org",
           "cluster": "Other"
         }
       ]
     },
     {
       "name": "AI/ML",
-      "count": 74,
+      "count": 158,
       "bookmarks": [
+        {
+          "url": "https://learnprompting.org/",
+          "title": "Learn Prompting: Your Guide to Communicating with AI",
+          "domain": "learnprompting.org",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://mlu-explain.github.io/",
+          "title": "MLU-Explain",
+          "domain": "mlu-explain.github.io",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.theunwindai.com/",
+          "title": "unwind ai",
+          "domain": "www.theunwindai.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://deepwiki.com/",
+          "title": "DeepWiki | AI documentation you can talk to, for every repo",
+          "domain": "deepwiki.com",
+          "cluster": "AI/ML"
+        },
         {
           "url": "https://ec.europa.eu/sustainable-finance-taxonomy/taxonomy-compass",
           "title": "EU Taxonomy Compass",
@@ -868,12 +1858,6 @@
           "url": "https://www.comfy.org/",
           "title": "ComfyUI | Generate video, images, audio with AI",
           "domain": "www.comfy.org",
-          "cluster": "AI/ML"
-        },
-        {
-          "url": "https://learnprompting.org/",
-          "title": "Learn Prompting: Your Guide to Communicating with AI",
-          "domain": "learnprompting.org",
           "cluster": "AI/ML"
         },
         {
@@ -952,12 +1936,6 @@
           "url": "https://www.merantix-aicampus.com/",
           "title": "Merantix AI Campus",
           "domain": "www.merantix-aicampus.com",
-          "cluster": "AI/ML"
-        },
-        {
-          "url": "https://mlu-explain.github.io/",
-          "title": "MLU-Explain",
-          "domain": "mlu-explain.github.io",
           "cluster": "AI/ML"
         },
         {
@@ -1117,12 +2095,6 @@
           "cluster": "AI/ML"
         },
         {
-          "url": "https://www.theunwindai.com/",
-          "title": "unwind ai",
-          "domain": "www.theunwindai.com",
-          "cluster": "AI/ML"
-        },
-        {
           "url": "https://haystack.deepset.ai/",
           "title": "Haystack | Haystack",
           "domain": "haystack.deepset.ai",
@@ -1150,12 +2122,6 @@
           "url": "https://circleback.ai/",
           "title": "Circleback",
           "domain": "circleback.ai",
-          "cluster": "AI/ML"
-        },
-        {
-          "url": "https://deepwiki.com/",
-          "title": "DeepWiki | AI documentation you can talk to, for every repo",
-          "domain": "deepwiki.com",
           "cluster": "AI/ML"
         },
         {
@@ -1231,9 +2197,123 @@
           "cluster": "AI/ML"
         },
         {
-          "url": "https://buildingminds1.sharepoint.com/:x:/r/sites/30-60-90/_layouts/15/guestaccess.aspx?email=aman.kumar%40buildingminds.com&e=4%3Aw5vz8R&at=9&wdLOR=c5FF942EF-A05B-F841-8196-B2A31D2BF370&share=EWFyJ_ZIytpIgm0x0xlC6GQB0DJ4RS7pDItCtStow2jPwQ",
-          "title": "TT_Interns.xlsx",
-          "domain": "buildingminds1.sharepoint.com",
+          "url": "https://kit.com/",
+          "title": "Email marketing that automates your growth (formerly ConvertKit)",
+          "domain": "kit.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://youratlas.com/",
+          "title": "AI Revenue Engine To Convert Leads in 60 Seconds | Built-For-You",
+          "domain": "youratlas.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://flexpay.io/?utm_source=youtube&utm_medium=social+media&utm_campaign=video&utm_content=LF-400",
+          "title": "Failed Payment Recovery - FlexPay",
+          "domain": "flexpay.io",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://herohire.ai/?utm_source=youtube&utm_medium=social+media&utm_campaign=video&utm_content=LF-400",
+          "title": "HeroHire: AI-Powered Hiring Partner",
+          "domain": "herohire.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.precision.co/?utm_source=youtube&utm_medium=social+media&utm_campaign=video&utm_content=LF-400",
+          "title": "Precision - Your AI-Powered Data Team That Never Sleeps",
+          "domain": "www.precision.co",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://hellofrank.ai/?utm_source=youtube&utm_medium=social+media&utm_campaign=video&utm_content=LF-400",
+          "title": "Hello Frank",
+          "domain": "hellofrank.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.alysio.ai/?utm_source=youtube&utm_medium=social+media&utm_campaign=video&utm_content=LF-400",
+          "title": "Alysio.ai | Your Revenue Command Layer",
+          "domain": "www.alysio.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://curse-tamarillo-1ef.notion.site/db4f4e35666f421385248b3b3ed733e2?v=1b815542770b80dfb4d1000cc4657a15",
+          "title": "Free curriculum: Generative-AI Wizard 100x | Home",
+          "domain": "curse-tamarillo-1ef.notion.site",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://socialsweep.ai/?utm_source=youtube&utm_medium=social%20media&utm_campaign=video&utm_content=LF-400",
+          "title": "SocialSweep",
+          "domain": "socialsweep.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.getrevio.com/?utm_source=youtube&utm_medium=social+media&utm_campaign=video&utm_content=LF-400",
+          "title": "Revio - AI Sales CRM That Turns Your Followers Into Revenue",
+          "domain": "www.getrevio.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.100xengineers.com/",
+          "title": "100xEngineers | Become GenerativeAI Wizard",
+          "domain": "www.100xengineers.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://oecd.ai/en/",
+          "title": "The OECD Artificial Intelligence Policy Observatory - OECD.AI",
+          "domain": "oecd.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.n8n-mcp.com/",
+          "title": "n8n MCP - AI-Powered n8n Workflow Automation",
+          "domain": "www.n8n-mcp.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://ai-berlin.com/",
+          "title": "ai-berlin.com",
+          "domain": "ai-berlin.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.ai-nation.de/",
+          "title": "AI NATION",
+          "domain": "www.ai-nation.de",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://hiring.cafe/",
+          "title": "HiringCafe - AI Job Search",
+          "domain": "hiring.cafe",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://eurekalabs.ai/",
+          "title": "Eureka Labs",
+          "domain": "eurekalabs.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://flower.ai/",
+          "title": "Flower: A Friendly Federated AI Framework",
+          "domain": "flower.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.deep-ml.com/",
+          "title": "Deep-ML",
+          "domain": "www.deep-ml.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://console.mistral.ai/home",
+          "title": "La Plateforme - Mistral AI",
+          "domain": "console.mistral.ai",
           "cluster": "AI/ML"
         },
         {
@@ -1241,12 +2321,402 @@
           "title": "Segment Anything | Meta AI",
           "domain": "segment-anything.com",
           "cluster": "AI/ML"
+        },
+        {
+          "url": "https://mlflow.org/",
+          "title": "MLflow",
+          "domain": "mlflow.org",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://pytorch.org/",
+          "title": "PyTorch",
+          "domain": "pytorch.org",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://genai.owasp.org/",
+          "title": "Home - OWASP Gen AI Security Project",
+          "domain": "genai.owasp.org",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.dropstitch.ai/",
+          "title": "Simplify Listing Vintage Clothing | Dropstitch",
+          "domain": "www.dropstitch.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.relume.io/",
+          "title": "Relume — Websites designed & built faster with AI | AI website builder",
+          "domain": "www.relume.io",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://codegraphcontext.vercel.app/",
+          "title": "CodeGraphContext - AI-Powered Code Knowledge Graphs",
+          "domain": "codegraphcontext.vercel.app",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://modal.com/",
+          "title": "Modal: High-performance AI infrastructure",
+          "domain": "modal.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.pgrammer.com/",
+          "title": "pgrammer - Practice coding interview questions with hints from AI",
+          "domain": "www.pgrammer.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://thealliance.ai/",
+          "title": "Home | AI Alliance",
+          "domain": "thealliance.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://smithery.ai/",
+          "title": "Smithery - Find, build and ship MCP servers",
+          "domain": "smithery.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://jina.ai/",
+          "title": "Jina AI - Your Search Foundation, Supercharged.",
+          "domain": "jina.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.botpress.com/en",
+          "title": "Botpress | The Complete AI Agent Platform",
+          "domain": "www.botpress.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://subagents.app/",
+          "title": "Claude Code Sub Agents Directory - AI-Powered Development Tools",
+          "domain": "subagents.app",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.browseros.com/",
+          "title": "BrowserOS - Open-Source AI Browser | Privacy-First Alternative to Perplexity Comet",
+          "domain": "www.browseros.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.stateof.ai/",
+          "title": "Welcome to State of AI Report 2025",
+          "domain": "www.stateof.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.educative.io/",
+          "title": "Educative: AI-Powered Interactive Courses for Developers",
+          "domain": "www.educative.io",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://hellodani.co/",
+          "title": "Daniella Marynova - Visual & Product Designer for SaaS, Fintech, AI, web3 and dev tools",
+          "domain": "hellodani.co",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://series.so/",
+          "title": "Series - The First AI Social Network",
+          "domain": "series.so",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.medoid.ai/blog/a-hands-on-walkthrough-on-model-quantization/",
+          "title": "A Hands-On Walkthrough on Model Quantization - Medoid AI",
+          "domain": "www.medoid.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://chessiro.com/",
+          "title": "Chessiro - AI Chess Analysis",
+          "domain": "chessiro.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://lmarena.ai/",
+          "title": "LMArena",
+          "domain": "lmarena.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://dspy.ai/",
+          "title": "DSPy",
+          "domain": "dspy.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.ihacker.in/name-checker/",
+          "title": "Name Checker | Social Media Username & Domain Name Availability Checker OSINT Tool",
+          "domain": "www.ihacker.in",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://driftlegal.ai/",
+          "title": "Drift - Legal stuff made easier",
+          "domain": "driftlegal.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://klingai.com/global/",
+          "title": "Kling AI: Next-Generation AI Creative Studio",
+          "domain": "klingai.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://katacontainers.io/",
+          "title": "Kata Containers - Open Source Container Runtime Software | Kata Containers",
+          "domain": "katacontainers.io",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://peec.ai/",
+          "title": "Peec AI - AI Search Analytics for Marketing Teams",
+          "domain": "peec.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://vast.ai/",
+          "title": "Rent GPUs | Vast.ai",
+          "domain": "vast.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://madewithml.com/",
+          "title": "Home - Made With ML by Anyscale",
+          "domain": "madewithml.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://ai-berlin.com/companies",
+          "title": "ai-berlin.com/companies",
+          "domain": "ai-berlin.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://trycomp.ai/",
+          "title": "Comp AI - SOC 2 - HIPAA - GDPR - ISO 27001 made effortless",
+          "domain": "trycomp.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://getbeton.ai/",
+          "title": "Beton – Open Source Clay Alternative for Sales Data Enrichment",
+          "domain": "getbeton.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://onnxruntime.ai/",
+          "title": "ONNX Runtime | Home",
+          "domain": "onnxruntime.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.easecase.ai/",
+          "title": "Easecase.ai – AI for Law Firms",
+          "domain": "www.easecase.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.foundrylocal.ai/",
+          "title": "Foundry Local - Run AI Models On Device",
+          "domain": "www.foundrylocal.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://itinerary-agent.deepset.ai/",
+          "title": "Open WebUI",
+          "domain": "itinerary-agent.deepset.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://paperreview.ai/",
+          "title": "Stanford Agentic Reviewer - Submit Paper",
+          "domain": "paperreview.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://meme-gen.ai/",
+          "title": "MemeGen AI",
+          "domain": "meme-gen.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://scivalon.com/",
+          "title": "Scivalon - AI Chemistry Expert | Dr. Vivian",
+          "domain": "scivalon.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://faircado.com/",
+          "title": "Faircado - Second-hand made easyyy",
+          "domain": "faircado.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.llamaindex.ai/",
+          "title": "LlamaIndex - Redefine Document Workflows with AI Agents",
+          "domain": "www.llamaindex.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.20minds.ai/",
+          "title": "Your Biomedical Co-Scientist – Collaborate. Analyze. Discover.",
+          "domain": "www.20minds.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://teamai.com/",
+          "title": "Multiple AI Models in One Platform | TeamAI",
+          "domain": "teamai.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://sitegeist.ai/",
+          "title": "Sitegeist - Your AI Companion for the Web",
+          "domain": "sitegeist.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://kontext.dev/",
+          "title": "Kontext | Identity Infrastructure for AI Agents",
+          "domain": "kontext.dev",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://coda.io/@carl-honor-vellotti/pm-resources-bookmarks2?utm_campaign=the-ultimate-pm-resource-compilation&utm_medium=referral&utm_source=fullstackpm.com",
+          "title": "PM Resources & Bookmarks",
+          "domain": "coda.io",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.morven.energy/en",
+          "title": "Morven - AI-Powered Intelligence for renewable energy development",
+          "domain": "www.morven.energy",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.perplexity.ai/ronaldo",
+          "title": "Perplexity x CR7",
+          "domain": "www.perplexity.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.cerebras.ai/",
+          "title": "Cerebras",
+          "domain": "www.cerebras.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://promptmetheus.com/",
+          "title": "Promptmetheus: Prompt IDE for AI Development",
+          "domain": "promptmetheus.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://meingpt.com/en/",
+          "title": "meinGPT | GDPR-compliant AI platform for teams & companies in the EU",
+          "domain": "meingpt.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://omnifact.ai/de",
+          "title": "Generative KI für Unternehmen mit Fokus auf Datenschutz | Omnifact",
+          "domain": "omnifact.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.librechat.ai/",
+          "title": "librechat.ai",
+          "domain": "www.librechat.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.galilea.ai/en",
+          "title": "Galilea – AI platform for enterprise knowledge management",
+          "domain": "www.galilea.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.micro1.ai/",
+          "title": "The AI platform for human intelligence | micro1",
+          "domain": "www.micro1.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://app.ailog.fr/en/blog",
+          "title": "RAG Blog - Guides & News | Ailog | Ailog RAG",
+          "domain": "app.ailog.fr",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.usepylon.com/",
+          "title": "Pylon | AI-native B2B Support",
+          "domain": "www.usepylon.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://cursorai.notion.site/Building-with-Cursor-public-273da74ef0458051bf22e86a1a0a5c7d",
+          "title": "Building with Cursor (public)",
+          "domain": "cursorai.notion.site",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://claude-mem.ai/",
+          "title": "Claude-Mem - Your AI's Perfect Memory Archive",
+          "domain": "claude-mem.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.retailmenot.com/",
+          "title": "RetailMeNot: Save with Coupons, Promo Codes & Cash Back",
+          "domain": "www.retailmenot.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://loot-drop.vercel.app/",
+          "title": "Loot Drop - The Startup Graveyard | 900+ Failed Startup Ideas to Steal",
+          "domain": "loot-drop.vercel.app",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://d2l.ai/",
+          "title": "Dive into Deep Learning — Dive into Deep Learning 1.0.3 documentation",
+          "domain": "d2l.ai",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.brevo.com/?r=t",
+          "title": "Email & SMS Marketing, CRM & Automation | Brevo",
+          "domain": "www.brevo.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://www.aitmpl.com/skills",
+          "title": "Claude Code Templates - Supercharge Your AI-Powered Development with Anthropic's Claude Code",
+          "domain": "www.aitmpl.com",
+          "cluster": "AI/ML"
+        },
+        {
+          "url": "https://airbyte.com/",
+          "title": "Airbyte | Open-Source Data Integration Platform | ELT Tool",
+          "domain": "airbyte.com",
+          "cluster": "AI/ML"
         }
       ]
     },
     {
       "name": "JavaScript",
-      "count": 21,
+      "count": 31,
       "bookmarks": [
         {
           "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
@@ -1373,31 +2843,643 @@
           "title": "Online Python Tutor - visualize, debug, get AI help for Python, Java, C, C++, and JavaScript",
           "domain": "pythontutor.com",
           "cluster": "JavaScript"
+        },
+        {
+          "url": "https://animejs.com/",
+          "title": "Anime.js | JavaScript Animation Engine",
+          "domain": "animejs.com",
+          "cluster": "JavaScript"
+        },
+        {
+          "url": "https://p5js.org/",
+          "title": "p5.js",
+          "domain": "p5js.org",
+          "cluster": "JavaScript"
+        },
+        {
+          "url": "https://reactnative.dev/",
+          "title": "React Native · Learn once, write anywhere",
+          "domain": "reactnative.dev",
+          "cluster": "JavaScript"
+        },
+        {
+          "url": "https://www.electronjs.org/",
+          "title": "Build cross-platform desktop apps with JavaScript, HTML, and CSS | Electron",
+          "domain": "www.electronjs.org",
+          "cluster": "JavaScript"
+        },
+        {
+          "url": "https://www.jwt.io/",
+          "title": "JSON Web Tokens - jwt.io",
+          "domain": "www.jwt.io",
+          "cluster": "JavaScript"
+        },
+        {
+          "url": "https://hashnode.com/",
+          "title": "Hashnode — Build blogs and API docs for developers and teams.",
+          "domain": "hashnode.com",
+          "cluster": "JavaScript"
+        },
+        {
+          "url": "https://jsoncrack-com-zeta.vercel.app/",
+          "title": "JSON Crack | Transform your data into interactive graphs",
+          "domain": "jsoncrack-com-zeta.vercel.app",
+          "cluster": "JavaScript"
+        },
+        {
+          "url": "https://www.neuronpedia.org/gemma-2-2b/graph?slug=gemma-fact-dallas-austin&pinnedIds=27_22605_10%2C20_15589_10%2CE_26865_9%2C21_5943_10%2C23_12237_10%2C20_15589_9%2C16_25_9%2C14_2268_9%2C18_8959_10%2C4_13154_9%2C7_6861_9%2C19_1445_10%2CE_2329_7%2CE_6037_4%2C0_13727_7%2C6_4012_7%2C17_7178_10%2C15_4494_4%2C6_4662_4%2C4_7671_4%2C3_13984_4%2C1_1000_4%2C19_7477_9%2C18_6101_10%2C16_4298_10%2C7_691_10&supernodes=%5B%5B%22capital%22%2C%2215_4494_4%22%2C%226_4662_4%22%2C%224_7671_4%22%2C%223_13984_4%22%2C%221_1000_4%22%5D%2C%5B%22state%22%2C%226_4012_7%22%2C%220_13727_7%22%5D%2C%5B%22Texas%22%2C%2220_15589_9%22%2C%2219_7477_9%22%2C%2216_25_9%22%2C%224_13154_9%22%2C%2214_2268_9%22%2C%227_6861_9%22%5D%2C%5B%22preposition+followed+by+place+name%22%2C%2219_1445_10%22%2C%2218_6101_10%22%5D%2C%5B%22capital+cities+%2F+say+a+capital+city%22%2C%2221_5943_10%22%2C%2217_7178_10%22%2C%227_691_10%22%2C%2216_4298_10%22%5D%5D&pruningThreshold=0.6&densityThreshold=0.99",
+          "title": "gemma-fact-dallas-austin - gemma-2-2b Graph | Neuronpedia ｜ Neuronpedia",
+          "domain": "www.neuronpedia.org",
+          "cluster": "JavaScript"
+        },
+        {
+          "url": "https://www.bsi.bund.de/DE/Home/home_node.html",
+          "title": "BSI - Bundesamt für Sicherheit in der Informationstechnik",
+          "domain": "www.bsi.bund.de",
+          "cluster": "JavaScript"
+        },
+        {
+          "url": "https://fireship.dev/",
+          "title": "Fireship | JavaScript, but fun.",
+          "domain": "fireship.dev",
+          "cluster": "JavaScript"
+        }
+      ]
+    },
+    {
+      "name": "Dev Tools",
+      "count": 23,
+      "bookmarks": [
+        {
+          "url": "https://os-copilot.github.io/",
+          "title": "OS-Copilot: Towards Generalist Computer Agents with Self-Improvement",
+          "domain": "os-copilot.github.io",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://github.com/v7labs/hiring-without-whiteboards",
+          "title": "v7labs/hiring-without-whiteboards: ⭐️ Companies that don't have a broken hiring process",
+          "domain": "github.com",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://gitingest.com/",
+          "title": "Gitingest",
+          "domain": "gitingest.com",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://github.com/modelcontextprotocol/servers",
+          "title": "modelcontextprotocol/servers: Model Context Protocol Servers",
+          "domain": "github.com",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://cifkao.github.io/tonnetz-viz/",
+          "title": "TonnetzViz | Online MIDI Visualization",
+          "domain": "cifkao.github.io",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://gitdiagram.com/",
+          "title": "GitDiagram",
+          "domain": "gitdiagram.com",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://ohmygit.org/",
+          "title": "Oh My Git!",
+          "domain": "ohmygit.org",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://github.com/Sachiya0425",
+          "title": "Sachiya0425 (Sachithra Liyanage)",
+          "domain": "github.com",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://www.digitalrealestate.ch/digital-top-10-projekte-2025/#",
+          "title": "Digital Top 10: Projects 2025 - Digital Real Estate by pom+",
+          "domain": "www.digitalrealestate.ch",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://gittodoc.com/",
+          "title": "Gittodoc",
+          "domain": "gittodoc.com",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://showlab.github.io/Paper2Video/",
+          "title": "Paper2Video: Automatic Video Generation from Scientific Papers",
+          "domain": "showlab.github.io",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://www.businesslocationcenter.de/en/digitech/artificial-intelligence",
+          "title": "Berlin is developing into a center for artificial intelligence",
+          "domain": "www.businesslocationcenter.de",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://niranjanxprt.github.io/starred-repos-graph/",
+          "title": "🌟 GitHub Stars Graph - 699+ Repositories",
+          "domain": "niranjanxprt.github.io",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://kserve.github.io/website/",
+          "title": "KServe",
+          "domain": "kserve.github.io",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://openlists.github.io/",
+          "title": "OpenLists",
+          "domain": "openlists.github.io",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://www.gitkraken.com/",
+          "title": "GitKraken Legendary Git Tools | GitKraken",
+          "domain": "www.gitkraken.com",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://githowto.com/",
+          "title": "GitHowTo: guided tutorial about Git",
+          "domain": "githowto.com",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://ohshitgit.com/",
+          "title": "Oh Shit, Git!?!",
+          "domain": "ohshitgit.com",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://onfabric.io/",
+          "title": "Fabric - Curate your Digital Self",
+          "domain": "onfabric.io",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Traditional_Knowledge_Digital_Library",
+          "title": "Traditional Knowledge Digital Library - Wikipedia",
+          "domain": "en.wikipedia.org",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://edri.org/",
+          "title": "European Digital Rights (EDRi)",
+          "domain": "edri.org",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://about.gitea.com/",
+          "title": "Gitea Official Website",
+          "domain": "about.gitea.com",
+          "cluster": "Dev Tools"
+        },
+        {
+          "url": "https://fneum.github.io/data-science-for-esm/",
+          "title": "Welcome - Data Science for Energy System Modelling",
+          "domain": "fneum.github.io",
+          "cluster": "Dev Tools"
+        }
+      ]
+    },
+    {
+      "name": "Go",
+      "count": 23,
+      "bookmarks": [
+        {
+          "url": "https://notebooklm.google.com/notebook/869275f0-9edb-4adf-b368-d10c26fa00f9?_gl=1*y00co7*_ga*MTY5NjA0MDEyMS4xNzIzNzE5Mzk0*_ga_W0LDH41ZCB*MTcyMzcxOTM5My4xLjAuMTcyMzcxOTM5My4wLjAuMA..&original_referer=https:%2F%2Fnotebooklm.google%23&pli=1",
+          "title": "NotebookLM",
+          "domain": "notebooklm.google.com",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://go.v7labs.com/018f011c-1642-7b63-a574-19edf558eba7/projects",
+          "title": "V7 Go",
+          "domain": "go.v7labs.com",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://aussprachetraining.goethe.de/",
+          "title": "Goethe-Institut Aussprachetrainer",
+          "domain": "aussprachetraining.goethe.de",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://de.gamsgo.com/",
+          "title": "Shared premium subscriptions with lower price on GamsGo! | Netflix | YouTube Premium - GamsGo",
+          "domain": "de.gamsgo.com",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://www.bigocheatsheet.com/",
+          "title": "Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell",
+          "domain": "www.bigocheatsheet.com",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://labs.google/",
+          "title": "Google Labs: Google's home for AI experiments - Google Labs",
+          "domain": "labs.google",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://free-algorithms-books-website.onrender.com/",
+          "title": "Free Algorithm Books",
+          "domain": "free-algorithms-books-website.onrender.com",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://gofastmcp.com/getting-started/welcome",
+          "title": "Welcome to FastMCP 2.0! - FastMCP",
+          "domain": "gofastmcp.com",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://algo.monster/",
+          "title": "AlgoMonster: The Most Structured Way to Prepare for Coding Interviews",
+          "domain": "algo.monster",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://github.com/GauravWalia19/Free-Algorithms-Books/blob/main/Library/src/Algorithms-to-Live-By-Brian-Christian.pdf",
+          "title": "Free-Algorithms-Books/Library/src/Algorithms-to-Live-By-Brian-Christian.pdf at main · GauravWalia19/Free-Algorithms-Books",
+          "domain": "github.com",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://www.trail-ml.com/",
+          "title": "trail - The AI Governance Copilot",
+          "domain": "www.trail-ml.com",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://the-algorithms.com/",
+          "title": "The Algorithms - Learn Data Structures & Algorithms",
+          "domain": "the-algorithms.com",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://go.v7labs.com/018f011c-1642-7b63-a574-19edf558eba7/projects/01900cec-97d1-7f91-abcb-90de01952dd4/views/01900cec-97d7-7dd6-a4a0-1dd2deb2bb23/entities/01900cec-996b-739a-a3cc-ff1840760e93",
+          "title": "V7 Go",
+          "domain": "go.v7labs.com",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+          "title": "AI Risk Management Framework | NIST",
+          "domain": "www.nist.gov",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://logodesignprocess.com/",
+          "title": "Home - Logo Design Process",
+          "domain": "logodesignprocess.com",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://www.algoexpert.io/product",
+          "title": "AlgoExpert | Ace the Coding Interviews",
+          "domain": "www.algoexpert.io",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://agor.live/",
+          "title": "Index – agor",
+          "domain": "agor.live",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://www.aci.dev/",
+          "title": "ACI.dev – AI Tooling Governance Platform",
+          "domain": "www.aci.dev",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://www.clay.com/",
+          "title": "Clay | Go to market with unique data—and the ability to act on it",
+          "domain": "www.clay.com",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://technologie.deutschland-stack.gov.de/",
+          "title": "D-Stack Landscape",
+          "domain": "technologie.deutschland-stack.gov.de",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://gogloby.io/",
+          "title": "World’s Brands’ #1 Choice for Nearshore AI & Tech Teams | GoGloby",
+          "domain": "gogloby.io",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://realfood.gov/",
+          "title": "Eat Real Food",
+          "domain": "realfood.gov",
+          "cluster": "Go"
+        },
+        {
+          "url": "https://ndstudio.gov/",
+          "title": "National Design Studio",
+          "domain": "ndstudio.gov",
+          "cluster": "Go"
+        }
+      ]
+    },
+    {
+      "name": "Documentation",
+      "count": 23,
+      "bookmarks": [
+        {
+          "url": "https://code.org/",
+          "title": "Learn today, build a brighter tomorrow. | Code.org",
+          "domain": "code.org",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://www.freecodecamp.org/",
+          "title": "Learn to Code — For Free — Coding Courses for Busy People",
+          "domain": "www.freecodecamp.org",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://docs.composio.dev/getting-started/welcome",
+          "title": "Welcome to Composio — Composio",
+          "domain": "docs.composio.dev",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://www.sololearn.com/de/",
+          "title": "SoloLearn: Programmieren lernen",
+          "domain": "www.sololearn.com",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://systemdesignschool.io/",
+          "title": "Learn System Design and Ace Your System Design Interview | Learn from Ex-FAANG Engineers",
+          "domain": "systemdesignschool.io",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://www.wasdas.com/",
+          "title": "Wasdas: The best website to learn German",
+          "domain": "www.wasdas.com",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://coddy.tech/",
+          "title": "Learn to Code for Free with Coddy.Tech - Code Makes Perfect",
+          "domain": "coddy.tech",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://code2tutorial.com/",
+          "title": "Codebase to Tutorial",
+          "domain": "code2tutorial.com",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://www.boot.dev/",
+          "title": "Learn backend development the smart way | Boot.dev",
+          "domain": "www.boot.dev",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://www.mintlify.com/",
+          "title": "Mintlify - The Intelligent Documentation Platform",
+          "domain": "www.mintlify.com",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://learndataengineering.com/",
+          "title": "Learn Data Engineering with Courses & Coaching | Learn Data",
+          "domain": "learndataengineering.com",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://dbt.dev.onbuildingminds.com/#!/overview",
+          "title": "dbt Docs",
+          "domain": "dbt.dev.onbuildingminds.com",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://fullstackdeeplearning.com/",
+          "title": "The Full Stack",
+          "domain": "fullstackdeeplearning.com",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/",
+          "title": "GeeksforGeeks | Your All-in-One Learning Portal",
+          "domain": "www.geeksforgeeks.org",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://www.codecademy.com/",
+          "title": "Learn to Code - for Free | Codecademy",
+          "domain": "www.codecademy.com",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://takeuforward.org/",
+          "title": "takeuforward - Best Coding Tutorials for Free",
+          "domain": "takeuforward.org",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://www.papermark.com/",
+          "title": "Secure document sharing and tracking by #1 DocSend Alternative",
+          "domain": "www.papermark.com",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://gamma.app/docs/Federated-Model-Optimization-Track-1-dpydbie2hci801o?mode=doc",
+          "title": "Federated Model Optimization – Track 1 | Gamma",
+          "domain": "gamma.app",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://claudelog.com/",
+          "title": "Claude Code Docs, Guides & Best Practices | ClaudeLog",
+          "domain": "claudelog.com",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://www.cursorforpms.com/",
+          "title": "Learn Cursor IN Cursor!",
+          "domain": "www.cursorforpms.com",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://www.lintcode.com/",
+          "title": "LintCode 炼码 - A more effective learning experience!",
+          "domain": "www.lintcode.com",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://openenergytracker.org/en/docs/germany/electricity/",
+          "title": "Renewable electricity - Open Energy Tracker",
+          "domain": "openenergytracker.org",
+          "cluster": "Documentation"
+        },
+        {
+          "url": "https://opennetzero.org/bundesnetzagentur/smard-electricity-market-data",
+          "title": "Learn more about SMARD Electricity Market Data, a dataset from Bundesnetzagentur, on Open Net Zero",
+          "domain": "opennetzero.org",
+          "cluster": "Documentation"
+        }
+      ]
+    },
+    {
+      "name": "Python",
+      "count": 22,
+      "bookmarks": [
+        {
+          "url": "https://scikit-learn.org/stable/index.html",
+          "title": "scikit-learn: machine learning in Python — scikit-learn 1.6.1 documentation",
+          "domain": "scikit-learn.org",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://reflex.dev/",
+          "title": "Reflex · Web apps in Pure Python",
+          "domain": "reflex.dev",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://kivy.org/",
+          "title": "Kivy: Cross-platform Python Framework for GUI apps Development",
+          "domain": "kivy.org",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://librarycarpentry.github.io/lc-python-intro/libraries.html",
+          "title": "Python Intro for Libraries: Libraries & Pandas",
+          "domain": "librarycarpentry.github.io",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://www.datacamp.com/blog/top-python-libraries-for-data-science",
+          "title": "Top 26 Python Libraries for Data Science in 2025 | DataCamp",
+          "domain": "www.datacamp.com",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://pdoc.dev/",
+          "title": "pdoc – Generate API Documentation for Python Projects",
+          "domain": "pdoc.dev",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://learnxinyminutes.com/python/",
+          "title": "Learn Python in Y Minutes",
+          "domain": "learnxinyminutes.com",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://cs50.harvard.edu/python/",
+          "title": "CS50's Introduction to Programming with Python",
+          "domain": "cs50.harvard.edu",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/cs50s-introduction-programming-python",
+          "title": "CS50's Introduction to Programming with Python | Harvard University",
+          "domain": "pll.harvard.edu",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://www.freecodecamp.org/news/learn-python-free-python-courses-for-beginners/",
+          "title": "Learn Python – Free Python Courses for Beginners",
+          "domain": "www.freecodecamp.org",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://www.coursera.org/learn/python-crash-course",
+          "title": "Crash Course on Python by Google | Coursera",
+          "domain": "www.coursera.org",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://www.python4data.science/en/latest/index.html#",
+          "title": "Python for Data Science 24.3.0",
+          "domain": "www.python4data.science",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://www.anyscale.com/",
+          "title": "Anyscale | Scalable Compute for AI and Python",
+          "domain": "www.anyscale.com",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://flask.do/",
+          "title": "Flask - Video Collaboration for Creative Teams",
+          "domain": "flask.do",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://dlthub.com/",
+          "title": "dltHub: ELT as Python Code",
+          "domain": "dlthub.com",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://trypyramid.com/",
+          "title": "Welcome to Pyramid, a Python Web Framework",
+          "domain": "trypyramid.com",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://python.datalumina.com/?utm_source=YouTube&utm_medium=Description&utm_campaign=Python%20for%20AI%20Full%20Course&dub_id=GeX3ZeJiPyPbwss3",
+          "title": "Introduction - Learn Python for AI - Complete Beginner Course",
+          "domain": "python.datalumina.com",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://nuitka.net/",
+          "title": "Nuitka the Python Compiler — Nuitka the Python Compiler",
+          "domain": "nuitka.net",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://realpython.com/",
+          "title": "Python Tutorials – Real Python",
+          "domain": "realpython.com",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://www.tutorialspoint.com/python/index.htm",
+          "title": "Python Tutorial",
+          "domain": "www.tutorialspoint.com",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://mlnow.ai/",
+          "title": "ML NOW: Python, Analytics and Data Science Education | Home",
+          "domain": "mlnow.ai",
+          "cluster": "Python"
+        },
+        {
+          "url": "https://www.rebase.energy/",
+          "title": "The Python-first energy forecasting platform | rebase.energy",
+          "domain": "www.rebase.energy",
+          "cluster": "Python"
         }
       ]
     },
     {
       "name": "Cloud",
-      "count": 20,
+      "count": 21,
       "bookmarks": [
-        {
-          "url": "https://buildingminds18.visualstudio.com/BM_Cloud/_git/BMCL_Service_Lease_Management_Dashboard",
-          "title": "BMCL_Service_Lease_Management_Dashboard - Repos",
-          "domain": "buildingminds18.visualstudio.com",
-          "cluster": "Cloud"
-        },
-        {
-          "url": "https://oai.azure.com/resource/playground?wsid=/subscriptions/8027e16c-45ce-4247-8758-274e6b9261e2/resourceGroups/bmcl-dev-openairr/providers/Microsoft.CognitiveServices/accounts/devdefaultweubmclopenairr&tid=3470472d-117d-4f3d-9ce9-0726180f8f61&deploymentId=/subscriptions/8027e16c-45ce-4247-8758-274e6b9261e2/resourceGroups/bmcl-dev-openairr/providers/Microsoft.CognitiveServices/accounts/devdefaultweubmclopenairr/deployments/Document_Extractor_GPT4.1_TEST",
-          "title": "BM_CHAT",
-          "domain": "oai.azure.com",
-          "cluster": "Cloud"
-        },
-        {
-          "url": "https://portal.azure.com/#@buildingminds.com/dashboard/private/09b46b0f-97d6-4520-afd9-9f17647f7041",
-          "title": "My Dashboard - Microsoft Azure",
-          "domain": "portal.azure.com",
-          "cluster": "Cloud"
-        },
         {
           "url": "https://m365.cloud.microsoft/chat",
           "title": "Copilot | Microsoft 365 Copilot",
@@ -1499,6 +3581,138 @@
           "title": "NextWork - Set Up An AWS Account for Free",
           "domain": "learn.nextwork.org",
           "cluster": "Cloud"
+        },
+        {
+          "url": "https://getdeploying.com/reference/cloud-gpu",
+          "title": "GPU Price Comparison [2025]",
+          "domain": "getdeploying.com",
+          "cluster": "Cloud"
+        },
+        {
+          "url": "https://lambda.ai/",
+          "title": "Lambda | The Superintelligence Cloud",
+          "domain": "lambda.ai",
+          "cluster": "Cloud"
+        },
+        {
+          "url": "https://winthe.cloud/?v=5f02f0889301",
+          "title": "Win The Cloud - Become a 🚀 Cloud Solution Architect",
+          "domain": "winthe.cloud",
+          "cluster": "Cloud"
+        },
+        {
+          "url": "https://rentamac.io/",
+          "title": "Rent a Mac in the Cloud | MacOs Hosting Server",
+          "domain": "rentamac.io",
+          "cluster": "Cloud"
+        }
+      ]
+    },
+    {
+      "name": "APIs",
+      "count": 17,
+      "bookmarks": [
+        {
+          "url": "https://readme.com/pricing",
+          "title": "ReadMe API Documentation",
+          "domain": "readme.com",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://dash.readme.com/project/bm-api/v1.0/docs/building-endpoints-copy",
+          "title": "Edit Documentation · ReadMe",
+          "domain": "dash.readme.com",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://api.mambu.com/#retrieving-oas-files",
+          "title": "Mambu API v2 Reference Page",
+          "domain": "api.mambu.com",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://devdocs.io/",
+          "title": "DevDocs API Documentation",
+          "domain": "devdocs.io",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://opentools.com/registry",
+          "title": "OpenTools | The API for LLM tool use",
+          "domain": "opentools.com",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://apisyouwonthate.com/",
+          "title": "APIs You Won't Hate - the largest online community of API devs",
+          "domain": "apisyouwonthate.com",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://exa.ai/",
+          "title": "Exa | Web Search API | AI Web Researcher",
+          "domain": "exa.ai",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://www.anthropic.com/learn/build-with-claude",
+          "title": "Anthropic Academy: Claude API Development Guide \\ Anthropic",
+          "domain": "www.anthropic.com",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://www.pinterest.com/",
+          "title": "Pinterest",
+          "domain": "www.pinterest.com",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://buildwithfern.com/?utm_campaign=buildWith&utm_medium=docs&utm_source=openrouter.ai",
+          "title": "Fern: SDKs and Docs for your API",
+          "domain": "buildwithfern.com",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://www.motia.dev/",
+          "title": "Motia - Unified Backend Framework for APIs, Events and AI Agents",
+          "domain": "www.motia.dev",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://scalar.com/",
+          "title": "Scalar - Document, Test & Discover APIs",
+          "domain": "scalar.com",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://heyapi.dev/",
+          "title": "Hey API",
+          "domain": "heyapi.dev",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://www.firecrawl.dev/",
+          "title": "Firecrawl - The Web Data API for AI",
+          "domain": "www.firecrawl.dev",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://apify.com/",
+          "title": "Apify: Full-stack web scraping and data extraction platform",
+          "domain": "apify.com",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://replicate.com/",
+          "title": "Replicate - Run AI with an API",
+          "domain": "replicate.com",
+          "cluster": "APIs"
+        },
+        {
+          "url": "https://supermemory.ai/",
+          "title": "Supermemory — Universal Memory API for AI apps",
+          "domain": "supermemory.ai",
+          "cluster": "APIs"
         }
       ]
     },
@@ -1513,12 +3727,6 @@
           "cluster": "BuildingMinds"
         },
         {
-          "url": "https://buildingminds.personio.de/",
-          "title": "Personio BM",
-          "domain": "buildingminds.personio.de",
-          "cluster": "BuildingMinds"
-        },
-        {
           "url": "https://proxima.dev.onbuildingminds.com/",
           "title": "BM Demo",
           "domain": "proxima.dev.onbuildingminds.com",
@@ -1528,6 +3736,12 @@
           "url": "https://tenant-insights.onbuildingminds.com/rental-unit/0473530d-f7d7-4ac6-9a3c-568889ebf9e9",
           "title": "Tenant Insights",
           "domain": "tenant-insights.onbuildingminds.com",
+          "cluster": "BuildingMinds"
+        },
+        {
+          "url": "https://buildingminds.personio.de/",
+          "title": "Personio BM",
+          "domain": "buildingminds.personio.de",
           "cluster": "BuildingMinds"
         },
         {
@@ -1593,369 +3807,15 @@
       ]
     },
     {
-      "name": "Python",
-      "count": 13,
-      "bookmarks": [
-        {
-          "url": "https://scikit-learn.org/stable/index.html",
-          "title": "scikit-learn: machine learning in Python — scikit-learn 1.6.1 documentation",
-          "domain": "scikit-learn.org",
-          "cluster": "Python"
-        },
-        {
-          "url": "https://reflex.dev/",
-          "title": "Reflex · Web apps in Pure Python",
-          "domain": "reflex.dev",
-          "cluster": "Python"
-        },
-        {
-          "url": "https://kivy.org/",
-          "title": "Kivy: Cross-platform Python Framework for GUI apps Development",
-          "domain": "kivy.org",
-          "cluster": "Python"
-        },
-        {
-          "url": "https://librarycarpentry.github.io/lc-python-intro/libraries.html",
-          "title": "Python Intro for Libraries: Libraries & Pandas",
-          "domain": "librarycarpentry.github.io",
-          "cluster": "Python"
-        },
-        {
-          "url": "https://www.datacamp.com/blog/top-python-libraries-for-data-science",
-          "title": "Top 26 Python Libraries for Data Science in 2025 | DataCamp",
-          "domain": "www.datacamp.com",
-          "cluster": "Python"
-        },
-        {
-          "url": "https://pdoc.dev/",
-          "title": "pdoc – Generate API Documentation for Python Projects",
-          "domain": "pdoc.dev",
-          "cluster": "Python"
-        },
-        {
-          "url": "https://learnxinyminutes.com/python/",
-          "title": "Learn Python in Y Minutes",
-          "domain": "learnxinyminutes.com",
-          "cluster": "Python"
-        },
-        {
-          "url": "https://cs50.harvard.edu/python/",
-          "title": "CS50's Introduction to Programming with Python",
-          "domain": "cs50.harvard.edu",
-          "cluster": "Python"
-        },
-        {
-          "url": "https://pll.harvard.edu/course/cs50s-introduction-programming-python",
-          "title": "CS50's Introduction to Programming with Python | Harvard University",
-          "domain": "pll.harvard.edu",
-          "cluster": "Python"
-        },
-        {
-          "url": "https://www.freecodecamp.org/news/learn-python-free-python-courses-for-beginners/",
-          "title": "Learn Python – Free Python Courses for Beginners",
-          "domain": "www.freecodecamp.org",
-          "cluster": "Python"
-        },
-        {
-          "url": "https://www.coursera.org/learn/python-crash-course",
-          "title": "Crash Course on Python by Google | Coursera",
-          "domain": "www.coursera.org",
-          "cluster": "Python"
-        },
-        {
-          "url": "https://www.python4data.science/en/latest/index.html#",
-          "title": "Python for Data Science 24.3.0",
-          "domain": "www.python4data.science",
-          "cluster": "Python"
-        },
-        {
-          "url": "https://www.anyscale.com/",
-          "title": "Anyscale | Scalable Compute for AI and Python",
-          "domain": "www.anyscale.com",
-          "cluster": "Python"
-        }
-      ]
-    },
-    {
-      "name": "Go",
-      "count": 11,
-      "bookmarks": [
-        {
-          "url": "https://notebooklm.google.com/notebook/869275f0-9edb-4adf-b368-d10c26fa00f9?_gl=1*y00co7*_ga*MTY5NjA0MDEyMS4xNzIzNzE5Mzk0*_ga_W0LDH41ZCB*MTcyMzcxOTM5My4xLjAuMTcyMzcxOTM5My4wLjAuMA..&original_referer=https:%2F%2Fnotebooklm.google%23&pli=1",
-          "title": "NotebookLM",
-          "domain": "notebooklm.google.com",
-          "cluster": "Go"
-        },
-        {
-          "url": "https://go.v7labs.com/018f011c-1642-7b63-a574-19edf558eba7/projects",
-          "title": "V7 Go",
-          "domain": "go.v7labs.com",
-          "cluster": "Go"
-        },
-        {
-          "url": "https://aussprachetraining.goethe.de/",
-          "title": "Goethe-Institut Aussprachetrainer",
-          "domain": "aussprachetraining.goethe.de",
-          "cluster": "Go"
-        },
-        {
-          "url": "https://de.gamsgo.com/",
-          "title": "Shared premium subscriptions with lower price on GamsGo! | Netflix | YouTube Premium - GamsGo",
-          "domain": "de.gamsgo.com",
-          "cluster": "Go"
-        },
-        {
-          "url": "https://www.bigocheatsheet.com/",
-          "title": "Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell",
-          "domain": "www.bigocheatsheet.com",
-          "cluster": "Go"
-        },
-        {
-          "url": "https://labs.google/",
-          "title": "Google Labs: Google's home for AI experiments - Google Labs",
-          "domain": "labs.google",
-          "cluster": "Go"
-        },
-        {
-          "url": "https://free-algorithms-books-website.onrender.com/",
-          "title": "Free Algorithm Books",
-          "domain": "free-algorithms-books-website.onrender.com",
-          "cluster": "Go"
-        },
-        {
-          "url": "https://gofastmcp.com/getting-started/welcome",
-          "title": "Welcome to FastMCP 2.0! - FastMCP",
-          "domain": "gofastmcp.com",
-          "cluster": "Go"
-        },
-        {
-          "url": "https://algo.monster/",
-          "title": "AlgoMonster: The Most Structured Way to Prepare for Coding Interviews",
-          "domain": "algo.monster",
-          "cluster": "Go"
-        },
-        {
-          "url": "https://github.com/GauravWalia19/Free-Algorithms-Books/blob/main/Library/src/Algorithms-to-Live-By-Brian-Christian.pdf",
-          "title": "Free-Algorithms-Books/Library/src/Algorithms-to-Live-By-Brian-Christian.pdf at main · GauravWalia19/Free-Algorithms-Books",
-          "domain": "github.com",
-          "cluster": "Go"
-        },
-        {
-          "url": "https://go.v7labs.com/018f011c-1642-7b63-a574-19edf558eba7/projects/01900cec-97d1-7f91-abcb-90de01952dd4/views/01900cec-97d7-7dd6-a4a0-1dd2deb2bb23/entities/01900cec-996b-739a-a3cc-ff1840760e93",
-          "title": "V7 Go",
-          "domain": "go.v7labs.com",
-          "cluster": "Go"
-        }
-      ]
-    },
-    {
-      "name": "Documentation",
-      "count": 11,
-      "bookmarks": [
-        {
-          "url": "https://code.org/",
-          "title": "Learn today, build a brighter tomorrow. | Code.org",
-          "domain": "code.org",
-          "cluster": "Documentation"
-        },
-        {
-          "url": "https://www.freecodecamp.org/",
-          "title": "Learn to Code — For Free — Coding Courses for Busy People",
-          "domain": "www.freecodecamp.org",
-          "cluster": "Documentation"
-        },
-        {
-          "url": "https://docs.composio.dev/getting-started/welcome",
-          "title": "Welcome to Composio — Composio",
-          "domain": "docs.composio.dev",
-          "cluster": "Documentation"
-        },
-        {
-          "url": "https://www.sololearn.com/de/",
-          "title": "SoloLearn: Programmieren lernen",
-          "domain": "www.sololearn.com",
-          "cluster": "Documentation"
-        },
-        {
-          "url": "https://systemdesignschool.io/",
-          "title": "Learn System Design and Ace Your System Design Interview | Learn from Ex-FAANG Engineers",
-          "domain": "systemdesignschool.io",
-          "cluster": "Documentation"
-        },
-        {
-          "url": "https://www.wasdas.com/",
-          "title": "Wasdas: The best website to learn German",
-          "domain": "www.wasdas.com",
-          "cluster": "Documentation"
-        },
-        {
-          "url": "https://coddy.tech/",
-          "title": "Learn to Code for Free with Coddy.Tech - Code Makes Perfect",
-          "domain": "coddy.tech",
-          "cluster": "Documentation"
-        },
-        {
-          "url": "https://code2tutorial.com/",
-          "title": "Codebase to Tutorial",
-          "domain": "code2tutorial.com",
-          "cluster": "Documentation"
-        },
-        {
-          "url": "https://www.boot.dev/",
-          "title": "Learn backend development the smart way | Boot.dev",
-          "domain": "www.boot.dev",
-          "cluster": "Documentation"
-        },
-        {
-          "url": "https://www.mintlify.com/",
-          "title": "Mintlify - The Intelligent Documentation Platform",
-          "domain": "www.mintlify.com",
-          "cluster": "Documentation"
-        },
-        {
-          "url": "https://dbt.dev.onbuildingminds.com/#!/overview",
-          "title": "dbt Docs",
-          "domain": "dbt.dev.onbuildingminds.com",
-          "cluster": "Documentation"
-        }
-      ]
-    },
-    {
-      "name": "APIs",
-      "count": 10,
-      "bookmarks": [
-        {
-          "url": "https://openapi.dev.onbuildingminds.com/",
-          "title": "BM API Documenation",
-          "domain": "openapi.dev.onbuildingminds.com",
-          "cluster": "APIs"
-        },
-        {
-          "url": "https://readme.com/pricing",
-          "title": "ReadMe API Documentation",
-          "domain": "readme.com",
-          "cluster": "APIs"
-        },
-        {
-          "url": "https://dash.readme.com/project/bm-api/v1.0/docs/building-endpoints-copy",
-          "title": "Edit Documentation · ReadMe",
-          "domain": "dash.readme.com",
-          "cluster": "APIs"
-        },
-        {
-          "url": "https://api.mambu.com/#retrieving-oas-files",
-          "title": "Mambu API v2 Reference Page",
-          "domain": "api.mambu.com",
-          "cluster": "APIs"
-        },
-        {
-          "url": "https://devdocs.io/",
-          "title": "DevDocs API Documentation",
-          "domain": "devdocs.io",
-          "cluster": "APIs"
-        },
-        {
-          "url": "https://opentools.com/registry",
-          "title": "OpenTools | The API for LLM tool use",
-          "domain": "opentools.com",
-          "cluster": "APIs"
-        },
-        {
-          "url": "https://apisyouwonthate.com/",
-          "title": "APIs You Won't Hate - the largest online community of API devs",
-          "domain": "apisyouwonthate.com",
-          "cluster": "APIs"
-        },
-        {
-          "url": "https://exa.ai/",
-          "title": "Exa | Web Search API | AI Web Researcher",
-          "domain": "exa.ai",
-          "cluster": "APIs"
-        },
-        {
-          "url": "https://www.anthropic.com/learn/build-with-claude",
-          "title": "Anthropic Academy: Claude API Development Guide \\ Anthropic",
-          "domain": "www.anthropic.com",
-          "cluster": "APIs"
-        },
-        {
-          "url": "https://www.pinterest.com/",
-          "title": "Pinterest",
-          "domain": "www.pinterest.com",
-          "cluster": "APIs"
-        }
-      ]
-    },
-    {
-      "name": "Dev Tools",
-      "count": 10,
-      "bookmarks": [
-        {
-          "url": "https://os-copilot.github.io/",
-          "title": "OS-Copilot: Towards Generalist Computer Agents with Self-Improvement",
-          "domain": "os-copilot.github.io",
-          "cluster": "Dev Tools"
-        },
-        {
-          "url": "https://github.com/v7labs/hiring-without-whiteboards",
-          "title": "v7labs/hiring-without-whiteboards: ⭐️ Companies that don't have a broken hiring process",
-          "domain": "github.com",
-          "cluster": "Dev Tools"
-        },
-        {
-          "url": "https://gitingest.com/",
-          "title": "Gitingest",
-          "domain": "gitingest.com",
-          "cluster": "Dev Tools"
-        },
-        {
-          "url": "https://github.com/modelcontextprotocol/servers",
-          "title": "modelcontextprotocol/servers: Model Context Protocol Servers",
-          "domain": "github.com",
-          "cluster": "Dev Tools"
-        },
-        {
-          "url": "https://cifkao.github.io/tonnetz-viz/",
-          "title": "TonnetzViz | Online MIDI Visualization",
-          "domain": "cifkao.github.io",
-          "cluster": "Dev Tools"
-        },
-        {
-          "url": "https://gitdiagram.com/",
-          "title": "GitDiagram",
-          "domain": "gitdiagram.com",
-          "cluster": "Dev Tools"
-        },
-        {
-          "url": "https://ohmygit.org/",
-          "title": "Oh My Git!",
-          "domain": "ohmygit.org",
-          "cluster": "Dev Tools"
-        },
-        {
-          "url": "https://github.com/Sachiya0425",
-          "title": "Sachiya0425 (Sachithra Liyanage)",
-          "domain": "github.com",
-          "cluster": "Dev Tools"
-        },
-        {
-          "url": "https://www.digitalrealestate.ch/digital-top-10-projekte-2025/#",
-          "title": "Digital Top 10: Projects 2025 - Digital Real Estate by pom+",
-          "domain": "www.digitalrealestate.ch",
-          "cluster": "Dev Tools"
-        },
-        {
-          "url": "https://gittodoc.com/",
-          "title": "Gittodoc",
-          "domain": "gittodoc.com",
-          "cluster": "Dev Tools"
-        }
-      ]
-    },
-    {
       "name": "C#/.NET",
-      "count": 9,
+      "count": 12,
       "bookmarks": [
+        {
+          "url": "https://bbycroft.net/llm",
+          "title": "LLM Visualization",
+          "domain": "bbycroft.net",
+          "cluster": "C#/.NET"
+        },
         {
           "url": "https://building-minds.atlassian.net/wiki/home",
           "title": "BM Wiki",
@@ -1981,12 +3841,6 @@
           "cluster": "C#/.NET"
         },
         {
-          "url": "https://bbycroft.net/llm",
-          "title": "LLM Visualization",
-          "domain": "bbycroft.net",
-          "cluster": "C#/.NET"
-        },
-        {
           "url": "https://research.netflix.com/",
           "title": "Netflix Research",
           "domain": "research.netflix.com",
@@ -2009,12 +3863,174 @@
           "title": "Showcase, Discover, and Hire Creatives :: Behance",
           "domain": "www.behance.net",
           "cluster": "C#/.NET"
+        },
+        {
+          "url": "https://influencegraph.netlify.app/top-technical-builders",
+          "title": "Influence Graph",
+          "domain": "influencegraph.netlify.app",
+          "cluster": "C#/.NET"
+        },
+        {
+          "url": "https://welcomeberlin.net/",
+          "title": "Moving to Berlin. Community-Powered Support for Newcomers | WelcomeBerlin",
+          "domain": "welcomeberlin.net",
+          "cluster": "C#/.NET"
+        },
+        {
+          "url": "https://www.regelleistung.net/en-us/",
+          "title": "Home",
+          "domain": "www.regelleistung.net",
+          "cluster": "C#/.NET"
+        }
+      ]
+    },
+    {
+      "name": "Work Tools",
+      "count": 12,
+      "bookmarks": [
+        {
+          "url": "https://crowdin.com/",
+          "title": "Localization Management Platform for agile teams | Crowdin",
+          "domain": "crowdin.com",
+          "cluster": "Work Tools"
+        },
+        {
+          "url": "https://half-journey-785.notion.site/ChatGPT-Secret-Codes-Hidden-Prompts-Power-Features-20d814655f4f809f9aa7deccce4b07c1?fbclid=PAQ0xDSwK1gBVleHRuA2FlbQIxMAABp-lV-EfBAGVEFXfkq2odtkwp7SlXpZGLvfGiFgqej0TVAcbwq5BGCRmNabNK_aem_uK6MSokX_PrPyxSqe4bikw",
+          "title": "🧠 ChatGPT Secret Codes - Hidden Prompts & Power Features",
+          "domain": "half-journey-785.notion.site",
+          "cluster": "Work Tools"
+        },
+        {
+          "url": "https://startup-incubator-berlin.notion.site/siblss",
+          "title": "LEAN STARTUP SPRINT SEPTEMBER 2025",
+          "domain": "startup-incubator-berlin.notion.site",
+          "cluster": "Work Tools"
+        },
+        {
+          "url": "https://techeurope.notion.site/big-berlin-hack-manual",
+          "title": "Hackathon Manual - Big Berlin Hack",
+          "domain": "techeurope.notion.site",
+          "cluster": "Work Tools"
+        },
+        {
+          "url": "https://n8n.notion.site/n8n-Big-Berlin-Hack-2895b6e0c94f804b944bf66a4cd5a72c",
+          "title": "n8n @ Big Berlin Hack",
+          "domain": "n8n.notion.site",
+          "cluster": "Work Tools"
+        },
+        {
+          "url": "https://zauber.notion.site/Zauber-Tech-Europe-288512a5c73c80379da0f30b5bf8bb88",
+          "title": "Zauber @{Tech: Europe}",
+          "domain": "zauber.notion.site",
+          "cluster": "Work Tools"
+        },
+        {
+          "url": "https://n8n.notion.site/become-an-ambassador",
+          "title": "Become an n8n ambassador",
+          "domain": "n8n.notion.site",
+          "cluster": "Work Tools"
+        },
+        {
+          "url": "https://getfluently.notion.site/Y-Combinator-Startup-Jobs-28b6a9ce04d98001bc4bdd4afddaf3d4",
+          "title": "Y Combinator Startup Jobs",
+          "domain": "getfluently.notion.site",
+          "cluster": "Work Tools"
+        },
+        {
+          "url": "https://www.notion.so/Context-Engineering-for-Agents-2a1808527b17803ba221c2ced7eef508",
+          "title": "Context Engineering for Agents",
+          "domain": "www.notion.so",
+          "cluster": "Work Tools"
+        },
+        {
+          "url": "https://startup-incubator-berlin.notion.site/flss",
+          "title": "FEMALE LEAN STARTUP SPRINT NOV 2025",
+          "domain": "startup-incubator-berlin.notion.site",
+          "cluster": "Work Tools"
+        },
+        {
+          "url": "https://teampanda.notion.site/Ace-the-Interview-6dbd9f991cdd452abf49660ddbc978be",
+          "title": "Ace the Interview",
+          "domain": "teampanda.notion.site",
+          "cluster": "Work Tools"
+        },
+        {
+          "url": "https://uxdesignlearn.notion.site/UX-Resources-Bookmarks-fa6cb512734946d798bc0da66e08c239",
+          "title": "UX Resources & Bookmarks",
+          "domain": "uxdesignlearn.notion.site",
+          "cluster": "Work Tools"
+        }
+      ]
+    },
+    {
+      "name": "Project Management",
+      "count": 10,
+      "bookmarks": [
+        {
+          "url": "https://leantime.io/",
+          "title": "Leantime - Open Source Project Management Software",
+          "domain": "leantime.io",
+          "cluster": "Project Management"
+        },
+        {
+          "url": "https://www.theodinproject.com/",
+          "title": "Your Career in Web Development Starts Here | The Odin Project",
+          "domain": "www.theodinproject.com",
+          "cluster": "Project Management"
+        },
+        {
+          "url": "https://www.opensourceprojects.dev/",
+          "title": "Open-source Projects | Discover the Best Open Source Projects",
+          "domain": "www.opensourceprojects.dev",
+          "cluster": "Project Management"
+        },
+        {
+          "url": "https://www.nextwork.org/about",
+          "title": "About NextWork - Transforming Education Through Project-Based Learning",
+          "domain": "www.nextwork.org",
+          "cluster": "Project Management"
+        },
+        {
+          "url": "https://www.projectpro.io/",
+          "title": "ProjectPro - Solved Big Data and Data Science Projects",
+          "domain": "www.projectpro.io",
+          "cluster": "Project Management"
+        },
+        {
+          "url": "https://devsuite.co/",
+          "title": "Find the Best Developer Tools for Your Next Project – DevSuite",
+          "domain": "devsuite.co",
+          "cluster": "Project Management"
+        },
+        {
+          "url": "https://mixkit.co/",
+          "title": "Mixkit - Awesome free assets for your next video project",
+          "domain": "mixkit.co",
+          "cluster": "Project Management"
+        },
+        {
+          "url": "https://globalenergymonitor.org/projects/global-integrated-power-tracker/tracker-map/",
+          "title": "Tracker Map - Global Energy Monitor",
+          "domain": "globalenergymonitor.org",
+          "cluster": "Project Management"
+        },
+        {
+          "url": "https://globalenergymonitor.org/projects/global-integrated-power-tracker/dashboard/",
+          "title": "Dashboard - Global Energy Monitor",
+          "domain": "globalenergymonitor.org",
+          "cluster": "Project Management"
+        },
+        {
+          "url": "https://tyndp2024.entsoe.eu/projects-map",
+          "title": "TYNDP 2024 Project Collection",
+          "domain": "tyndp2024.entsoe.eu",
+          "cluster": "Project Management"
         }
       ]
     },
     {
       "name": "Web Design",
-      "count": 6,
+      "count": 9,
       "bookmarks": [
         {
           "url": "https://docs.ray.io/en/latest/ray-air/getting-started.html",
@@ -2051,48 +4067,78 @@
           "title": "The Best Pinterest Marketing Tool | Tailwind",
           "domain": "www.tailwindapp.com",
           "cluster": "Web Design"
+        },
+        {
+          "url": "https://microservices.io/index.html",
+          "title": "What are microservices?",
+          "domain": "microservices.io",
+          "cluster": "Web Design"
+        },
+        {
+          "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/index.html",
+          "title": "CUDA Programming Guide — CUDA Programming Guide",
+          "domain": "docs.nvidia.com",
+          "cluster": "Web Design"
+        },
+        {
+          "url": "https://www.nthuleen.com/teach/grammar.html",
+          "title": "Teaching Materials",
+          "domain": "www.nthuleen.com",
+          "cluster": "Web Design"
         }
       ]
     },
     {
-      "name": "Project Management",
-      "count": 5,
+      "name": "Containers",
+      "count": 7,
       "bookmarks": [
         {
-          "url": "https://buildingminds1.sharepoint.com/sites/MarComSal/Freigegebene%20Dokumente/Forms/AllItems.aspx?id=%2Fsites%2FMarComSal%2FFreigegebene%20Dokumente%2FSolution%20Design%2F009%5FInternal%20Projects&p=true&ga=1",
-          "title": "Sharepoint",
-          "domain": "buildingminds1.sharepoint.com",
-          "cluster": "Project Management"
+          "url": "https://blog.ankitjodhani.com/",
+          "title": "Kubernetes Dive",
+          "domain": "blog.ankitjodhani.com",
+          "cluster": "Containers"
         },
         {
-          "url": "https://buildingminds.monday.com/",
-          "title": "Monday ",
-          "domain": "buildingminds.monday.com",
-          "cluster": "Project Management"
+          "url": "https://labs.play-with-k8s.com/",
+          "title": "Play with Kubernetes",
+          "domain": "labs.play-with-k8s.com",
+          "cluster": "Containers"
         },
         {
-          "url": "https://leantime.io/",
-          "title": "Leantime - Open Source Project Management Software",
-          "domain": "leantime.io",
-          "cluster": "Project Management"
+          "url": "https://kubernetes.io/",
+          "title": "Kubernetes",
+          "domain": "kubernetes.io",
+          "cluster": "Containers"
         },
         {
-          "url": "https://www.theodinproject.com/",
-          "title": "Your Career in Web Development Starts Here | The Odin Project",
-          "domain": "www.theodinproject.com",
-          "cluster": "Project Management"
+          "url": "https://kubernetes.io/docs/home/",
+          "title": "Kubernetes Documentation | Kubernetes",
+          "domain": "kubernetes.io",
+          "cluster": "Containers"
         },
         {
-          "url": "https://www.opensourceprojects.dev/",
-          "title": "Open-source Projects | Discover the Best Open Source Projects",
-          "domain": "www.opensourceprojects.dev",
-          "cluster": "Project Management"
+          "url": "https://labs.play-with-docker.com/",
+          "title": "Play with Docker",
+          "domain": "labs.play-with-docker.com",
+          "cluster": "Containers"
+        },
+        {
+          "url": "https://hostim.dev/",
+          "title": "Docker Hosting with MySQL/Postgres/Redis | Hostim.dev | HOSTIM.DEV",
+          "domain": "hostim.dev",
+          "cluster": "Containers"
+        },
+        {
+          "url": "https://minikube.sigs.k8s.io/docs/",
+          "title": "Welcome! | minikube",
+          "domain": "minikube.sigs.k8s.io",
+          "cluster": "Containers"
         }
       ]
     },
     {
       "name": "Learning",
-      "count": 3,
+      "count": 4,
       "bookmarks": [
         {
           "url": "https://blog.webdevsimplified.com/2023-06/markdown-crash-course/",
@@ -2111,36 +4157,18 @@
           "title": "FineWeb: decanting the web for the finest text data at scale - a Hugging Face Space by HuggingFaceFW",
           "domain": "huggingface.co",
           "cluster": "Learning"
-        }
-      ]
-    },
-    {
-      "name": "Work Tools",
-      "count": 3,
-      "bookmarks": [
-        {
-          "url": "https://crowdin.com/",
-          "title": "Localization Management Platform for agile teams | Crowdin",
-          "domain": "crowdin.com",
-          "cluster": "Work Tools"
         },
         {
-          "url": "https://half-journey-785.notion.site/ChatGPT-Secret-Codes-Hidden-Prompts-Power-Features-20d814655f4f809f9aa7deccce4b07c1?fbclid=PAQ0xDSwK1gBVleHRuA2FlbQIxMAABp-lV-EfBAGVEFXfkq2odtkwp7SlXpZGLvfGiFgqej0TVAcbwq5BGCRmNabNK_aem_uK6MSokX_PrPyxSqe4bikw",
-          "title": "🧠 ChatGPT Secret Codes - Hidden Prompts & Power Features",
-          "domain": "half-journey-785.notion.site",
-          "cluster": "Work Tools"
-        },
-        {
-          "url": "https://startup-incubator-berlin.notion.site/siblss",
-          "title": "LEAN STARTUP SPRINT SEPTEMBER 2025",
-          "domain": "startup-incubator-berlin.notion.site",
-          "cluster": "Work Tools"
+          "url": "https://www.ritchievink.com/blog/2017/04/23/understanding-the-fourier-transform-by-example/",
+          "title": "Understanding the Fourier Transform by example | Ritchie Vink",
+          "domain": "www.ritchievink.com",
+          "cluster": "Learning"
         }
       ]
     },
     {
       "name": "Entertainment",
-      "count": 2,
+      "count": 3,
       "bookmarks": [
         {
           "url": "https://open.spotify.com/",
@@ -2153,6 +4181,78 @@
           "title": "theo - builder who's also on youtube",
           "domain": "t3.gg",
           "cluster": "Entertainment"
+        },
+        {
+          "url": "https://www.spotterstudio.com/",
+          "title": "Spotter Studio | Ideation System for Pro YouTubers",
+          "domain": "www.spotterstudio.com",
+          "cluster": "Entertainment"
+        }
+      ]
+    },
+    {
+      "name": "PHP",
+      "count": 3,
+      "bookmarks": [
+        {
+          "url": "https://www.explainxkcd.com/wiki/index.php/Main_Page",
+          "title": "explain xkcd",
+          "domain": "www.explainxkcd.com",
+          "cluster": "PHP"
+        },
+        {
+          "url": "https://www.akm-berlin.de/en/RAin-Frieding.php",
+          "title": "akm - Miriam Frieding",
+          "domain": "www.akm-berlin.de",
+          "cluster": "PHP"
+        },
+        {
+          "url": "https://www.mapdevelopers.com/draw-circle-tool.php#",
+          "title": "Draw a circle with a radius on a map",
+          "domain": "www.mapdevelopers.com",
+          "cluster": "PHP"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "count": 3,
+      "bookmarks": [
+        {
+          "url": "https://www.hackerrank.com/",
+          "title": "HackerRank - Online Coding Tests and Technical Interviews",
+          "domain": "www.hackerrank.com",
+          "cluster": "Testing"
+        },
+        {
+          "url": "https://locust.io/",
+          "title": "Locust - A modern load testing framework",
+          "domain": "locust.io",
+          "cluster": "Testing"
+        },
+        {
+          "url": "https://ttkbootstrap.readthedocs.io/en/latest/",
+          "title": "ttkbootstrap - ttkbootstrap",
+          "domain": "ttkbootstrap.readthedocs.io",
+          "cluster": "Testing"
+        }
+      ]
+    },
+    {
+      "name": "Swift/iOS",
+      "count": 2,
+      "bookmarks": [
+        {
+          "url": "https://mobbin.com/browse/ios/apps",
+          "title": "Discover iOS Apps | Mobbin",
+          "domain": "mobbin.com",
+          "cluster": "Swift/iOS"
+        },
+        {
+          "url": "https://sparkli.ai/",
+          "title": "Sparkli - Where curiosity sparks tomorrow's explorers",
+          "domain": "sparkli.ai",
+          "cluster": "Swift/iOS"
         }
       ]
     },
@@ -2175,126 +4275,102 @@
       ]
     },
     {
-      "name": "Testing",
-      "count": 2,
-      "bookmarks": [
-        {
-          "url": "https://www.hackerrank.com/",
-          "title": "HackerRank - Online Coding Tests and Technical Interviews",
-          "domain": "www.hackerrank.com",
-          "cluster": "Testing"
-        },
-        {
-          "url": "https://locust.io/",
-          "title": "Locust - A modern load testing framework",
-          "domain": "locust.io",
-          "cluster": "Testing"
-        }
-      ]
-    },
-    {
-      "name": "PHP",
-      "count": 1,
-      "bookmarks": [
-        {
-          "url": "https://www.explainxkcd.com/wiki/index.php/Main_Page",
-          "title": "explain xkcd",
-          "domain": "www.explainxkcd.com",
-          "cluster": "PHP"
-        }
-      ]
-    },
-    {
-      "name": "Swift/iOS",
-      "count": 1,
-      "bookmarks": [
-        {
-          "url": "https://mobbin.com/browse/ios/apps",
-          "title": "Discover iOS Apps | Mobbin",
-          "domain": "mobbin.com",
-          "cluster": "Swift/iOS"
-        }
-      ]
-    },
-    {
-      "name": "Containers",
-      "count": 1,
-      "bookmarks": [
-        {
-          "url": "https://blog.ankitjodhani.com/",
-          "title": "Kubernetes Dive",
-          "domain": "blog.ankitjodhani.com",
-          "cluster": "Containers"
-        }
-      ]
-    },
-    {
       "name": "Rust",
-      "count": 1,
+      "count": 2,
       "bookmarks": [
         {
           "url": "https://cargo.site/",
           "title": "Cargo",
           "domain": "cargo.site",
           "cluster": "Rust"
+        },
+        {
+          "url": "https://drata.com/",
+          "title": "Drata - Modern GRC, Compliance & Trust Automation",
+          "domain": "drata.com",
+          "cluster": "Rust"
+        }
+      ]
+    },
+    {
+      "name": "Ruby",
+      "count": 2,
+      "bookmarks": [
+        {
+          "url": "https://hub.guardrailsai.com/",
+          "title": "Guardrails Hub | Guardrails AI",
+          "domain": "hub.guardrailsai.com",
+          "cluster": "Ruby"
+        },
+        {
+          "url": "https://www.blueguardrails.com/en/resources/ocr-calculator",
+          "title": "OCR Cost Calculator - Blue Guardrails | Blue Guardrails",
+          "domain": "www.blueguardrails.com",
+          "cluster": "Ruby"
+        }
+      ]
+    },
+    {
+      "name": "C++",
+      "count": 1,
+      "bookmarks": [
+        {
+          "url": "https://people.duke.edu/~ng46/borland/networks.htm",
+          "title": "Borland C++ Builder - Networks",
+          "domain": "people.duke.edu",
+          "cluster": "C++"
         }
       ]
     }
   ],
   "all_bookmarks": [
     {
+      "url": "https://thestocks.im/",
+      "title": "The Stocks 3 | Best royalty free stock photos, videos, mockups, icons and fonts!",
+      "domain": "thestocks.im",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://learnprompting.org/",
+      "title": "Learn Prompting: Your Guide to Communicating with AI",
+      "domain": "learnprompting.org",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://mlu-explain.github.io/",
+      "title": "MLU-Explain",
+      "domain": "mlu-explain.github.io",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.theunwindai.com/",
+      "title": "unwind ai",
+      "domain": "www.theunwindai.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://deepwiki.com/",
+      "title": "DeepWiki | AI documentation you can talk to, for every repo",
+      "domain": "deepwiki.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://trendshift.io/",
+      "title": "Trendshift - Explore open-source repositories and find some insights",
+      "domain": "trendshift.io",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://bbycroft.net/llm",
+      "title": "LLM Visualization",
+      "domain": "bbycroft.net",
+      "cluster": "C#/.NET"
+    },
+    {
       "url": "http://buildingminds.com/",
       "title": "BuildingMinds",
       "domain": "buildingminds.com",
       "cluster": "BuildingMinds"
-    },
-    {
-      "url": "https://building-minds.atlassian.net/wiki/home",
-      "title": "BM Wiki",
-      "domain": "building-minds.atlassian.net",
-      "cluster": "C#/.NET"
-    },
-    {
-      "url": "https://buildingminds.personio.de/",
-      "title": "Personio BM",
-      "domain": "buildingminds.personio.de",
-      "cluster": "BuildingMinds"
-    },
-    {
-      "url": "https://buildingminds18.visualstudio.com/BM_Cloud/_git/BMCL_Service_Lease_Management_Dashboard",
-      "title": "BMCL_Service_Lease_Management_Dashboard - Repos",
-      "domain": "buildingminds18.visualstudio.com",
-      "cluster": "Cloud"
-    },
-    {
-      "url": "https://buildingminds1.sharepoint.com/sites/MarComSal/Freigegebene%20Dokumente/Forms/AllItems.aspx?id=%2Fsites%2FMarComSal%2FFreigegebene%20Dokumente%2FSolution%20Design%2F009%5FInternal%20Projects&p=true&ga=1",
-      "title": "Sharepoint",
-      "domain": "buildingminds1.sharepoint.com",
-      "cluster": "Project Management"
-    },
-    {
-      "url": "https://proxima.dev.onbuildingminds.com/",
-      "title": "BM Demo",
-      "domain": "proxima.dev.onbuildingminds.com",
-      "cluster": "BuildingMinds"
-    },
-    {
-      "url": "https://buildingminds.monday.com/",
-      "title": "Monday ",
-      "domain": "buildingminds.monday.com",
-      "cluster": "Project Management"
-    },
-    {
-      "url": "https://oai.azure.com/resource/playground?wsid=/subscriptions/8027e16c-45ce-4247-8758-274e6b9261e2/resourceGroups/bmcl-dev-openairr/providers/Microsoft.CognitiveServices/accounts/devdefaultweubmclopenairr&tid=3470472d-117d-4f3d-9ce9-0726180f8f61&deploymentId=/subscriptions/8027e16c-45ce-4247-8758-274e6b9261e2/resourceGroups/bmcl-dev-openairr/providers/Microsoft.CognitiveServices/accounts/devdefaultweubmclopenairr/deployments/Document_Extractor_GPT4.1_TEST",
-      "title": "BM_CHAT",
-      "domain": "oai.azure.com",
-      "cluster": "Cloud"
-    },
-    {
-      "url": "https://openapi.dev.onbuildingminds.com/",
-      "title": "BM API Documenation",
-      "domain": "openapi.dev.onbuildingminds.com",
-      "cluster": "APIs"
     },
     {
       "url": "https://open.spotify.com/",
@@ -2303,10 +4379,16 @@
       "cluster": "Entertainment"
     },
     {
-      "url": "https://portal.azure.com/#@buildingminds.com/dashboard/private/09b46b0f-97d6-4520-afd9-9f17647f7041",
-      "title": "My Dashboard - Microsoft Azure",
-      "domain": "portal.azure.com",
-      "cluster": "Cloud"
+      "url": "https://proxima.dev.onbuildingminds.com/",
+      "title": "BM Demo",
+      "domain": "proxima.dev.onbuildingminds.com",
+      "cluster": "BuildingMinds"
+    },
+    {
+      "url": "https://building-minds.atlassian.net/wiki/home",
+      "title": "BM Wiki",
+      "domain": "building-minds.atlassian.net",
+      "cluster": "C#/.NET"
     },
     {
       "url": "https://m365.cloud.microsoft/chat",
@@ -2355,6 +4437,12 @@
       "title": "BM Test",
       "domain": "cloud.test.onbuildingminds.com",
       "cluster": "Cloud"
+    },
+    {
+      "url": "https://buildingminds.personio.de/",
+      "title": "Personio BM",
+      "domain": "buildingminds.personio.de",
+      "cluster": "BuildingMinds"
     },
     {
       "url": "https://buildingminds.parleypro-eu.com/#/contracts",
@@ -2433,12 +4521,6 @@
       "title": "Mambu API v2 Reference Page",
       "domain": "api.mambu.com",
       "cluster": "APIs"
-    },
-    {
-      "url": "https://thestocks.im/",
-      "title": "The Stocks 3 | Best royalty free stock photos, videos, mockups, icons and fonts!",
-      "domain": "thestocks.im",
-      "cluster": "Other"
     },
     {
       "url": "https://os-copilot.github.io/",
@@ -2627,12 +4709,6 @@
       "cluster": "Dev Tools"
     },
     {
-      "url": "https://bbycroft.net/llm",
-      "title": "LLM Visualization",
-      "domain": "bbycroft.net",
-      "cluster": "C#/.NET"
-    },
-    {
       "url": "https://www.automatise.com.au/#Value-1",
       "title": "Cicero AI - The first private AI for legal professionals",
       "domain": "www.automatise.com.au",
@@ -2703,12 +4779,6 @@
       "title": "Gitingest",
       "domain": "gitingest.com",
       "cluster": "Dev Tools"
-    },
-    {
-      "url": "https://learnprompting.org/",
-      "title": "Learn Prompting: Your Guide to Communicating with AI",
-      "domain": "learnprompting.org",
-      "cluster": "AI/ML"
     },
     {
       "url": "https://openbb.co/",
@@ -2901,12 +4971,6 @@
       "title": "Early Heart Disease Detection with Cardisiography | Cardisio GmbH",
       "domain": "cardis.io",
       "cluster": "Other"
-    },
-    {
-      "url": "https://mlu-explain.github.io/",
-      "title": "MLU-Explain",
-      "domain": "mlu-explain.github.io",
-      "cluster": "AI/ML"
     },
     {
       "url": "https://rxresu.me/",
@@ -3791,12 +5855,6 @@
       "cluster": "C#/.NET"
     },
     {
-      "url": "https://www.theunwindai.com/",
-      "title": "unwind ai",
-      "domain": "www.theunwindai.com",
-      "cluster": "AI/ML"
-    },
-    {
       "url": "https://github.com/GauravWalia19/Free-Algorithms-Books/blob/main/Library/src/Algorithms-to-Live-By-Brian-Christian.pdf",
       "title": "Free-Algorithms-Books/Library/src/Algorithms-to-Live-By-Brian-Christian.pdf at main · GauravWalia19/Free-Algorithms-Books",
       "domain": "github.com",
@@ -3927,12 +5985,6 @@
       "title": "WorkOS — Your app, Enterprise Ready.",
       "domain": "workos.com",
       "cluster": "Other"
-    },
-    {
-      "url": "https://deepwiki.com/",
-      "title": "DeepWiki | AI documentation you can talk to, for every repo",
-      "domain": "deepwiki.com",
-      "cluster": "AI/ML"
     },
     {
       "url": "https://snowglobe.so/",
@@ -4295,28 +6347,340 @@
       "cluster": "AI/ML"
     },
     {
-      "url": "https://buildingminds1.sharepoint.com/:x:/r/sites/30-60-90/_layouts/15/guestaccess.aspx?email=aman.kumar%40buildingminds.com&e=4%3Aw5vz8R&at=9&wdLOR=c5FF942EF-A05B-F841-8196-B2A31D2BF370&share=EWFyJ_ZIytpIgm0x0xlC6GQB0DJ4RS7pDItCtStow2jPwQ",
-      "title": "TT_Interns.xlsx",
-      "domain": "buildingminds1.sharepoint.com",
+      "url": "https://people.duke.edu/~ng46/borland/networks.htm",
+      "title": "Borland C++ Builder - Networks",
+      "domain": "people.duke.edu",
+      "cluster": "C++"
+    },
+    {
+      "url": "https://www.bitkom.org/EN",
+      "title": "Startseite Bitkom e. V.",
+      "domain": "www.bitkom.org",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://partner.hepster.com/en-us",
+      "title": "Embedded insurance for your product world",
+      "domain": "partner.hepster.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://kit.com/",
+      "title": "Email marketing that automates your growth (formerly ConvertKit)",
+      "domain": "kit.com",
       "cluster": "AI/ML"
     },
     {
-      "url": "https://proxima.onbuildingminds.com/dashboard",
-      "title": "BuildingMinds GmbH",
-      "domain": "proxima.onbuildingminds.com",
-      "cluster": "BuildingMinds"
+      "url": "https://www.fillout.com/vs/typeform",
+      "title": "Fillout: the free Typeform alternative",
+      "domain": "www.fillout.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://mvp4prod.vercel.app/",
+      "title": "MVP4PROD - Transform Your MVP into Production-Ready Excellence",
+      "domain": "mvp4prod.vercel.app",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://app.emergent.sh/landing",
+      "title": "Emergent",
+      "domain": "app.emergent.sh",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://youratlas.com/",
+      "title": "AI Revenue Engine To Convert Leads in 60 Seconds | Built-For-You",
+      "domain": "youratlas.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://flexpay.io/?utm_source=youtube&utm_medium=social+media&utm_campaign=video&utm_content=LF-400",
+      "title": "Failed Payment Recovery - FlexPay",
+      "domain": "flexpay.io",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://herohire.ai/?utm_source=youtube&utm_medium=social+media&utm_campaign=video&utm_content=LF-400",
+      "title": "HeroHire: AI-Powered Hiring Partner",
+      "domain": "herohire.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.precision.co/?utm_source=youtube&utm_medium=social+media&utm_campaign=video&utm_content=LF-400",
+      "title": "Precision - Your AI-Powered Data Team That Never Sleeps",
+      "domain": "www.precision.co",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://hellofrank.ai/?utm_source=youtube&utm_medium=social+media&utm_campaign=video&utm_content=LF-400",
+      "title": "Hello Frank",
+      "domain": "hellofrank.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.alysio.ai/?utm_source=youtube&utm_medium=social+media&utm_campaign=video&utm_content=LF-400",
+      "title": "Alysio.ai | Your Revenue Command Layer",
+      "domain": "www.alysio.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://curse-tamarillo-1ef.notion.site/db4f4e35666f421385248b3b3ed733e2?v=1b815542770b80dfb4d1000cc4657a15",
+      "title": "Free curriculum: Generative-AI Wizard 100x | Home",
+      "domain": "curse-tamarillo-1ef.notion.site",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://socialsweep.ai/?utm_source=youtube&utm_medium=social%20media&utm_campaign=video&utm_content=LF-400",
+      "title": "SocialSweep",
+      "domain": "socialsweep.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.getrevio.com/?utm_source=youtube&utm_medium=social+media&utm_campaign=video&utm_content=LF-400",
+      "title": "Revio - AI Sales CRM That Turns Your Followers Into Revenue",
+      "domain": "www.getrevio.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.100xengineers.com/",
+      "title": "100xEngineers | Become GenerativeAI Wizard",
+      "domain": "www.100xengineers.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://marclou.com/",
+      "title": "Marc Lou | Indie Page",
+      "domain": "marclou.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.trail-ml.com/",
+      "title": "trail - The AI Governance Copilot",
+      "domain": "www.trail-ml.com",
+      "cluster": "Go"
+    },
+    {
+      "url": "https://sprinto.com/",
+      "title": "Continuous Security & Compliance Platform - Sprinto",
+      "domain": "sprinto.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.vanta.com/",
+      "title": "SOC 2, HIPAA, ISO 27001, PCI, and GDPR Compliance",
+      "domain": "www.vanta.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://oecd.ai/en/",
+      "title": "The OECD Artificial Intelligence Policy Observatory - OECD.AI",
+      "domain": "oecd.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.producthunt.com/",
+      "title": "Product Hunt – The best new products in tech.",
+      "domain": "www.producthunt.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.n8n-mcp.com/",
+      "title": "n8n MCP - AI-Powered n8n Workflow Automation",
+      "domain": "www.n8n-mcp.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://buildwithfern.com/?utm_campaign=buildWith&utm_medium=docs&utm_source=openrouter.ai",
+      "title": "Fern: SDKs and Docs for your API",
+      "domain": "buildwithfern.com",
+      "cluster": "APIs"
+    },
+    {
+      "url": "https://drata.com/",
+      "title": "Drata - Modern GRC, Compliance & Trust Automation",
+      "domain": "drata.com",
+      "cluster": "Rust"
+    },
+    {
+      "url": "https://www.nextwork.org/about",
+      "title": "About NextWork - Transforming Education Through Project-Based Learning",
+      "domain": "www.nextwork.org",
+      "cluster": "Project Management"
+    },
+    {
+      "url": "https://showlab.github.io/Paper2Video/",
+      "title": "Paper2Video: Automatic Video Generation from Scientific Papers",
+      "domain": "showlab.github.io",
+      "cluster": "Dev Tools"
+    },
+    {
+      "url": "https://www.businesslocationcenter.de/en/digitech/artificial-intelligence",
+      "title": "Berlin is developing into a center for artificial intelligence",
+      "domain": "www.businesslocationcenter.de",
+      "cluster": "Dev Tools"
+    },
+    {
+      "url": "https://ai-berlin.com/",
+      "title": "ai-berlin.com",
+      "domain": "ai-berlin.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.ai-nation.de/",
+      "title": "AI NATION",
+      "domain": "www.ai-nation.de",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://printing.cic.com/locations/berlin-de/",
+      "title": "Berlin, DE – Printing@CIC",
+      "domain": "printing.cic.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://techeurope.notion.site/big-berlin-hack-manual",
+      "title": "Hackathon Manual - Big Berlin Hack",
+      "domain": "techeurope.notion.site",
+      "cluster": "Work Tools"
+    },
+    {
+      "url": "https://n8n.notion.site/n8n-Big-Berlin-Hack-2895b6e0c94f804b944bf66a4cd5a72c",
+      "title": "n8n @ Big Berlin Hack",
+      "domain": "n8n.notion.site",
+      "cluster": "Work Tools"
+    },
+    {
+      "url": "https://zauber.notion.site/Zauber-Tech-Europe-288512a5c73c80379da0f30b5bf8bb88",
+      "title": "Zauber @{Tech: Europe}",
+      "domain": "zauber.notion.site",
+      "cluster": "Work Tools"
+    },
+    {
+      "url": "https://n8n.notion.site/become-an-ambassador",
+      "title": "Become an n8n ambassador",
+      "domain": "n8n.notion.site",
+      "cluster": "Work Tools"
+    },
+    {
+      "url": "https://getdeploying.com/reference/cloud-gpu",
+      "title": "GPU Price Comparison [2025]",
+      "domain": "getdeploying.com",
+      "cluster": "Cloud"
+    },
+    {
+      "url": "https://hiring.cafe/",
+      "title": "HiringCafe - AI Job Search",
+      "domain": "hiring.cafe",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://lambda.ai/",
+      "title": "Lambda | The Superintelligence Cloud",
+      "domain": "lambda.ai",
+      "cluster": "Cloud"
+    },
+    {
+      "url": "https://eurekalabs.ai/",
+      "title": "Eureka Labs",
+      "domain": "eurekalabs.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://flower.ai/",
+      "title": "Flower: A Friendly Federated AI Framework",
+      "domain": "flower.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://influencegraph.netlify.app/top-technical-builders",
+      "title": "Influence Graph",
+      "domain": "influencegraph.netlify.app",
+      "cluster": "C#/.NET"
+    },
+    {
+      "url": "https://safer-nightlife.berlin/en/",
+      "title": "SONAR BERLIN",
+      "domain": "safer-nightlife.berlin",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://startupvitamins.com/",
+      "title": "Buy Motivational posters and office decor - Startup Vitamins",
+      "domain": "startupvitamins.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.shadertoy.com/",
+      "title": "Shadertoy BETA",
+      "domain": "www.shadertoy.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://practikalstudio.in/",
+      "title": "pratcitkalstudio – Practikal Studio",
+      "domain": "practikalstudio.in",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://prachtsaal.berlin/",
+      "title": "Prachtsaal Studio",
+      "domain": "prachtsaal.berlin",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://creativecode.berlin/",
+      "title": "Creative Code Berlin",
+      "domain": "creativecode.berlin",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.b-p-w.de/en/",
+      "title": "Start your business with a plan! The BPW supports with free offers",
+      "domain": "www.b-p-w.de",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.deep-ml.com/",
+      "title": "Deep-ML",
+      "domain": "www.deep-ml.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://console.mistral.ai/home",
+      "title": "La Plateforme - Mistral AI",
+      "domain": "console.mistral.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://the-algorithms.com/",
+      "title": "The Algorithms - Learn Data Structures & Algorithms",
+      "domain": "the-algorithms.com",
+      "cluster": "Go"
+    },
+    {
+      "url": "https://niranjanxprt.github.io/starred-repos-graph/",
+      "title": "🌟 GitHub Stars Graph - 699+ Repositories",
+      "domain": "niranjanxprt.github.io",
+      "cluster": "Dev Tools"
+    },
+    {
+      "url": "https://learndataengineering.com/",
+      "title": "Learn Data Engineering with Courses & Coaching | Learn Data",
+      "domain": "learndataengineering.com",
+      "cluster": "Documentation"
+    },
+    {
+      "url": "https://www.landingpage.fyi/landing-page-checklist",
+      "title": "Landing Page Checklist | 100+ Tools to Build a Landing Page",
+      "domain": "www.landingpage.fyi",
+      "cluster": "Other"
     },
     {
       "url": "https://pythontutor.com/",
       "title": "Online Python Tutor - visualize, debug, get AI help for Python, Java, C, C++, and JavaScript",
       "domain": "pythontutor.com",
       "cluster": "JavaScript"
-    },
-    {
-      "url": "https://akenza.io/features/connectivity",
-      "title": "akenza | Connectivity",
-      "domain": "akenza.io",
-      "cluster": "Other"
     },
     {
       "url": "https://www.anyscale.com/",
@@ -4329,6 +6693,18 @@
       "title": "Segment Anything | Meta AI",
       "domain": "segment-anything.com",
       "cluster": "AI/ML"
+    },
+    {
+      "url": "https://akenza.io/features/connectivity",
+      "title": "akenza | Connectivity",
+      "domain": "akenza.io",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://proxima.onbuildingminds.com/dashboard",
+      "title": "BuildingMinds GmbH",
+      "domain": "proxima.onbuildingminds.com",
+      "cluster": "BuildingMinds"
     },
     {
       "url": "https://go.v7labs.com/018f011c-1642-7b63-a574-19edf558eba7/projects/01900cec-97d1-7f91-abcb-90de01952dd4/views/01900cec-97d7-7dd6-a4a0-1dd2deb2bb23/entities/01900cec-996b-739a-a3cc-ff1840760e93",
@@ -4347,6 +6723,1782 @@
       "title": "Tenant Insights",
       "domain": "tenant-insights.onbuildingminds.com",
       "cluster": "BuildingMinds"
+    },
+    {
+      "url": "https://pitch.works/",
+      "title": "Pitchworks",
+      "domain": "pitch.works",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.brasshands.com/",
+      "title": "Brass Hands",
+      "domain": "www.brasshands.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://flask.do/",
+      "title": "Flask - Video Collaboration for Creative Teams",
+      "domain": "flask.do",
+      "cluster": "Python"
+    },
+    {
+      "url": "https://www.spotterstudio.com/",
+      "title": "Spotter Studio | Ideation System for Pro YouTubers",
+      "domain": "www.spotterstudio.com",
+      "cluster": "Entertainment"
+    },
+    {
+      "url": "https://samwho.dev/",
+      "title": "samwho",
+      "domain": "samwho.dev",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://microservices.io/index.html",
+      "title": "What are microservices?",
+      "domain": "microservices.io",
+      "cluster": "Web Design"
+    },
+    {
+      "url": "https://fullstackdeeplearning.com/",
+      "title": "The Full Stack",
+      "domain": "fullstackdeeplearning.com",
+      "cluster": "Documentation"
+    },
+    {
+      "url": "https://mlflow.org/",
+      "title": "MLflow",
+      "domain": "mlflow.org",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.kubeflow.org/",
+      "title": "Kubeflow",
+      "domain": "www.kubeflow.org",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://kserve.github.io/website/",
+      "title": "KServe",
+      "domain": "kserve.github.io",
+      "cluster": "Dev Tools"
+    },
+    {
+      "url": "https://dlthub.com/",
+      "title": "dltHub: ELT as Python Code",
+      "domain": "dlthub.com",
+      "cluster": "Python"
+    },
+    {
+      "url": "https://animejs.com/",
+      "title": "Anime.js | JavaScript Animation Engine",
+      "domain": "animejs.com",
+      "cluster": "JavaScript"
+    },
+    {
+      "url": "https://p5js.org/",
+      "title": "p5.js",
+      "domain": "p5js.org",
+      "cluster": "JavaScript"
+    },
+    {
+      "url": "https://expo.dev/",
+      "title": "Expo",
+      "domain": "expo.dev",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://flutter.dev/",
+      "title": "Flutter - Build apps for any screen",
+      "domain": "flutter.dev",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://reactnative.dev/",
+      "title": "React Native · Learn once, write anywhere",
+      "domain": "reactnative.dev",
+      "cluster": "JavaScript"
+    },
+    {
+      "url": "https://www.electronjs.org/",
+      "title": "Build cross-platform desktop apps with JavaScript, HTML, and CSS | Electron",
+      "domain": "www.electronjs.org",
+      "cluster": "JavaScript"
+    },
+    {
+      "url": "https://docusaurus.io/",
+      "title": "Build optimized websites quickly, focus on your content | Docusaurus",
+      "domain": "docusaurus.io",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://pytorch.org/",
+      "title": "PyTorch",
+      "domain": "pytorch.org",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.dataexpert.io/",
+      "title": "Join DataExpert.io Academy",
+      "domain": "www.dataexpert.io",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://datalemur.com/",
+      "title": "DataLemur - Ace the SQL & Data Science Interview",
+      "domain": "datalemur.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://genai.owasp.org/",
+      "title": "Home - OWASP Gen AI Security Project",
+      "domain": "genai.owasp.org",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://atlas.mitre.org/",
+      "title": "MITRE ATLAS™",
+      "domain": "atlas.mitre.org",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "title": "AI Risk Management Framework | NIST",
+      "domain": "www.nist.gov",
+      "cluster": "Go"
+    },
+    {
+      "url": "https://workfloo.ws/",
+      "title": "Workfloows",
+      "domain": "workfloo.ws",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://trypyramid.com/",
+      "title": "Welcome to Pyramid, a Python Web Framework",
+      "domain": "trypyramid.com",
+      "cluster": "Python"
+    },
+    {
+      "url": "https://www.dropstitch.ai/",
+      "title": "Simplify Listing Vintage Clothing | Dropstitch",
+      "domain": "www.dropstitch.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://getfluently.notion.site/Y-Combinator-Startup-Jobs-28b6a9ce04d98001bc4bdd4afddaf3d4",
+      "title": "Y Combinator Startup Jobs",
+      "domain": "getfluently.notion.site",
+      "cluster": "Work Tools"
+    },
+    {
+      "url": "https://www.schulz-von-thun.de/",
+      "title": "Angebote - Schulz von Thun Institut",
+      "domain": "www.schulz-von-thun.de",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://python.datalumina.com/?utm_source=YouTube&utm_medium=Description&utm_campaign=Python%20for%20AI%20Full%20Course&dub_id=GeX3ZeJiPyPbwss3",
+      "title": "Introduction - Learn Python for AI - Complete Beginner Course",
+      "domain": "python.datalumina.com",
+      "cluster": "Python"
+    },
+    {
+      "url": "https://openlists.github.io/",
+      "title": "OpenLists",
+      "domain": "openlists.github.io",
+      "cluster": "Dev Tools"
+    },
+    {
+      "url": "https://planetscale.com/metal",
+      "title": "Metal — PlanetScale",
+      "domain": "planetscale.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://nuitka.net/",
+      "title": "Nuitka the Python Compiler — Nuitka the Python Compiler",
+      "domain": "nuitka.net",
+      "cluster": "Python"
+    },
+    {
+      "url": "https://ttkbootstrap.readthedocs.io/en/latest/",
+      "title": "ttkbootstrap - ttkbootstrap",
+      "domain": "ttkbootstrap.readthedocs.io",
+      "cluster": "Testing"
+    },
+    {
+      "url": "https://iffy.com/",
+      "title": "Iffy",
+      "domain": "iffy.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.relume.io/pricing",
+      "title": "Relume — Pricing Plans",
+      "domain": "www.relume.io",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.relume.io/",
+      "title": "Relume — Websites designed & built faster with AI | AI website builder",
+      "domain": "www.relume.io",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://logodesignprocess.com/",
+      "title": "Home - Logo Design Process",
+      "domain": "logodesignprocess.com",
+      "cluster": "Go"
+    },
+    {
+      "url": "https://replit.com/customers",
+      "title": "Customer Stories - Replit",
+      "domain": "replit.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.graphistry.com/",
+      "title": "Home - Graphistry",
+      "domain": "www.graphistry.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://codegraphcontext.vercel.app/",
+      "title": "CodeGraphContext - AI-Powered Code Knowledge Graphs",
+      "domain": "codegraphcontext.vercel.app",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://modal.com/",
+      "title": "Modal: High-performance AI infrastructure",
+      "domain": "modal.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.terminal.shop/",
+      "title": "wip: terminal (initial commit)",
+      "domain": "www.terminal.shop",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://coursecareers.com/explore/software-dev-fundamentals",
+      "title": "The Best Software Development Course | CourseCareers",
+      "domain": "coursecareers.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.geeksforgeeks.org/",
+      "title": "GeeksforGeeks | Your All-in-One Learning Portal",
+      "domain": "www.geeksforgeeks.org",
+      "cluster": "Documentation"
+    },
+    {
+      "url": "https://realpython.com/",
+      "title": "Python Tutorials – Real Python",
+      "domain": "realpython.com",
+      "cluster": "Python"
+    },
+    {
+      "url": "https://www.algoexpert.io/product",
+      "title": "AlgoExpert | Ace the Coding Interviews",
+      "domain": "www.algoexpert.io",
+      "cluster": "Go"
+    },
+    {
+      "url": "https://www.tutorialspoint.com/python/index.htm",
+      "title": "Python Tutorial",
+      "domain": "www.tutorialspoint.com",
+      "cluster": "Python"
+    },
+    {
+      "url": "https://www.pgrammer.com/",
+      "title": "pgrammer - Practice coding interview questions with hints from AI",
+      "domain": "www.pgrammer.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://thealliance.ai/",
+      "title": "Home | AI Alliance",
+      "domain": "thealliance.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.jwt.io/",
+      "title": "JSON Web Tokens - jwt.io",
+      "domain": "www.jwt.io",
+      "cluster": "JavaScript"
+    },
+    {
+      "url": "https://www.tryexponent.com/",
+      "title": "Interview prep for product, engineering, data science, and more - Exponent",
+      "domain": "www.tryexponent.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.motia.dev/",
+      "title": "Motia - Unified Backend Framework for APIs, Events and AI Agents",
+      "domain": "www.motia.dev",
+      "cluster": "APIs"
+    },
+    {
+      "url": "https://www.dive.club/",
+      "title": "Dive Club 🤿",
+      "domain": "www.dive.club",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://hashnode.com/",
+      "title": "Hashnode — Build blogs and API docs for developers and teams.",
+      "domain": "hashnode.com",
+      "cluster": "JavaScript"
+    },
+    {
+      "url": "https://rauchg-oss-grants.vercel.app/",
+      "title": "OSS Grants - $1,000 USD for Foundational Open Source",
+      "domain": "rauchg-oss-grants.vercel.app",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://scalar.com/",
+      "title": "Scalar - Document, Test & Discover APIs",
+      "domain": "scalar.com",
+      "cluster": "APIs"
+    },
+    {
+      "url": "https://heyapi.dev/",
+      "title": "Hey API",
+      "domain": "heyapi.dev",
+      "cluster": "APIs"
+    },
+    {
+      "url": "https://smithery.ai/",
+      "title": "Smithery - Find, build and ship MCP servers",
+      "domain": "smithery.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://jina.ai/",
+      "title": "Jina AI - Your Search Foundation, Supercharged.",
+      "domain": "jina.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.botpress.com/en",
+      "title": "Botpress | The Complete AI Agent Platform",
+      "domain": "www.botpress.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://falling-walls.com/",
+      "title": "Falling Walls Foundation | Falling Walls",
+      "domain": "falling-walls.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://berlinscienceweek.com/",
+      "title": "BERLIN SCIENCE WEEK | Berlin Science Week",
+      "domain": "berlinscienceweek.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://subagents.app/",
+      "title": "Claude Code Sub Agents Directory - AI-Powered Development Tools",
+      "domain": "subagents.app",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://subagents.sh/",
+      "title": "Subagents.sh - Claude Code Sub-Agent Directory",
+      "domain": "subagents.sh",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.browseros.com/",
+      "title": "BrowserOS - Open-Source AI Browser | Privacy-First Alternative to Perplexity Comet",
+      "domain": "www.browseros.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.gitkraken.com/",
+      "title": "GitKraken Legendary Git Tools | GitKraken",
+      "domain": "www.gitkraken.com",
+      "cluster": "Dev Tools"
+    },
+    {
+      "url": "https://www.stateof.ai/",
+      "title": "Welcome to State of AI Report 2025",
+      "domain": "www.stateof.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.firecrawl.dev/",
+      "title": "Firecrawl - The Web Data API for AI",
+      "domain": "www.firecrawl.dev",
+      "cluster": "APIs"
+    },
+    {
+      "url": "https://labs.play-with-k8s.com/",
+      "title": "Play with Kubernetes",
+      "domain": "labs.play-with-k8s.com",
+      "cluster": "Containers"
+    },
+    {
+      "url": "https://kubernetes.io/",
+      "title": "Kubernetes",
+      "domain": "kubernetes.io",
+      "cluster": "Containers"
+    },
+    {
+      "url": "https://githowto.com/",
+      "title": "GitHowTo: guided tutorial about Git",
+      "domain": "githowto.com",
+      "cluster": "Dev Tools"
+    },
+    {
+      "url": "https://ohshitgit.com/",
+      "title": "Oh Shit, Git!?!",
+      "domain": "ohshitgit.com",
+      "cluster": "Dev Tools"
+    },
+    {
+      "url": "https://www.educative.io/",
+      "title": "Educative: AI-Powered Interactive Courses for Developers",
+      "domain": "www.educative.io",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.codecademy.com/",
+      "title": "Learn to Code - for Free | Codecademy",
+      "domain": "www.codecademy.com",
+      "cluster": "Documentation"
+    },
+    {
+      "url": "https://superwrapper.in/",
+      "title": "Superwrapper",
+      "domain": "superwrapper.in",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://33labs.in/",
+      "title": "33labs",
+      "domain": "33labs.in",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.anolis.in/",
+      "title": "Anolis",
+      "domain": "www.anolis.in",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://useastra.in/interview-copilot",
+      "title": "Interview Copilot",
+      "domain": "useastra.in",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://kubernetes.io/docs/home/",
+      "title": "Kubernetes Documentation | Kubernetes",
+      "domain": "kubernetes.io",
+      "cluster": "Containers"
+    },
+    {
+      "url": "https://labex.io/free-labs",
+      "title": "Free Labs | Interactive Practice in 30+ Tech Fields | LabEx",
+      "domain": "labex.io",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://labs.play-with-docker.com/",
+      "title": "Play with Docker",
+      "domain": "labs.play-with-docker.com",
+      "cluster": "Containers"
+    },
+    {
+      "url": "https://kodekloud.com/studio/labs",
+      "title": "KodeKloud Studio",
+      "domain": "kodekloud.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://deutsch-vorbereitung.com/",
+      "title": "Deutsch Prüfung ᐉ Online-Vorbereitung mit BO",
+      "domain": "deutsch-vorbereitung.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://agor.live/",
+      "title": "Index – agor",
+      "domain": "agor.live",
+      "cluster": "Go"
+    },
+    {
+      "url": "https://hellodani.co/",
+      "title": "Daniella Marynova - Visual & Product Designer for SaaS, Fintech, AI, web3 and dev tools",
+      "domain": "hellodani.co",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://series.so/",
+      "title": "Series - The First AI Social Network",
+      "domain": "series.so",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.cyberdebunk.com/",
+      "title": "CyberDebunk | Advanced Cybersecurity Solutions",
+      "domain": "www.cyberdebunk.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.ubiscore.com/",
+      "title": "The #1 Privacy Copilot - Ensure compliance and avoid fines with our scoring solution.",
+      "domain": "www.ubiscore.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://plusauravibes.com/",
+      "title": "Plus Aura Vibes",
+      "domain": "plusauravibes.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://onfabric.io/",
+      "title": "Fabric - Curate your Digital Self",
+      "domain": "onfabric.io",
+      "cluster": "Dev Tools"
+    },
+    {
+      "url": "https://winthe.cloud/?v=5f02f0889301",
+      "title": "Win The Cloud - Become a 🚀 Cloud Solution Architect",
+      "domain": "winthe.cloud",
+      "cluster": "Cloud"
+    },
+    {
+      "url": "https://www.everythingmarketplaces.com/",
+      "title": "Everything Marketplaces",
+      "domain": "www.everythingmarketplaces.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.liberatingstructures.com/",
+      "title": "Liberating Structures - Introduction",
+      "domain": "www.liberatingstructures.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://discordservers.com/",
+      "title": "Discord Servers - Public Server Listing",
+      "domain": "discordservers.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://takeuforward.org/",
+      "title": "takeuforward - Best Coding Tutorials for Free",
+      "domain": "takeuforward.org",
+      "cluster": "Documentation"
+    },
+    {
+      "url": "https://delighted.com/",
+      "title": "Collect customer feedback in minutes with Delighted",
+      "domain": "delighted.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://inferencemax.semianalysis.com/",
+      "title": "InferenceMAX by SemiAnalysis",
+      "domain": "inferencemax.semianalysis.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.medoid.ai/blog/a-hands-on-walkthrough-on-model-quantization/",
+      "title": "A Hands-On Walkthrough on Model Quantization - Medoid AI",
+      "domain": "www.medoid.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://getcracked.io/",
+      "title": "getcracked | Master Technical Interviews Fast",
+      "domain": "getcracked.io",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://chessiro.com/",
+      "title": "Chessiro - AI Chess Analysis",
+      "domain": "chessiro.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://lmarena.ai/",
+      "title": "LMArena",
+      "domain": "lmarena.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Traditional_Knowledge_Digital_Library",
+      "title": "Traditional Knowledge Digital Library - Wikipedia",
+      "domain": "en.wikipedia.org",
+      "cluster": "Dev Tools"
+    },
+    {
+      "url": "https://www.papermark.com/",
+      "title": "Secure document sharing and tracking by #1 DocSend Alternative",
+      "domain": "www.papermark.com",
+      "cluster": "Documentation"
+    },
+    {
+      "url": "https://ccforpms.com/",
+      "title": "Claude Code for Product Managers",
+      "domain": "ccforpms.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.aci.dev/",
+      "title": "ACI.dev – AI Tooling Governance Platform",
+      "domain": "www.aci.dev",
+      "cluster": "Go"
+    },
+    {
+      "url": "https://www.akm-berlin.de/en/RAin-Frieding.php",
+      "title": "akm - Miriam Frieding",
+      "domain": "www.akm-berlin.de",
+      "cluster": "PHP"
+    },
+    {
+      "url": "https://www.concentrix.com/",
+      "title": "Concentrix | A Global Technology and Services Leader",
+      "domain": "www.concentrix.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://techgdpr.com/",
+      "title": "TechGDPR – GDPR Compliance, Privacy and EU Data Regulations",
+      "domain": "techgdpr.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://dspy.ai/",
+      "title": "DSPy",
+      "domain": "dspy.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.ihacker.in/name-checker/",
+      "title": "Name Checker | Social Media Username & Domain Name Availability Checker OSINT Tool",
+      "domain": "www.ihacker.in",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://driftlegal.ai/",
+      "title": "Drift - Legal stuff made easier",
+      "domain": "driftlegal.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://klingai.com/global/",
+      "title": "Kling AI: Next-Generation AI Creative Studio",
+      "domain": "klingai.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.kittl.com/",
+      "title": "Kittl | The most intuitive collaborative design platform",
+      "domain": "www.kittl.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://apify.com/",
+      "title": "Apify: Full-stack web scraping and data extraction platform",
+      "domain": "apify.com",
+      "cluster": "APIs"
+    },
+    {
+      "url": "https://www.clay.com/",
+      "title": "Clay | Go to market with unique data—and the ability to act on it",
+      "domain": "www.clay.com",
+      "cluster": "Go"
+    },
+    {
+      "url": "https://hub.guardrailsai.com/",
+      "title": "Guardrails Hub | Guardrails AI",
+      "domain": "hub.guardrailsai.com",
+      "cluster": "Ruby"
+    },
+    {
+      "url": "https://neurosity.co/",
+      "title": "Introducing the Crown | Neurosity",
+      "domain": "neurosity.co",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://cicberlin.roomzilla.me/home/schedule",
+      "title": "Roomzilla | Meeting Room Booking System",
+      "domain": "cicberlin.roomzilla.me",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://businessmodelnavigator.com/network",
+      "title": "Business Model Pattern Network |",
+      "domain": "businessmodelnavigator.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.incommonwith.com/collections/all-lighting",
+      "title": "In Common With | All Lighting",
+      "domain": "www.incommonwith.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.a1.gallery/",
+      "title": "A1 · Website design inspiration for designers, developers and creatives",
+      "domain": "www.a1.gallery",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.prolific.com/",
+      "title": "Prolific | Easily collect high-quality data from real people",
+      "domain": "www.prolific.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://hostim.dev/",
+      "title": "Docker Hosting with MySQL/Postgres/Redis | Hostim.dev | HOSTIM.DEV",
+      "domain": "hostim.dev",
+      "cluster": "Containers"
+    },
+    {
+      "url": "https://gamma.app/docs/Federated-Model-Optimization-Track-1-dpydbie2hci801o?mode=doc",
+      "title": "Federated Model Optimization – Track 1 | Gamma",
+      "domain": "gamma.app",
+      "cluster": "Documentation"
+    },
+    {
+      "url": "https://www.notion.so/Context-Engineering-for-Agents-2a1808527b17803ba221c2ced7eef508",
+      "title": "Context Engineering for Agents",
+      "domain": "www.notion.so",
+      "cluster": "Work Tools"
+    },
+    {
+      "url": "https://ds.shadcn.com/",
+      "title": "shadcn/designer - Components for building design tools like Framer, Canva, and more.",
+      "domain": "ds.shadcn.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://katacontainers.io/",
+      "title": "Kata Containers - Open Source Container Runtime Software | Kata Containers",
+      "domain": "katacontainers.io",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://peec.ai/",
+      "title": "Peec AI - AI Search Analytics for Marketing Teams",
+      "domain": "peec.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://vast.ai/",
+      "title": "Rent GPUs | Vast.ai",
+      "domain": "vast.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://playground.simd.space/s/hollow-and-sealed-cylinder",
+      "title": "SIMD Compute",
+      "domain": "playground.simd.space",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://replicate.com/",
+      "title": "Replicate - Run AI with an API",
+      "domain": "replicate.com",
+      "cluster": "APIs"
+    },
+    {
+      "url": "https://jsoncrack-com-zeta.vercel.app/",
+      "title": "JSON Crack | Transform your data into interactive graphs",
+      "domain": "jsoncrack-com-zeta.vercel.app",
+      "cluster": "JavaScript"
+    },
+    {
+      "url": "https://w3.fund/",
+      "title": "w3.fund | Next Generation Investment House",
+      "domain": "w3.fund",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://lumolab.org/",
+      "title": "lumolab",
+      "domain": "lumolab.org",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.datawithbaraa.com/",
+      "title": "Home - DATA with BARAA",
+      "domain": "www.datawithbaraa.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.strayz.de/",
+      "title": "Hochwertiges Bio Hundefutter & Katzenfutter | STRAYZ",
+      "domain": "www.strayz.de",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://startupverband.de/",
+      "title": "Startup-Verband – Die Unternehmen der Zukunft",
+      "domain": "startupverband.de",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://madewithml.com/",
+      "title": "Home - Made With ML by Anyscale",
+      "domain": "madewithml.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://mentorcruise.com/",
+      "title": "MentorCruise - Connecting Mentors & Mentees",
+      "domain": "mentorcruise.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.refokus.com/",
+      "title": "Refokus",
+      "domain": "www.refokus.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://technologie.deutschland-stack.gov.de/",
+      "title": "D-Stack Landscape",
+      "domain": "technologie.deutschland-stack.gov.de",
+      "cluster": "Go"
+    },
+    {
+      "url": "https://ai-berlin.com/companies",
+      "title": "ai-berlin.com/companies",
+      "domain": "ai-berlin.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.complydo.io/",
+      "title": "ComplyDo - More Comply, Less Do",
+      "domain": "www.complydo.io",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.eqs.com/",
+      "title": "EQS Group: Compliance, Data & ESG solutions for your business",
+      "domain": "www.eqs.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.openstatus.dev/",
+      "title": "openstatus",
+      "domain": "www.openstatus.dev",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.neuronpedia.org/gemma-2-2b/graph?slug=gemma-fact-dallas-austin&pinnedIds=27_22605_10%2C20_15589_10%2CE_26865_9%2C21_5943_10%2C23_12237_10%2C20_15589_9%2C16_25_9%2C14_2268_9%2C18_8959_10%2C4_13154_9%2C7_6861_9%2C19_1445_10%2CE_2329_7%2CE_6037_4%2C0_13727_7%2C6_4012_7%2C17_7178_10%2C15_4494_4%2C6_4662_4%2C4_7671_4%2C3_13984_4%2C1_1000_4%2C19_7477_9%2C18_6101_10%2C16_4298_10%2C7_691_10&supernodes=%5B%5B%22capital%22%2C%2215_4494_4%22%2C%226_4662_4%22%2C%224_7671_4%22%2C%223_13984_4%22%2C%221_1000_4%22%5D%2C%5B%22state%22%2C%226_4012_7%22%2C%220_13727_7%22%5D%2C%5B%22Texas%22%2C%2220_15589_9%22%2C%2219_7477_9%22%2C%2216_25_9%22%2C%224_13154_9%22%2C%2214_2268_9%22%2C%227_6861_9%22%5D%2C%5B%22preposition+followed+by+place+name%22%2C%2219_1445_10%22%2C%2218_6101_10%22%5D%2C%5B%22capital+cities+%2F+say+a+capital+city%22%2C%2221_5943_10%22%2C%2217_7178_10%22%2C%227_691_10%22%2C%2216_4298_10%22%5D%5D&pruningThreshold=0.6&densityThreshold=0.99",
+      "title": "gemma-fact-dallas-austin - gemma-2-2b Graph | Neuronpedia ｜ Neuronpedia",
+      "domain": "www.neuronpedia.org",
+      "cluster": "JavaScript"
+    },
+    {
+      "url": "https://duna.com/",
+      "title": "Duna - The new standard in compliance",
+      "domain": "duna.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.aliciasykes.com/",
+      "title": "Home | Alicia Sykes",
+      "domain": "www.aliciasykes.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://startup-incubator-berlin.notion.site/flss",
+      "title": "FEMALE LEAN STARTUP SPRINT NOV 2025",
+      "domain": "startup-incubator-berlin.notion.site",
+      "cluster": "Work Tools"
+    },
+    {
+      "url": "https://bcpro.de/",
+      "title": "Home - BCPro",
+      "domain": "bcpro.de",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://thisisatworld.com/",
+      "title": "ATworld - Work, Connect, Thrive - Anytime Anywhere",
+      "domain": "thisisatworld.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.getmoss.com/en-gb?origin-page=en-gb%2F1234567",
+      "title": "Moss: Spend smarter.",
+      "domain": "www.getmoss.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://yoffix.com/",
+      "title": "Yoffix Hybrid Workplace Platform",
+      "domain": "yoffix.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://trycomp.ai/",
+      "title": "Comp AI - SOC 2 - HIPAA - GDPR - ISO 27001 made effortless",
+      "domain": "trycomp.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://getbeton.ai/",
+      "title": "Beton – Open Source Clay Alternative for Sales Data Enrichment",
+      "domain": "getbeton.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://welcomeberlin.net/",
+      "title": "Moving to Berlin. Community-Powered Support for Newcomers | WelcomeBerlin",
+      "domain": "welcomeberlin.net",
+      "cluster": "C#/.NET"
+    },
+    {
+      "url": "https://www.enforcementtracker.com/",
+      "title": "GDPR Enforcement Tracker - list of GDPR fines",
+      "domain": "www.enforcementtracker.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://edri.org/",
+      "title": "European Digital Rights (EDRi)",
+      "domain": "edri.org",
+      "cluster": "Dev Tools"
+    },
+    {
+      "url": "https://onnxruntime.ai/",
+      "title": "ONNX Runtime | Home",
+      "domain": "onnxruntime.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://gdpr.eu/",
+      "title": "General Data Protection Regulation (GDPR) Compliance Guidelines",
+      "domain": "gdpr.eu",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.uhoh.com/",
+      "title": "uhoh",
+      "domain": "www.uhoh.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.stateofeuropeantech.com/",
+      "title": "The State of European Tech 2025",
+      "domain": "www.stateofeuropeantech.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://teampanda.notion.site/Ace-the-Interview-6dbd9f991cdd452abf49660ddbc978be",
+      "title": "Ace the Interview",
+      "domain": "teampanda.notion.site",
+      "cluster": "Work Tools"
+    },
+    {
+      "url": "https://www.easecase.ai/",
+      "title": "Easecase.ai – AI for Law Firms",
+      "domain": "www.easecase.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://tsaaro.com/",
+      "title": "Data Privacy & Data Protection Consulting Services | Tsaaro Consulting",
+      "domain": "tsaaro.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://enty.io/en-ee",
+      "title": "The control panel of your Estonian company | Enty",
+      "domain": "enty.io",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.isocons.app/",
+      "title": "Isocons",
+      "domain": "www.isocons.app",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.bsi.bund.de/DE/Home/home_node.html",
+      "title": "BSI - Bundesamt für Sicherheit in der Informationstechnik",
+      "domain": "www.bsi.bund.de",
+      "cluster": "JavaScript"
+    },
+    {
+      "url": "https://www.foundrylocal.ai/",
+      "title": "Foundry Local - Run AI Models On Device",
+      "domain": "www.foundrylocal.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://craftwork.design/",
+      "title": "Craftwork: UX/UI kits, illustrations, mockups, fonts and more",
+      "domain": "craftwork.design",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://itinerary-agent.deepset.ai/",
+      "title": "Open WebUI",
+      "domain": "itinerary-agent.deepset.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.employed.world/",
+      "title": "Employed.world",
+      "domain": "www.employed.world",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://paperreview.ai/",
+      "title": "Stanford Agentic Reviewer - Submit Paper",
+      "domain": "paperreview.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://meme-gen.ai/",
+      "title": "MemeGen AI",
+      "domain": "meme-gen.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://scivalon.com/",
+      "title": "Scivalon - AI Chemistry Expert | Dr. Vivian",
+      "domain": "scivalon.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.pitchdeckhunt.com/",
+      "title": "The Best Pitch Deck Examples | Pitch Deck Hunt",
+      "domain": "www.pitchdeckhunt.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://faircado.com/",
+      "title": "Faircado - Second-hand made easyyy",
+      "domain": "faircado.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.veed.io/",
+      "title": "VEED.IO - Video Editor - Fast, Online, Free",
+      "domain": "www.veed.io",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.llamaindex.ai/",
+      "title": "LlamaIndex - Redefine Document Workflows with AI Agents",
+      "domain": "www.llamaindex.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.20minds.ai/",
+      "title": "Your Biomedical Co-Scientist – Collaborate. Analyze. Discover.",
+      "domain": "www.20minds.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://teamai.com/",
+      "title": "Multiple AI Models in One Platform | TeamAI",
+      "domain": "teamai.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.dataroom-x.de/",
+      "title": "Datenräume: 100% Deutscher Datenraum-Anbieter",
+      "domain": "www.dataroom-x.de",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://tanstack.com/",
+      "title": "TanStack | High Quality Open-Source Software for Web Developers",
+      "domain": "tanstack.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://claudelog.com/",
+      "title": "Claude Code Docs, Guides & Best Practices | ClaudeLog",
+      "domain": "claudelog.com",
+      "cluster": "Documentation"
+    },
+    {
+      "url": "https://www.cursorforpms.com/",
+      "title": "Learn Cursor IN Cursor!",
+      "domain": "www.cursorforpms.com",
+      "cluster": "Documentation"
+    },
+    {
+      "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/index.html",
+      "title": "CUDA Programming Guide — CUDA Programming Guide",
+      "domain": "docs.nvidia.com",
+      "cluster": "Web Design"
+    },
+    {
+      "url": "https://sitegeist.ai/",
+      "title": "Sitegeist - Your AI Companion for the Web",
+      "domain": "sitegeist.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://kontext.dev/",
+      "title": "Kontext | Identity Infrastructure for AI Agents",
+      "domain": "kontext.dev",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://coda.io/@carl-honor-vellotti/pm-resources-bookmarks2?utm_campaign=the-ultimate-pm-resource-compilation&utm_medium=referral&utm_source=fullstackpm.com",
+      "title": "PM Resources & Bookmarks",
+      "domain": "coda.io",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://fullstackpm.com/",
+      "title": "The Full Stack PM",
+      "domain": "fullstackpm.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.morven.energy/en",
+      "title": "Morven - AI-Powered Intelligence for renewable energy development",
+      "domain": "www.morven.energy",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://uxdesignlearn.notion.site/UX-Resources-Bookmarks-fa6cb512734946d798bc0da66e08c239",
+      "title": "UX Resources & Bookmarks",
+      "domain": "uxdesignlearn.notion.site",
+      "cluster": "Work Tools"
+    },
+    {
+      "url": "https://coda.io/welcome",
+      "title": "Coda: Your all-in-one collaborative workspace.",
+      "domain": "coda.io",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.perplexity.ai/ronaldo",
+      "title": "Perplexity x CR7",
+      "domain": "www.perplexity.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.contentport.io/",
+      "title": "Contentport",
+      "domain": "www.contentport.io",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.cerebras.ai/",
+      "title": "Cerebras",
+      "domain": "www.cerebras.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://heroicons.com/",
+      "title": "Heroicons",
+      "domain": "heroicons.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://info.cern.ch/",
+      "title": "http://info.cern.ch",
+      "domain": "info.cern.ch",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://promptmetheus.com/",
+      "title": "Promptmetheus: Prompt IDE for AI Development",
+      "domain": "promptmetheus.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://meingpt.com/en/",
+      "title": "meinGPT | GDPR-compliant AI platform for teams & companies in the EU",
+      "domain": "meingpt.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://omnifact.ai/de",
+      "title": "Generative KI für Unternehmen mit Fokus auf Datenschutz | Omnifact",
+      "domain": "omnifact.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.librechat.ai/",
+      "title": "librechat.ai",
+      "domain": "www.librechat.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.blueguardrails.com/en/resources/ocr-calculator",
+      "title": "OCR Cost Calculator - Blue Guardrails | Blue Guardrails",
+      "domain": "www.blueguardrails.com",
+      "cluster": "Ruby"
+    },
+    {
+      "url": "https://www.galilea.ai/en",
+      "title": "Galilea – AI platform for enterprise knowledge management",
+      "domain": "www.galilea.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.radix-ui.com/",
+      "title": "Radix UI",
+      "domain": "www.radix-ui.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://naval25.com/?ref=indiepage",
+      "title": "Naval 25: Internet has chosen Naval's 25 best quotes",
+      "domain": "naval25.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.micro1.ai/",
+      "title": "The AI platform for human intelligence | micro1",
+      "domain": "www.micro1.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.lintcode.com/",
+      "title": "LintCode 炼码 - A more effective learning experience!",
+      "domain": "www.lintcode.com",
+      "cluster": "Documentation"
+    },
+    {
+      "url": "https://app.ailog.fr/en/blog",
+      "title": "RAG Blog - Guides & News | Ailog | Ailog RAG",
+      "domain": "app.ailog.fr",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://gsap.com/",
+      "title": "Homepage | GSAP",
+      "domain": "gsap.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://supermemory.ai/",
+      "title": "Supermemory — Universal Memory API for AI apps",
+      "domain": "supermemory.ai",
+      "cluster": "APIs"
+    },
+    {
+      "url": "https://rentamac.io/",
+      "title": "Rent a Mac in the Cloud | MacOs Hosting Server",
+      "domain": "rentamac.io",
+      "cluster": "Cloud"
+    },
+    {
+      "url": "https://www.usepylon.com/",
+      "title": "Pylon | AI-native B2B Support",
+      "domain": "www.usepylon.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://gogloby.io/",
+      "title": "World’s Brands’ #1 Choice for Nearshore AI & Tech Teams | GoGloby",
+      "domain": "gogloby.io",
+      "cluster": "Go"
+    },
+    {
+      "url": "https://claudeskills.nl/",
+      "title": "Claude Desktop Skills Repository",
+      "domain": "claudeskills.nl",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://cursorai.notion.site/Building-with-Cursor-public-273da74ef0458051bf22e86a1a0a5c7d",
+      "title": "Building with Cursor (public)",
+      "domain": "cursorai.notion.site",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://kinde.com/",
+      "title": "Kinde Auth, billing and access management for modern SaaS products.",
+      "domain": "kinde.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "http://localhost:37777/",
+      "title": "claude-mem viewer",
+      "domain": "localhost:37777",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://claude-mem.ai/",
+      "title": "Claude-Mem - Your AI's Perfect Memory Archive",
+      "domain": "claude-mem.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.projectpro.io/",
+      "title": "ProjectPro - Solved Big Data and Data Science Projects",
+      "domain": "www.projectpro.io",
+      "cluster": "Project Management"
+    },
+    {
+      "url": "https://chemistry-en.nobook.com/console/templates/resource",
+      "title": "NOBOOK Virtual Laboratory",
+      "domain": "chemistry-en.nobook.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.curationofcurations.com/",
+      "title": "Curation of Curations",
+      "domain": "www.curationofcurations.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://dvc.org/",
+      "title": "Home – DVC",
+      "domain": "dvc.org",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://skillsmp.com/",
+      "title": "Agent Skills Marketplace - Claude, Codex & ChatGPT Skills | SkillsMP",
+      "domain": "skillsmp.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.awin.com/",
+      "title": "Join our global affiliate platform | Awin",
+      "domain": "www.awin.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.retailmenot.com/",
+      "title": "RetailMeNot: Save with Coupons, Promo Codes & Cash Back",
+      "domain": "www.retailmenot.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.pikapods.com/",
+      "title": "PikaPods - Instant Open Source App Hosting",
+      "domain": "www.pikapods.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://madappgang.com/",
+      "title": "Web and mobile app development company",
+      "domain": "madappgang.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://about.gitea.com/",
+      "title": "Gitea Official Website",
+      "domain": "about.gitea.com",
+      "cluster": "Dev Tools"
+    },
+    {
+      "url": "https://it-jobs.de/",
+      "title": "IT Jobs & Stellenangebote - IT-Jobs.de",
+      "domain": "it-jobs.de",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://mlnow.ai/",
+      "title": "ML NOW: Python, Analytics and Data Science Education | Home",
+      "domain": "mlnow.ai",
+      "cluster": "Python"
+    },
+    {
+      "url": "https://realfood.gov/",
+      "title": "Eat Real Food",
+      "domain": "realfood.gov",
+      "cluster": "Go"
+    },
+    {
+      "url": "https://ndstudio.gov/",
+      "title": "National Design Studio",
+      "domain": "ndstudio.gov",
+      "cluster": "Go"
+    },
+    {
+      "url": "https://fireship.dev/",
+      "title": "Fireship | JavaScript, but fun.",
+      "domain": "fireship.dev",
+      "cluster": "JavaScript"
+    },
+    {
+      "url": "https://lennygallery.manus.space/",
+      "title": "Lenny's Podcast Infographic Gallery",
+      "domain": "lennygallery.manus.space",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.climate-tech-hub.com/",
+      "title": "Climate Tech Hub",
+      "domain": "www.climate-tech-hub.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://web-check.xyz/",
+      "title": "Web Check",
+      "domain": "web-check.xyz",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.openfunk.co/",
+      "title": "re:Mix — the circular blender for your own glass jars – Open Funk",
+      "domain": "www.openfunk.co",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://joinconsumerclub.com/",
+      "title": "Consumer Club",
+      "domain": "joinconsumerclub.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://loot-drop.vercel.app/",
+      "title": "Loot Drop - The Startup Graveyard | 900+ Failed Startup Ideas to Steal",
+      "domain": "loot-drop.vercel.app",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://sessionize.com/",
+      "title": "Sessionize - Call for Papers, Schedule and Speaker Management Software",
+      "domain": "sessionize.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://euroalternative.co/",
+      "title": "Discover European Alternatives to Big Tech Companies – EuroAlternative",
+      "domain": "euroalternative.co",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://devsuite.co/",
+      "title": "Find the Best Developer Tools for Your Next Project – DevSuite",
+      "domain": "devsuite.co",
+      "cluster": "Project Management"
+    },
+    {
+      "url": "https://sparkli.ai/",
+      "title": "Sparkli - Where curiosity sparks tomorrow's explorers",
+      "domain": "sparkli.ai",
+      "cluster": "Swift/iOS"
+    },
+    {
+      "url": "https://www.pencil.dev/",
+      "title": "Pencil – Design on canvas. Land in code.",
+      "domain": "www.pencil.dev",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://reaktor-wildau.de/",
+      "title": "Reaktor.Wildau | Startup Center for Brandenburg",
+      "domain": "reaktor-wildau.de",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://clawdhub.com/",
+      "title": "ClawdHub",
+      "domain": "clawdhub.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.catops.app/",
+      "title": "CatOps - Monitoring Without Headache | 15s Setup",
+      "domain": "www.catops.app",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.data-to-art.com/",
+      "title": "Data to Art",
+      "domain": "www.data-to-art.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://energy-collective.eu/",
+      "title": "Energy Is Europe’s Strategic Imperative - European Energy Collective",
+      "domain": "energy-collective.eu",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://origin.builders/",
+      "title": "Origin – Incubating the Next Generation of Web3",
+      "domain": "origin.builders",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://badaboom.berlin/",
+      "title": "BADABOOMBERLIN - Let’s turn every environment into a playful world!",
+      "domain": "badaboom.berlin",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.regelleistung.net/en-us/",
+      "title": "Home",
+      "domain": "www.regelleistung.net",
+      "cluster": "C#/.NET"
+    },
+    {
+      "url": "https://www.smard.de/en",
+      "title": "SMARD | SMARD - Market data",
+      "domain": "www.smard.de",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://skills.sh/",
+      "title": "The Agent Skills Directory",
+      "domain": "skills.sh",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://d2l.ai/",
+      "title": "Dive into Deep Learning — Dive into Deep Learning 1.0.3 documentation",
+      "domain": "d2l.ai",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.brevo.com/?r=t",
+      "title": "Email & SMS Marketing, CRM & Automation | Brevo",
+      "domain": "www.brevo.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.mapdevelopers.com/draw-circle-tool.php#",
+      "title": "Draw a circle with a radius on a map",
+      "domain": "www.mapdevelopers.com",
+      "cluster": "PHP"
+    },
+    {
+      "url": "https://www.aitmpl.com/skills",
+      "title": "Claude Code Templates - Supercharge Your AI-Powered Development with Anthropic's Claude Code",
+      "domain": "www.aitmpl.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://mixkit.co/",
+      "title": "Mixkit - Awesome free assets for your next video project",
+      "domain": "mixkit.co",
+      "cluster": "Project Management"
+    },
+    {
+      "url": "https://courses.webdevsimplified.com/",
+      "title": "Web Dev Simplified",
+      "domain": "courses.webdevsimplified.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://minikube.sigs.k8s.io/docs/",
+      "title": "Welcome! | minikube",
+      "domain": "minikube.sigs.k8s.io",
+      "cluster": "Containers"
+    },
+    {
+      "url": "https://www.nthuleen.com/teach/grammar.html",
+      "title": "Teaching Materials",
+      "domain": "www.nthuleen.com",
+      "cluster": "Web Design"
+    },
+    {
+      "url": "https://www.immomio.com/",
+      "title": "Immomio - 360° fürs Leben - Immomio",
+      "domain": "www.immomio.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://mystmd.org/",
+      "title": "MyST Markdown - Tools for the future of technical communication - MyST Markdown",
+      "domain": "mystmd.org",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://heretic.giglabo.com/",
+      "title": "VibeCoder Heretic",
+      "domain": "heretic.giglabo.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://grpc.io/",
+      "title": "gRPC",
+      "domain": "grpc.io",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://climateactiontracker.org/global/cat-thermometer/",
+      "title": "CAT Thermometer | Climate Action Tracker",
+      "domain": "climateactiontracker.org",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.ipcc.ch/site/assets/uploads/sites/2/2019/02/SPM3a.png",
+      "title": "SPM3a.png (2398×2437)",
+      "domain": "www.ipcc.ch",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://globalwindatlas.info/en/area/Germany/Berlin",
+      "title": "Global Wind Atlas",
+      "domain": "globalwindatlas.info",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://globalsolaratlas.info/map?c=32.731841,31.816406,4&r=DEU:DEU.3_1",
+      "title": "Global Solar Atlas",
+      "domain": "globalsolaratlas.info",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.renewables.ninja/",
+      "title": "Renewables.ninja",
+      "domain": "www.renewables.ninja",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://renewables-map.robinhawkes.com/#5/55/-3.2",
+      "title": "GB Renewables Map",
+      "domain": "renewables-map.robinhawkes.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://globalenergymonitor.org/projects/global-integrated-power-tracker/tracker-map/",
+      "title": "Tracker Map - Global Energy Monitor",
+      "domain": "globalenergymonitor.org",
+      "cluster": "Project Management"
+    },
+    {
+      "url": "https://openinframap.org/#2/20.93/24.36/P",
+      "title": "Open Infrastructure Map",
+      "domain": "openinframap.org",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://globalenergymonitor.org/projects/global-integrated-power-tracker/dashboard/",
+      "title": "Dashboard - Global Energy Monitor",
+      "domain": "globalenergymonitor.org",
+      "cluster": "Project Management"
+    },
+    {
+      "url": "https://www.energy-charts.info/?l=en&c=DE",
+      "title": "Energy-Charts",
+      "domain": "www.energy-charts.info",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://app.electricitymaps.com/map/live/fifteen_minutes?aggregated=false&wind=true&solar=false",
+      "title": "Map | Electricity Maps",
+      "domain": "app.electricitymaps.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://openinframap.org/#2/26/12",
+      "title": "Open Infrastructure Map",
+      "domain": "openinframap.org",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.epexspot.com/en/market-results",
+      "title": "Market Results | EPEX SPOT",
+      "domain": "www.epexspot.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://globalsolaratlas.info/map",
+      "title": "Global Solar Atlas",
+      "domain": "globalsolaratlas.info",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://globalwindatlas.info/en/",
+      "title": "Global Wind Atlas",
+      "domain": "globalwindatlas.info",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://tyndp2024.entsoe.eu/projects-map",
+      "title": "TYNDP 2024 Project Collection",
+      "domain": "tyndp2024.entsoe.eu",
+      "cluster": "Project Management"
+    },
+    {
+      "url": "https://www.zeit.de/wirtschaft/energiemonitor-strompreis-gaspreis-erneuerbare-energien-ausbau",
+      "title": "Energiemonitor: Die wichtigsten Daten zur Energieversorgung – täglich aktualisiert | DIE ZEIT",
+      "domain": "www.zeit.de",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://openenergytracker.org/en/docs/germany/electricity/",
+      "title": "Renewable electricity - Open Energy Tracker",
+      "domain": "openenergytracker.org",
+      "cluster": "Documentation"
+    },
+    {
+      "url": "https://model.energy/",
+      "title": "model.energy",
+      "domain": "model.energy",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://ourworldindata.org/cheap-renewables-growth",
+      "title": "Why did renewables become so cheap so fast? - Our World in Data",
+      "domain": "ourworldindata.org",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://opennetzero.org/bundesnetzagentur/smard-electricity-market-data",
+      "title": "Learn more about SMARD Electricity Market Data, a dataset from Bundesnetzagentur, on Open Net Zero",
+      "domain": "opennetzero.org",
+      "cluster": "Documentation"
+    },
+    {
+      "url": "https://www.ritchievink.com/blog/2017/04/23/understanding-the-fourier-transform-by-example/",
+      "title": "Understanding the Fourier Transform by example | Ritchie Vink",
+      "domain": "www.ritchievink.com",
+      "cluster": "Learning"
+    },
+    {
+      "url": "https://www.awesomelists.io/",
+      "title": "Awesome Lists · Awesome Lists",
+      "domain": "www.awesomelists.io",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.himpfen.com/",
+      "title": "Brandon Himpfen",
+      "domain": "www.himpfen.com",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://airbyte.com/",
+      "title": "Airbyte | Open-Source Data Integration Platform | ELT Tool",
+      "domain": "airbyte.com",
+      "cluster": "AI/ML"
+    },
+    {
+      "url": "https://www.energydatamodel.org/",
+      "title": "EnergyDataModel",
+      "domain": "www.energydatamodel.org",
+      "cluster": "Other"
+    },
+    {
+      "url": "https://www.rebase.energy/",
+      "title": "The Python-first energy forecasting platform | rebase.energy",
+      "domain": "www.rebase.energy",
+      "cluster": "Python"
+    },
+    {
+      "url": "https://fneum.github.io/data-science-for-esm/",
+      "title": "Welcome - Data Science for Energy System Modelling",
+      "domain": "fneum.github.io",
+      "cluster": "Dev Tools"
     }
   ]
 }

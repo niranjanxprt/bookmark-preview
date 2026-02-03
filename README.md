@@ -2,7 +2,7 @@
 
 A beautiful, interactive web application to visualize and explore your HTML bookmarks with intelligent clustering by programming languages and topics.
 
-**🌐 [Live Demo](https://niranjanxprt.github.io/bookmark-preview/)** | **📊 351 Bookmarks** | **🏷️ 22 Categories** | **📱 Mobile Friendly**
+**🌐 [Live Demo](https://niranjanxprt.github.io/bookmark-preview/)** | **📊 696 Bookmarks** | **🏷️ 24 Categories** | **📱 Mobile Friendly**
 
 ## ✨ Features
 
