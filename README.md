@@ -1,173 +1,136 @@
 # 📚 Interactive Bookmarks Preview
 
-A beautiful, interactive web application to visualize and explore your HTML bookmarks with intelligent clustering by programming languages and topics.
+A beautiful, interactive web application to visualize and explore your HTML bookmarks — organized into curated categories with an Obsidian-style graph view.
 
-**🌐 [Live Demo](https://niranjanxprt.github.io/bookmark-preview/)** | **📊 696 Bookmarks** | **🏷️ 24 Categories** | **📱 Mobile Friendly**
+**🌐 [Live Demo](https://niranjanxprt.github.io/bookmark-preview/)** · **📊 807 Bookmarks** · **🏷️ 14 Categories** · **📱 Mobile Friendly**
+
+---
 
 ## ✨ Features
 
-- **Smart Clustering**: Automatically categorizes bookmarks by programming languages, frameworks, and topics
-- **Interactive Grid View**: Clean card-based layout with search and filtering
-- **Graph Visualization**: Network graph showing relationships between categories and bookmarks
-- **Responsive Design**: Works perfectly on desktop and mobile devices
-- **GitHub Pages Ready**: Easy deployment to GitHub Pages
+- **Folder-Based Categories**: Parses your browser's existing folder structure directly — no keyword guessing
+- **Interactive Grid View**: Clean card-based layout with real-time search and category filtering
+- **Obsidian-Style Graph**: Dark force-directed network graph with glowing nodes, hover-highlight, and zoom controls
+- **Responsive Design**: Works on desktop and mobile
+- **GitHub Pages Ready**: Pure static files — no build step required
 
-## 🚀 Live Demo
+## 🌐 Live Demo
 
-### **[🌐 View Live Demo](https://niranjanxprt.github.io/bookmark-preview/)**
+### **[View Live Demo →](https://niranjanxprt.github.io/bookmark-preview/)**
 
-Experience the full interactive bookmark visualization with all features including graph views, filtering, and detailed information modals.
+---
 
-## 📸 Screenshots
+## 🏷️ Categories
 
-### Grid View
-The main interface showing bookmarks organized in a clean grid layout with category filtering.
+| # | Category | Description |
+|---|----------|-------------|
+| 1 | 🤖 AI & LLM Tools | ChatGPT, Claude, Perplexity, Gemini, prompt engineering |
+| 2 | ⚙️ AI Dev & Infrastructure | LangChain, Langfuse, vector DBs, AI pipelines |
+| 3 | 📡 MCP & Agents | Model Context Protocol, agentic frameworks |
+| 4 | 🐍 Python & Data Engineering | FastAPI, pandas, Jupyter, data tools |
+| 5 | 💻 Web Dev & Frontend | React, Next.js, TypeScript, Tailwind |
+| 6 | 🛠️ Dev Tools & Utilities | VS Code, CLI tools, productivity, GitHub |
+| 7 | ☁️ Cloud & DevOps | AWS, Docker, Kubernetes, Terraform |
+| 8 | 🔐 Security & Compliance | Auth, OAuth, OWASP, cybersecurity |
+| 9 | 📚 Learning & Courses | Tutorials, courses, documentation |
+| 10 | 💼 Interview & Career | LeetCode, system design, job prep |
+| 11 | 🎨 Design & UI Inspiration | Figma, Dribbble, CSS inspiration |
+| 12 | 🚀 Startups, Berlin & Ecosystem | Berlin tech scene, startup resources |
+| 13 | 🌱 Energy & Sustainability | Green tech, renewable energy |
+| 14 | 🎵 Music, Fun & Misc | Spotify, entertainment, miscellaneous |
 
-### Graph View
-Interactive network visualization showing relationships between bookmark categories.
+---
 
 ## 🛠️ Setup
 
-### 1. Parse Your Bookmarks
+### 1. Export & organize your bookmarks
 
-First, export your bookmarks from your browser as an HTML file, then run the parser:
+Export bookmarks from Chrome/Firefox/Edge as HTML. Optionally organize them into named folders in your browser before exporting — those folder names become your categories.
+
+### 2. Run the parser locally
 
 ```bash
-# Place your bookmarks HTML file in the parent directory
-# Name it 'bookmarks_9_23_25.html' or update the path in parser.py
+# Folder-based (recommended) — uses H3 folder names as categories
+python3 parser.py /path/to/your/bookmarks.html
 
-python3 parser.py
+# Keyword-based (legacy) — auto-assigns categories by URL/title keywords
+python3 parser.py --keyword /path/to/your/bookmarks.html
 ```
 
-This will generate `bookmarks_data.json` with your parsed and clustered bookmarks.
+This generates `bookmarks_data.json` in the current directory.
 
-### 2. Local Development
-
-Simply serve the files using any web server:
+### 3. Local development
 
 ```bash
-# Using Python's built-in server
+# Python built-in server
 python3 -m http.server 8000
 
-# Using Node.js http-server
+# Or with Node.js
 npx http-server
 
-# Using live-server for auto-reload
+# Or with live-server (auto-reload)
 npx live-server
 ```
 
-Then open http://localhost:8000 in your browser.
+Open `http://localhost:8000` in your browser.
 
-### 3. Deploy to GitHub Pages
+### 4. Deploy to GitHub Pages
 
-1. **Create a new repository** on GitHub
-2. **Upload all files** to the repository:
-   - `index.html`
-   - `script.js`
-   - `bookmarks_data.json`
-   - `README.md` (optional)
+1. Push all files to your GitHub repository (`main` branch)
+2. Go to **Settings → Pages**
+3. Set **Source** → "Deploy from a branch", branch: `main`, folder: `/`
+4. Save — your site will be live at `https://your-username.github.io/repo-name`
 
-3. **Enable GitHub Pages**:
-   - Go to Settings → Pages
-   - Source: Deploy from a branch
-   - Branch: main / master
-   - Folder: / (root)
-   - Save
+> **Updating bookmarks**: re-run `parser.py`, commit the updated `bookmarks_data.json`, and push. GitHub Pages redeploys automatically.
 
-4. **Access your site** at: `https://your-username.github.io/repository-name`
+---
 
-## 📊 Bookmark Categories
+## 🕸️ Graph View
 
-The parser automatically categorizes bookmarks into these clusters:
+The Obsidian-style graph is powered by D3.js v7:
 
-### Programming Languages
-- JavaScript (React, Vue, Node.js, etc.)
-- Python (Django, Flask, FastAPI, etc.)
-- Java/Kotlin
-- Go
-- Rust
-- C++
-- C#/.NET
-- PHP
-- Ruby
-- Swift/iOS
+- **Dark canvas** with dot-grid background (`#0d1117`)
+- **Glowing nodes** — sized by bookmark count, colored by category
+- **Hover** a category node → connected bookmarks highlight, others dim
+- **Click** a category node → switches to grid filtered to that category
+- **Click** a bookmark node → opens URL in new tab
+- **Drag** nodes to reposition
+- **Controls**: ⊕ Zoom In · ⊖ Zoom Out · ⊞ Fit All · ↺ Reset
 
-### Technologies & Tools
-- Web Design (HTML, CSS, Tailwind)
-- APIs (REST, GraphQL)
-- Containers (Docker, Kubernetes)
-- Cloud (AWS, Azure, GCP)
-- DevOps (CI/CD, Jenkins)
-- Databases (MySQL, PostgreSQL, MongoDB)
-- AI/ML (TensorFlow, PyTorch, OpenAI)
-
-### Work & Learning
-- Dev Tools (Git, VS Code, IDEs)
-- Testing (Jest, Cypress, Selenium)
-- Work Tools (Jira, Slack, Teams)
-- Project Management (Monday, Asana)
-- Documentation & Learning
-
-## 🎨 Customization
-
-### Adding New Categories
-
-Edit the `categorize_bookmark()` function in `parser.py` to add new categorization rules:
-
-```python
-elif any(term in url_lower or term in title_lower for term in ['your', 'keywords']):
-    return 'Your Category'
-```
-
-### Styling
-
-Modify the CSS in `index.html` to customize colors, layout, and animations.
-
-### Icons
-
-Update the `getClusterIcon()` function in `script.js` to change category icons.
-
-## 🔧 Technical Details
-
-- **Frontend**: Vanilla JavaScript, HTML5, CSS3
-- **Visualization**: D3.js for graph view
-- **Parser**: Python 3 with regex and URL parsing
-- **Hosting**: GitHub Pages compatible (static files only)
+---
 
 ## 📁 File Structure
 
 ```
 bookmark-preview/
-├── index.html          # Main HTML file
-├── script.js           # JavaScript functionality
-├── parser.py           # Python bookmark parser
-├── bookmarks_data.json # Generated bookmark data
-└── README.md           # This file
+├── index.html              # Main app (no password, no build step)
+├── script.js               # Grid + Obsidian graph logic
+├── simple-graph.js         # Fallback grid-based graph (no D3 dependency)
+├── parser.py               # Bookmark parser (folder-based + keyword modes)
+├── bookmarks_data.json     # Pre-generated bookmark data (commit this!)
+└── README.md
 ```
 
-## 🤝 Contributing
+---
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+## 🔧 Technical Details
+
+- **Frontend**: Vanilla JavaScript, HTML5, CSS3
+- **Visualization**: D3.js v7 (force-directed graph with SVG glow filters)
+- **Parser**: Python 3 — `html.parser` for folder mode, regex for keyword mode
+- **Hosting**: GitHub Pages (static files, zero build process)
+
+---
+
+## 💡 Tips for improving your bookmark view
+
+- **Reduce "Misc"**: If your catch-all folder is huge, re-sort bookmarks in your browser into specific folders, then re-export and re-run the parser
+- **Shareable links**: Bookmark specific filtered views by adding `?cat=category` support (contribution welcome)
+- **PWA**: Add `manifest.json` + service worker to make it installable on mobile
+- **Custom domain**: Add a `CNAME` file with your domain and configure DNS in GitHub Pages settings
+
+---
 
 ## 📝 License
 
-MIT License - feel free to use and modify as needed.
-
-## 🐛 Troubleshooting
-
-### Parser Issues
-- Ensure your bookmarks HTML file path is correct
-- Check that Python 3 is installed
-- Verify the HTML file is a valid Netscape bookmark format
-
-### GitHub Pages Issues
-- Ensure all files are in the root directory
-- Check that `bookmarks_data.json` is properly generated
-- Verify GitHub Pages is enabled in repository settings
-
-### Performance
-- For large bookmark collections (>1000), consider sampling in the graph view
-- The grid view can handle thousands of bookmarks efficiently
+MIT License — feel free to use and modify.
